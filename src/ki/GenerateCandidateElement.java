@@ -2,6 +2,7 @@ package ki;
 
 import java.util.BitSet;
 import java.util.HashMap;
+import java.util.List;
 
 import util.Alphabet;
 import util.Element;
@@ -28,7 +29,7 @@ public class GenerateCandidateElement {
 	public void generateCE() {
 		scanPosDataset();
 		scanNegDataset();
-		
+		updateOccurrence();
 	}
 
 	/**
@@ -42,7 +43,7 @@ public class GenerateCandidateElement {
 			String[] elements = sequence.split(Parameter.elementSeparator);
 			for(int positionId = 0 ; positionId < elements.length ; positionId ++){
 				String element = elements[positionId];
-				BitSet closure = ItemMap.eEncode(element);
+				BitSet closure = ItemMap.eEncode(element, Parameter.POSITIVE);
 				
 				Element e = alphabet.getElementByBitSet(closure);
 				if(e == null){
@@ -56,6 +57,45 @@ public class GenerateCandidateElement {
 				/** just update the occurrence of it **/
 				e.occurAt(seqId, positionId, Parameter.POSITIVE);
 			}
+		}
+	}
+	
+	/**
+	 * scan the negative data set and generate elements
+	 */
+	private void scanNegDataset() {
+		/** for each sequences **/
+		for(int seqId = 0 ; seqId < sequences.negInstances.size() ; seqId ++){
+			/** for each elements **/
+			String sequence = sequences.negInstances.get(seqId);
+			String[] elements = sequence.split(Parameter.elementSeparator);
+			for(int positionId = 0 ; positionId < elements.length ; positionId ++){
+				String element = elements[positionId];
+				BitSet closure = ItemMap.eEncode(element, Parameter.NEGATIVE);
+				
+				Element e = alphabet.getElementByBitSet(closure);
+				if(e == null){
+					/** e is a new element **/
+					e = new Element(closure);
+					alphabet.addNaturalElement(e);
+					
+					/** generate common element of e and any exited elements in alphabet **/
+					generateCommonElement(e);
+				}
+				/** just update the occurrence of it **/
+				e.occurAt(seqId, positionId, Parameter.NEGATIVE);
+			}
+		}
+	}
+	
+	private void updateOccurrence() {
+		/** for every elements update the occurrence information **/
+		for(BitSet key : alphabet.getMap().keySet()){
+			/** for every item in this element **/
+			for (int i = key.nextSetBit(0); i >= 0; i = key.nextSetBit(i+1)) {
+			     /** get the list of natural elements with this item **/
+				List<Element> inList = alphabet.getNaturalListByItem(new Integer(i));  
+			 }
 		}
 	}
 	
@@ -90,13 +130,6 @@ public class GenerateCandidateElement {
 		for(Element addOne : tmpMap.values()){
 			alphabet.addElement(addOne);
 		}
-	}
-
-	/**
-	 * scan the negative data set and generate elements
-	 */
-	private void scanNegDataset() {
-		// TODO generate elements from negative data set
 	}
 
 	/************************************************

@@ -4,6 +4,8 @@ import java.util.BitSet;
 import java.util.HashSet;
 import java.util.Set;
 
+import tools.CloneHelper;
+
 /**
  * author: Hao 
  * date:Jan 5, 2016
@@ -72,7 +74,7 @@ public class Value {
 	}
 
 	@Override
-	protected Value clone() {
+	public Value clone() {
 		Value clone = new Value((BitSet)this.closure.clone());
 		clone.generators = CloneHelper.generatorsClone(this.generators);
 		return clone;

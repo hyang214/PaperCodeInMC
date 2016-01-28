@@ -4,13 +4,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 
+import ki.TopkItemset;
 import tools.TimeRecord;
 import tools.Verbase;
 import util.Parameter;
-import util.Pattern;
+import util.PeerKey;
 import util.Results;
 import util.Sequences;
-import ki.TopkItemset;
 
 /**
  * author: Hao 
@@ -19,6 +19,7 @@ import ki.TopkItemset;
  * purpose:
  */
 public class Main {
+	
 	public static void main(String[] args) throws FileNotFoundException {
 		/**
 		 * @posFileName: the path of positive data set
@@ -66,8 +67,9 @@ public class Main {
 	}
 
 	private static void printResults(TopkItemset ti) {
-		for(Pattern p : Results.results){
-			System.out.println(p.toString());
+		for(PeerKey pk : Results.peerStore.keySet()){
+			System.out.println(pk.toString());
+			System.out.println(Results.peerStore.get(pk).toString());
 		}
 	}
 }

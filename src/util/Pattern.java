@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.HashMap;
 
+import tools.CloneHelper;
+
 /**
  * author: Hao 
  * date:Jan 5, 2016
@@ -168,8 +170,8 @@ public class Pattern {
 	 */
 	private boolean maxPossiblePosSupportCheck(){
 		double maxPossibleCRatio = (double)posSeqIds.cardinality() / Parameter.posSize;
-		if( maxPossibleCRatio < Results.kThreshold){
-			/** the max possible cRatio is already less the kThreshold, ignore this pattern **/
+		if( maxPossibleCRatio < Results.threshold){
+			/** the max possible cRatio is already less the threshold, ignore this pattern **/
 			return false;
 		}
 		return true;
@@ -189,6 +191,13 @@ public class Pattern {
 		clone.cRatio = this.cRatio;
 		
 		return clone;
+	}
+	
+	/**
+	 * generate the peer key for this pattern
+	 */
+	public PeerKey getPeerKey(){
+		return new PeerKey(cRatio, posSup);
 	}
 	
 	/************************************************

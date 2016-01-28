@@ -11,12 +11,11 @@ import util.Alphabet;
 public class GenerateCandidatePattern {
 
 	public GenerateCandidatePattern(Alphabet alphabet) {
-		// TODO Auto-generated constructor stub
+		// TODO constructor of GenerateCandidatePattern
 	}
 
 	public void generateCP() {
-		// TODO Auto-generated method stub
-		
+		// TODO generate candidate patterns
 	}
 
 }

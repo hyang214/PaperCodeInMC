@@ -17,8 +17,8 @@ import java.util.function.Consumer;
  */
 public class Alphabet {
 	private Map<BitSet, Element> map;
-	private Map<Integer, HashSet<Element>> inverseIndex;
-	private Map<Integer, HashSet<Element>> sourceIndex;
+	private Map<Integer, List<Element>> inverseIndex;
+	private Map<Integer, List<Element>> sourceIndex;
 	private List<Element> heuristicList;
 	
 	public Alphabet() {
@@ -54,9 +54,9 @@ public class Alphabet {
 	private void buildInverseIndex(Element addOne) {
 		 for (int i = addOne.getValue().getClosure().nextSetBit(0); i >= 0; i = addOne.getValue().getClosure().nextSetBit(i+1)) {
 		     Integer key = new Integer(i);
-		     HashSet<Element> set = inverseIndex.get(key);
+		     List<Element> set = inverseIndex.get(key);
 		     if(set == null){
-		    	 set = new HashSet<>();
+		    	 set = new ArrayList<>();
 		    	 inverseIndex.put(key, set);
 		     }
 		     set.add(addOne);
@@ -69,9 +69,9 @@ public class Alphabet {
 	private void buildSourceIndex(Element addOne) {
 		 for (int i = addOne.getValue().getClosure().nextSetBit(0); i >= 0; i = addOne.getValue().getClosure().nextSetBit(i+1)) {
 		     Integer key = new Integer(i);
-		     HashSet<Element> set = sourceIndex.get(key);
+		     List<Element> set = sourceIndex.get(key);
 		     if(set == null){
-		    	 set = new HashSet<>();
+		    	 set = new ArrayList<>();
 		    	 sourceIndex.put(key, set);
 		     }
 		     set.add(addOne);
@@ -96,6 +96,12 @@ public class Alphabet {
 		Collections.sort(heuristicList, ec);
 	}
 
+	/**
+	 * get the list natural elements which has the item (index is key) from sourceIndex
+	 */
+	public List<Element> getNaturalListByItem(Integer key) {
+		return sourceIndex.get(key);
+	}
 	
 	/************************************************
 	 * Getter and Setter
@@ -112,12 +118,28 @@ public class Alphabet {
 		this.map = map;
 	}
 
-	public Map<Integer, HashSet<Element>> getInverseIndex() {
+	public Map<Integer, List<Element>> getInverseIndex() {
 		return inverseIndex;
 	}
 
-	public void setInverseIndex(HashMap<Integer, HashSet<Element>> inverseIndex) {
+	public void setInverseIndex(Map<Integer, List<Element>> inverseIndex) {
 		this.inverseIndex = inverseIndex;
+	}
+
+	public Map<Integer, List<Element>> getSourceIndex() {
+		return sourceIndex;
+	}
+
+	public void setSourceIndex(Map<Integer, List<Element>> sourceIndex) {
+		this.sourceIndex = sourceIndex;
+	}
+
+	public void setMap(Map<BitSet, Element> map) {
+		this.map = map;
+	}
+
+	public void setHeuristicList(List<Element> heuristicList) {
+		this.heuristicList = heuristicList;
 	}
 
 	public List<Element> getHeuristicList() {
@@ -127,5 +149,4 @@ public class Alphabet {
 	public void setHeuristicList(ArrayList<Element> heuristicList) {
 		this.heuristicList = heuristicList;
 	}
-	
 }

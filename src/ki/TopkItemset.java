@@ -1,11 +1,8 @@
 package ki;
 
-import java.util.ArrayList;
-
 import tools.TimeRecord;
 import tools.Verbase;
 import util.Alphabet;
-import util.Pattern;
 import util.Results;
 import util.Sequences;
 

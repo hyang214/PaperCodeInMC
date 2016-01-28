@@ -1,8 +1,7 @@
 package util;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -13,12 +12,19 @@ import java.util.List;
  */
 public class Results {
 	/**
-	 * results: the results of top-k itemset-based DSP
+	 * peerStore: store the results of top-k itemset-based DSP by peer pattern
+	 * topK: store the ordered key of peer pattern 
+	 * pkc: the comparator of peer key
+	 * pkThreshold: the peer key threshold
+	 * threshold: the threshold of pattern
+	 * finalPatternList: the final pattern list, only available after call merge() function 
 	 */
-	public static List<Pattern> results = new ArrayList<>();
-	public static PatternComparator patternComparator = new PatternComparator();
-	public static List<Double> topK = new ArrayList<>();
-	public static double kThreshold = 0;
+	public static HashMap<PeerKey, PeerPattern> peerStore = new HashMap<PeerKey, PeerPattern>();
+	public static List<PeerKey> topK = new ArrayList<>();
+	public static PeerKeyComparator pkc = new PeerKeyComparator();
+	public static PeerKey pkThreshold = new PeerKey(0.0, 0.0);
+	public static double threshold = 0.0;
+	public static List<Pattern> finalPatternList = new ArrayList<>();
 	
 	/**
 	 * add pattern into the results
@@ -28,51 +34,61 @@ public class Results {
 		 * !!! since we will merge pattern at the end, so we should keep more then K raw patterns in results
 		 * **/
 		if(topK.size() < Parameter.K){
-			results.add(pattern);
-			results.sort(patternComparator);
-			topK.add(new Double(pattern.getcRatio()));
+			store(pattern);
 		}
 		else{
-			/** there are already K patterns in results, compare pattern with the first pattern in results **/
-			int compare = patternComparator.compare(pattern, results.get(0));
+			/** sort the peer keys list and update the threshold **/
+			topK.sort(pkc);
+			pkThreshold = topK.get(0);
+			threshold = pkThreshold.getcRatio();
+			
+			/** there are already K peer patterns in results, compare peer pattern with the first pattern in results **/
+			PeerKey pPK = pattern.getPeerKey();
+			int compare = pkc.compare(pkThreshold, pPK);
 			if(compare < 0){
-				/** pattern is not the top-k pattern, ignore it **/
+				/** pattern is not the top-k peer pattern, ignore it **/
 				return;
-			}else if(compare > 0){
-				/** add it into the results **/
-				results.add(pattern);
-				results.sort(patternComparator);
-				topK.add(new Double(pattern.getcRatio()));
-				
-				/** remove all pattern with cRatio is equal kThreshold **/
-				results.removeAll(collectImpossible());
-				
-				/** get the new kThreshold of results **/
-				kThreshold = topK.get(0);
 			}else{
-				/** pattern has almost same property as k-th pattern, keep it since it maybe part of k-th pattern
-				 * we will merge them at the post-process **/
-				results.add(pattern);
+				/** store this peer pattern **/
+				store(pattern);
+				
+				/** remove the peer pattern by the threshold **/
+				remove(pkThreshold);
 			}
 		}
 	}
-
-	/** 
-	 * collect all pattern of which the cRatio is equal kThreshold, all of them should be removed
+	
+	/**
+	 * store pattern into peer pattern and topK
 	 */
-	private static Collection<Pattern> collectImpossible() {
-		HashSet<Pattern> remove = new HashSet<>();
-		for(Pattern p : results){
-			if(p.getcRatio() == kThreshold)
-				remove.add(p);
+	private static void store(Pattern p){
+		PeerKey pk = p.getPeerKey();
+		PeerPattern pp = peerStore.get(pk);
+		if(pp == null){
+			topK.add(pk);
+			pp = new PeerPattern(p);
+			peerStore.put(pk, pp);
+		}else{
+			pp.addPattern(p);
 		}
-		return remove;
+	}
+	
+	/**
+	 * remove peer pattern by peer key
+	 */
+	private static void remove(PeerKey key){
+		topK.remove(key);
+		peerStore.remove(key);
 	}
 
 	/**
-	 * merge results if possible 
+	 * merge results if possible only when the process of generate candidate pattern is end
+	 * and order desc
 	 * **/
 	public static void merge() {
-		//TODO merge results
+		for(PeerKey pk : Results.peerStore.keySet()){
+			finalPatternList.addAll(Results.peerStore.get(pk).merge());
+		}
+		finalPatternList.sort(new PatternComparator());
 	}
 }

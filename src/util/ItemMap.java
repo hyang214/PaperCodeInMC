@@ -23,6 +23,7 @@ public class ItemMap {
 	/**
 	 * translate string 2 integer
 	 */
+	/** for positive data set **/
 	public static int iEncode(String key){
 		if(s2i.containsKey(key)){
 			return s2i.get(key);
@@ -32,6 +33,7 @@ public class ItemMap {
 			return s2i.size() - 1;
 		}
 	}
+	
 	
 	/**
 	 * translate integer 2 string
@@ -50,11 +52,23 @@ public class ItemMap {
 	/**
 	 * translate String 2 BitSet
 	 */
-	public static BitSet eEncode(String element){
+	public static BitSet eEncode(String element, int DATASET){
 		BitSet bs = new BitSet();
 		String[] items = element.split(Parameter.itemSeparator);
-		for(String item  : items){
-			bs.set(iEncode(item), true);
+		if(DATASET == Parameter.POSITIVE){
+			for(String item  : items){
+				bs.set(iEncode(item), true);
+			}
+		}
+		else if(DATASET == Parameter.NEGATIVE){
+			for(String item  : items){
+				/** Pruning rule 1: ignore the item that only occurs in negative data set **/
+				if(s2i.containsKey(item)){
+					bs.set(iEncode(item), true);					
+				}
+			}
+		}else{
+			//TODO error: input unknown DATASET in eEcode
 		}
 		return bs;
 	}

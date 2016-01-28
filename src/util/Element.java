@@ -3,6 +3,8 @@ package util;
 import java.util.BitSet;
 import java.util.HashMap;
 
+import tools.CloneHelper;
+
 /**
  * author: Hao 
  * date:Jan 5, 2016
