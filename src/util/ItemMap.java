@@ -28,12 +28,11 @@ public class ItemMap {
 		if(s2i.containsKey(key)){
 			return s2i.get(key);
 		}else{
-			s2i.put(key, s2i.size());
 			i2s.put(s2i.size(), key);
+			s2i.put(key, s2i.size());
 			return s2i.size() - 1;
 		}
 	}
-	
 	
 	/**
 	 * translate integer 2 string
@@ -41,7 +40,7 @@ public class ItemMap {
 	public static String iDecode(Integer key){
 		String value = i2s.get(key);
 		if(value == null){
-			System.err.println("Error! Eecode a unexcepted word");
+			System.err.println("Error! Eecode a unexcepted word while key:" + key);
 		}
 		return value;
 	}
@@ -82,6 +81,18 @@ public class ItemMap {
 			sb.append(iDecode(i)+",");
 		}
 		sb.deleteCharAt(sb.length() - 1);
+		return sb.toString();
+	}
+	
+	/**
+	 * translate itemMap 2 string
+	 */
+	public static String staticToString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Item Map: \n");
+		for(Integer key : i2s.keySet()){
+			sb.append("	<" + key + ", " + i2s.get(key)+"> \n");
+		}
 		return sb.toString();
 	}
 }

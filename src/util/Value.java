@@ -18,10 +18,11 @@ public class Value {
 	 * generators: the set of generators, every generator is a set of items
 	 */
 	private BitSet closure;
-	private HashSet<BitSet> generators;
+	private Set<BitSet> generators;
 	
 	public Value(BitSet closure){
 		this.closure = closure;
+		this.generators = new HashSet<>();
 	}
 	
 	/** add new generator to this Value
@@ -80,6 +81,17 @@ public class Value {
 		return clone;
 	}
 	
+	@Override
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("< Closure: {" + ItemMap.eDecode(closure)+"} Generators: {");
+		for(BitSet generator : generators){
+			sb.append("{"+ItemMap.eDecode(generator)+"} ");
+		}
+		sb.append("}>");
+		return sb.toString();
+	}
+	
 	/************************************************
 	 * Getter and Setter
 	 ************************************************/
@@ -87,7 +99,7 @@ public class Value {
 		return closure;
 	}
 
-	public HashSet<BitSet> getGenerators() {
+	public Set<BitSet> getGenerators() {
 		return generators;
 	}	
 	

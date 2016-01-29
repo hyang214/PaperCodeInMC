@@ -5,6 +5,7 @@ import java.util.BitSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map.Entry;
+import java.util.Set;
 
 import util.Value;
 
@@ -63,7 +64,7 @@ public class CloneHelper {
 	 * @param generators
 	 * @return the clone
 	 */
-	public static HashSet<BitSet> generatorsClone(HashSet<BitSet> generators) {
+	public static Set<BitSet> generatorsClone(Set<BitSet> generators) {
 		HashSet<BitSet> clone = new HashSet<>();
 		for(BitSet generator : generators){
 			clone.add((BitSet)generator.clone());

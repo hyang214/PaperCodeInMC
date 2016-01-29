@@ -3,6 +3,7 @@ package ki;
 import tools.TimeRecord;
 import tools.Verbase;
 import util.Alphabet;
+import util.ItemMap;
 import util.Results;
 import util.Sequences;
 
@@ -30,22 +31,24 @@ public class TopkItemset {
 	public void mine() {
 		
 		/** generate candidate elements **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Generate Elements"));
+		TimeRecord.allRecordAndReturn("Generate Elements");
 		GenerateCandidateElement gce = new GenerateCandidateElement(sequences);
 		gce.generateCE();
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Generate Elements"));
+		TimeRecord.allRecordAndReturn("Generate Elements");
+		Verbase.verbaseAtLevel(1, ItemMap.staticToString());
 		Alphabet alphabet = gce.getAlphabet();
+		Verbase.verbaseAtLevel(2, alphabet.toString());
 		
 		/** generate patterns **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Generate Patterns"));
+		TimeRecord.allRecordAndReturn("Generate Patterns");
 		GenerateCandidatePattern gcp = new GenerateCandidatePattern(alphabet);
 		gcp.generateCP();
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Generate Patterns"));
+		TimeRecord.allRecordAndReturn("Generate Patterns");
 		
 		/** merge results **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Merge Patterns"));
+		TimeRecord.allRecordAndReturn("Merge Patterns");
 		Results.merge();
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Merge Patterns"));
+		TimeRecord.allRecordAndReturn("Merge Patterns");
 	}
 
 	/************************************************

@@ -37,7 +37,7 @@ public class Parameter
 		elementSeparator = sElementSeparator;
 	}
 	
-	public String printParameter(){
+	public static String staticToString() {
 		String tmp1 = posFileName.replace("/", "");
 		String tmp2 = negFileName.replace("/", "");
 		String s = "K "+K+" maxGap "+maxGap+" minGap "+minGap +" " + tmp1 +" " + tmp2;

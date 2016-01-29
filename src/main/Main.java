@@ -28,8 +28,8 @@ public class Main {
 		 * @min: the minimum gap between the any continuous elements in one pattern 
 		 * @max: the maximum gap between the any continuous elements in one pattern
 		 */
-		String posFileName = "";
-		String negFileName = "";
+		String posFileName = "./data/test/sr female.txt";
+		String negFileName = "./data/test/sr male.txt";
 		int K = 10;
 		int min = 0;
 		int max = 2;
@@ -47,21 +47,25 @@ public class Main {
 		System.setOut(output);
 		
 		/** initialize the parameters **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Parameter Inital"));
+		TimeRecord.allRecordAndReturn("Parameter Inital");
 		Parameter.initialize(posFileName, negFileName, K, min, max, itemSeparator, elementSeparator);
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Parameter Inital"));
+		TimeRecord.allRecordAndReturn("Parameter Inital");
+		Verbase.verbaseAtLevel(1, Parameter.staticToString());
 		
 		/** read sequence data from disk **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Read Data"));
+		TimeRecord.allRecordAndReturn("Read Data");
 		Sequences sequences = new Sequences();
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Read Data"));
+		TimeRecord.allRecordAndReturn("Read Data");
+		Verbase.verbaseAtLevel(1, sequences.toString());
 		
 		/** mine patterns **/
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Mine pattern"));
+		TimeRecord.allRecordAndReturn("Mine pattern");
 		TopkItemset ti = new TopkItemset(sequences);
 		ti.mine();
-		Verbase.verbaseAtLevel(8, TimeRecord.onceRecordAndPrint("Mine pattern"));
+		TimeRecord.allRecordAndReturn("Mine pattern");
 		
+		/** print the time cost of all action **/
+		System.out.println(TimeRecord.allRecordToString());
 		/** print results **/
 		printResults(ti);
 	}

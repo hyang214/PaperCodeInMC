@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
@@ -16,6 +15,12 @@ import java.util.function.Consumer;
  * purpose:
  */
 public class Alphabet {
+	/**
+	 * map: store elements by bit set
+	 * inverseIndex: use to find elements with common item
+	 * sourceIndex: use to update the occurrence information
+	 * heuristicList: use to speed up the process of mining top-k DSP
+	 */
 	private Map<BitSet, Element> map;
 	private Map<Integer, List<Element>> inverseIndex;
 	private Map<Integer, List<Element>> sourceIndex;
@@ -24,6 +29,7 @@ public class Alphabet {
 	public Alphabet() {
 		this.map = new HashMap<>();
 		this.inverseIndex = new HashMap<>();
+		this.sourceIndex = new HashMap<>();
 		this.heuristicList = new ArrayList<>();
 	}
 	
@@ -101,6 +107,46 @@ public class Alphabet {
 	 */
 	public List<Element> getNaturalListByItem(Integer key) {
 		return sourceIndex.get(key);
+	}
+	
+	/**
+	 * toString method
+	 */
+	@Override
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Alphabet:\n");
+		/** element map **/
+		sb.append("Map:\n");
+		for(BitSet key : map.keySet()){
+			sb.append(map.get(key).toString());
+		}
+		
+		/** inverseIndex **/
+		sb.append("Inverse Index:\n");
+		for(Integer item : inverseIndex.keySet()){
+			sb.append("	Item: " + ItemMap.iDecode(item));
+			for(Element e: inverseIndex.get(item)){
+				sb.append("			" + e.getValue().toString());
+			}
+		}
+		
+		/** sourceIndex **/
+		sb.append("Source Index:\n");
+		for(Integer item : sourceIndex.keySet()){
+			sb.append("	Item: " + ItemMap.iDecode(item));
+			for(Element e: sourceIndex.get(item)){
+				sb.append("			" + e.getValue().toString());
+			}
+		}
+		
+		/** heuristicList **/
+		sb.append("Heuristic List:\n");
+		for(Element h : heuristicList){
+			sb.append(h.simpleDetail());
+		}
+		
+		return sb.toString();
 	}
 	
 	/************************************************

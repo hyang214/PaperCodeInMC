@@ -28,7 +28,8 @@ public class Element{
 		this.value = new Value(closure);
 		this.posSeqIds = new BitSet();
 		this.negSeqIds = new BitSet();
-		posOccurrences = new HashMap<>();
+		this.posOccurrences = new HashMap<>();
+		this.negOccurrences = new HashMap<>();
 	}
 	
 	/** value has occur at the 'positionId'-th index of the 'seqId'-th line in data set d (0: positive; 1: negative)**/
@@ -75,6 +76,43 @@ public class Element{
 		return clone;
 	}
 	
+	@Override
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Element: " + value.toString() +"\n");
+		sb.append("		Positive:\n");
+		sb.append("			seqIds: "+ posSeqIds + "\n");
+		sb.append("			occurrences: "+ toString(posOccurrences) + "\n");
+		sb.append("		Negative:\n");
+		sb.append("			seqIds: "+ negSeqIds + "\n");
+		sb.append("			occurrences: "+ toString(negOccurrences) + "\n");
+		return sb.toString();
+	}
+	
+	/**
+	 * translate HashMap<Integer, BitSet> to String
+	 */
+	private String toString(HashMap<Integer, BitSet> occurrences) {
+		StringBuffer sb = new StringBuffer();
+		for(Integer key : occurrences.keySet()){
+			sb.append("			"+key+": " + occurrences.get(key)+"\n");
+		}
+		return sb.toString();
+	}
+
+	/**
+	 * return the value.toString() and cRatio, posSup and negSup
+	 */
+	public String simpleDetail() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Element: " + value.toString()+" ");
+		sb.append("cRatio: " + cRatio);
+		sb.append("posSup: " + posSup);
+		sb.append("negSup: " + negSup);
+		sb.append("\n");
+		return sb.toString();
+	}
+	
 	/**
 	 * calculate the posSup, negSup and cRatio for this element
 	 * this method should be call before sort the alphabet
@@ -85,6 +123,66 @@ public class Element{
 		this.cRatio = posSup - negSup;
 	}
 	
+	/************************************************
+	 * update the occurrence information
+	 ************************************************/
+	/**
+	 * update the occurrence information of this object by natural element
+	 */
+	public void updateOccurrence(Element natural) {
+		/** for occurrence in one sequence of natural**/
+		updateOccurrence(Parameter.POSITIVE, natural);
+		updateOccurrence(Parameter.NEGATIVE, natural);
+	}
+	
+	/**
+	 * update the occurrence information of DATASET from natural
+	 */
+	private void updateOccurrence(int DATASET, Element natural) {
+		BitSet toSeqId;
+		HashMap<Integer, BitSet> toOccurrences;
+		BitSet fromSeqId;
+		HashMap<Integer, BitSet> fromOccurrences;
+		if(DATASET == Parameter.POSITIVE){
+			toSeqId = this.posSeqIds;
+			toOccurrences = this.posOccurrences;
+			fromSeqId = natural.posSeqIds;
+			fromOccurrences = natural.posOccurrences;
+		}
+		else if(DATASET == Parameter.NEGATIVE){
+			toSeqId = this.negSeqIds;
+			toOccurrences = this.negOccurrences;
+			fromSeqId = natural.negSeqIds;
+			fromOccurrences = natural.negOccurrences;
+		}
+		else{
+			//TODO error: unknown data set
+			return;
+		}
+		updateOccurrence(toSeqId, toOccurrences, fromSeqId, fromOccurrences);
+	}
+
+	/**
+	 * update the toSeqId and toOccurrences from fromSeqId and fromOccurrences
+	 */
+	private void updateOccurrence(BitSet toSeqId, HashMap<Integer, BitSet> toOccurrences, BitSet fromSeqId, HashMap<Integer, BitSet> fromOccurrences) {
+		/** for every seqId from fromSeqId **/
+		for (int seqId = fromSeqId.nextSetBit(0); seqId >= 0; seqId = fromSeqId.nextSetBit(seqId+1)) {
+		     if(toSeqId.get(seqId)){
+		    	 /** if toSeqId also has this seqId, combine the occurrence information from both sides **/
+		    	 BitSet toOccurrence = toOccurrences.get(new Integer(seqId));
+		    	 BitSet fromOccurrence = fromOccurrences.get(new Integer(seqId));
+		    	 toOccurrence.or(fromOccurrence);
+		     }
+		     else{
+		    	 /** if toSeqId does not have this seqId, just clone information from 'from' side and put it into 'to' **/
+		    	 toSeqId.set(seqId, true);
+		    	 BitSet occurrence = (BitSet)fromOccurrences.get(new Integer(seqId));
+		    	 toOccurrences.put(new Integer(seqId), occurrence);
+		     }
+		 }
+	}
+
 	/************************************************
 	 * Getter and Setter
 	 ************************************************/

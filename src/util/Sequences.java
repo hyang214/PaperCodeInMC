@@ -38,25 +38,39 @@ public class Sequences
 		}
 	}
 	
-	
-	public boolean hasNext()
-	{
-		boolean flag = true;
-//		if(point >= sequences.size())
-			flag = false;
-		return flag;
+	/**
+	 * get the instances by DATASET
+	 */
+	public ArrayList<String> getInstanceByDATASET(int DATASET){
+		if(DATASET == Parameter.POSITIVE)
+			return posInstances;
+		else if(DATASET == Parameter.NEGATIVE)
+			return negInstances;
+		else{
+			//TODO error: unknown data set
+			return null;
+		}
 	}
 
 	public void setSequences(ArrayList<String> sequences) 
 	{
 		this.posInstances = sequences;
-//		this.point = sequences.size();
 	}
 	
-	public void printSequences()
-	{
+	/**
+	 * translate sequences into string
+	 */
+	@Override
+	public String toString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("Positive data set:\n");
 		for(String s : posInstances)
-			System.out.println(s);
+			sb.append(" "+s+"\n");
+		sb.append("Negative data set:\n");
+		for(String s : negInstances)
+			sb.append(" "+s+"\n");
+		
+		return sb.toString();
 	}
 	
 }

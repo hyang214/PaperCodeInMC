@@ -27,23 +27,24 @@ public class GenerateCandidateElement {
 	}
 
 	public void generateCE() {
-		scanPosDataset();
-		scanNegDataset();
+		scanDataset(Parameter.POSITIVE);
+		scanDataset(Parameter.NEGATIVE);
 		updateOccurrence();
 	}
 
 	/**
-	 * scan the positive data set and generate elements
+	 * scan the data set
 	 */
-	private void scanPosDataset() {
+	private void scanDataset(int DATASET){
+		List<String> instance = sequences.getInstanceByDATASET(DATASET);
 		/** for each sequences **/
-		for(int seqId = 0 ; seqId < sequences.posInstances.size() ; seqId ++){
+		for(int seqId = 0 ; seqId < instance.size() ; seqId ++){
 			/** for each elements **/
-			String sequence = sequences.posInstances.get(seqId);
+			String sequence = instance.get(seqId);
 			String[] elements = sequence.split(Parameter.elementSeparator);
 			for(int positionId = 0 ; positionId < elements.length ; positionId ++){
 				String element = elements[positionId];
-				BitSet closure = ItemMap.eEncode(element, Parameter.POSITIVE);
+				BitSet closure = ItemMap.eEncode(element, DATASET);
 				
 				Element e = alphabet.getElementByBitSet(closure);
 				if(e == null){
@@ -55,46 +56,37 @@ public class GenerateCandidateElement {
 					generateCommonElement(e);
 				}
 				/** just update the occurrence of it **/
-				e.occurAt(seqId, positionId, Parameter.POSITIVE);
+				e.occurAt(seqId, positionId, DATASET);
 			}
 		}
 	}
 	
 	/**
-	 * scan the negative data set and generate elements
+	 * update the occurrence information of all elements in alphabet
 	 */
-	private void scanNegDataset() {
-		/** for each sequences **/
-		for(int seqId = 0 ; seqId < sequences.negInstances.size() ; seqId ++){
-			/** for each elements **/
-			String sequence = sequences.negInstances.get(seqId);
-			String[] elements = sequence.split(Parameter.elementSeparator);
-			for(int positionId = 0 ; positionId < elements.length ; positionId ++){
-				String element = elements[positionId];
-				BitSet closure = ItemMap.eEncode(element, Parameter.NEGATIVE);
-				
-				Element e = alphabet.getElementByBitSet(closure);
-				if(e == null){
-					/** e is a new element **/
-					e = new Element(closure);
-					alphabet.addNaturalElement(e);
-					
-					/** generate common element of e and any exited elements in alphabet **/
-					generateCommonElement(e);
-				}
-				/** just update the occurrence of it **/
-				e.occurAt(seqId, positionId, Parameter.NEGATIVE);
-			}
-		}
-	}
-	
 	private void updateOccurrence() {
 		/** for every elements update the occurrence information **/
 		for(BitSet key : alphabet.getMap().keySet()){
 			/** for every item in this element **/
+			Element e = alphabet.getElementByBitSet(key);
 			for (int i = key.nextSetBit(0); i >= 0; i = key.nextSetBit(i+1)) {
 			     /** get the list of natural elements with this item **/
 				List<Element> inList = alphabet.getNaturalListByItem(new Integer(i));  
+				/** e need not update itself **/
+				inList.remove(e);
+				
+				for(Element natural : inList){
+					BitSet tmp = (BitSet)key.clone();
+					tmp.and(natural.getValue().getClosure());
+					
+					/** if tmp == key, it means e is sub element of natural **/
+					if(tmp.cardinality() > 0 && tmp.equals(key)){
+						e.updateOccurrence(natural);
+					}
+				}
+				
+				/** since we remove e from inList, put it back **/
+				inList.add(e);
 			 }
 		}
 	}
