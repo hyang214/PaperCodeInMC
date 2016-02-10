@@ -22,8 +22,7 @@ public class Results {
 	public static HashMap<PeerKey, PeerPattern> peerStore = new HashMap<PeerKey, PeerPattern>();
 	public static List<PeerKey> topK = new ArrayList<>();
 	public static PeerKeyComparator pkc = new PeerKeyComparator();
-	public static PeerKey pkThreshold = new PeerKey(0.0, 0.0);
-	public static double threshold = 0.0;
+	public static PeerKey pkThreshold = new PeerKey(0.0, 0.0, 0);
 	public static List<Pattern> finalPatternList = new ArrayList<>();
 	
 	/**
@@ -40,7 +39,6 @@ public class Results {
 			/** sort the peer keys list and update the threshold **/
 			topK.sort(pkc);
 			pkThreshold = topK.get(0);
-			threshold = pkThreshold.getcRatio();
 			
 			/** there are already K peer patterns in results, compare peer pattern with the first pattern in results **/
 			PeerKey pPK = pattern.getPeerKey();

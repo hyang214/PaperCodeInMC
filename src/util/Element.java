@@ -24,6 +24,14 @@ public class Element{
 	private Element(){
 	}
 	
+	public Element(Value value){
+		this.value = value;
+		this.posSeqIds = new BitSet();
+		this.negSeqIds = new BitSet();
+		this.posOccurrences = new HashMap<>();
+		this.negOccurrences = new HashMap<>();
+	}
+	
 	public Element(BitSet closure){
 		this.value = new Value(closure);
 		this.posSeqIds = new BitSet();
@@ -79,13 +87,13 @@ public class Element{
 	@Override
 	public String toString() {
 		StringBuffer sb = new StringBuffer();
-		sb.append("Element: " + value.toString() +"\n");
+		sb.append("Element: " + value.toString());
 		sb.append("		Positive:\n");
 		sb.append("			seqIds: "+ posSeqIds + "\n");
-		sb.append("			occurrences: "+ toString(posOccurrences) + "\n");
+		sb.append("			occurrences: \n"+ toString(posOccurrences));
 		sb.append("		Negative:\n");
 		sb.append("			seqIds: "+ negSeqIds + "\n");
-		sb.append("			occurrences: "+ toString(negOccurrences) + "\n");
+		sb.append("			occurrences: \n"+ toString(negOccurrences));
 		return sb.toString();
 	}
 	
@@ -95,7 +103,7 @@ public class Element{
 	private String toString(HashMap<Integer, BitSet> occurrences) {
 		StringBuffer sb = new StringBuffer();
 		for(Integer key : occurrences.keySet()){
-			sb.append("			"+key+": " + occurrences.get(key)+"\n");
+			sb.append("				"+key+": " + occurrences.get(key)+"\n");
 		}
 		return sb.toString();
 	}
@@ -106,9 +114,9 @@ public class Element{
 	public String simpleDetail() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Element: " + value.toString()+" ");
-		sb.append("cRatio: " + cRatio);
-		sb.append("posSup: " + posSup);
-		sb.append("negSup: " + negSup);
+		sb.append("cRatio: " + cRatio+" ");
+		sb.append("posSup: " + posSup+" ");
+		sb.append("negSup: " + negSup+" ");
 		sb.append("\n");
 		return sb.toString();
 	}
@@ -118,8 +126,8 @@ public class Element{
 	 * this method should be call before sort the alphabet
 	 */
 	public void calculate(){
-		this.posSup = posSeqIds.cardinality();
-		this.negSup = negSeqIds.cardinality();
+		this.posSup = (double)posSeqIds.cardinality() / (double)Parameter.posSize;
+		this.negSup = (double)negSeqIds.cardinality() / (double)Parameter.negSize;
 		this.cRatio = posSup - negSup;
 	}
 	
@@ -177,7 +185,7 @@ public class Element{
 		     else{
 		    	 /** if toSeqId does not have this seqId, just clone information from 'from' side and put it into 'to' **/
 		    	 toSeqId.set(seqId, true);
-		    	 BitSet occurrence = (BitSet)fromOccurrences.get(new Integer(seqId));
+		    	 BitSet occurrence = (BitSet)fromOccurrences.get(new Integer(seqId)).clone();
 		    	 toOccurrences.put(new Integer(seqId), occurrence);
 		     }
 		 }

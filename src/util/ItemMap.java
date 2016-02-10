@@ -41,6 +41,7 @@ public class ItemMap {
 		String value = i2s.get(key);
 		if(value == null){
 			System.err.println("Error! Eecode a unexcepted word while key:" + key);
+			System.exit(-1);
 		}
 		return value;
 	}

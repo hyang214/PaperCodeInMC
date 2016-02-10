@@ -10,10 +10,13 @@ import java.util.Map.Entry;
  * purpose:
  */
 public class Printer {
-	public static void printMap(HashMap map){
+	public static <K,V> void printMap(HashMap<K,V> map){
 		for(Object e: map.entrySet()){
-			Entry ee = (Entry)e;
-			System.out.println("key: " + ee.getKey().toString() + " Value: " + ee.getValue().toString());
+			if(e instanceof Entry<?,?>){
+				@SuppressWarnings("unchecked")
+				Entry<K,V> ee = (Entry<K,V>)e;
+				System.out.println("key: " + ee.getKey().toString() + " Value: " + ee.getValue().toString());
+			}
 		}
 	}
 }

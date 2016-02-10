@@ -33,21 +33,20 @@ public class Pattern {
 	}
 	
 	public Pattern(Element e){
+		this.valueList = new ArrayList<>();
 		this.valueList.add(e.getValue());
 		this.posSeqIds = (BitSet)e.getPosSeqIds().clone();
 		this.negSeqIds = (BitSet)e.getNegSeqIds().clone();
 		this.posOccurrences = CloneHelper.occurrenceClone(e.getPosOccurrences());
 		this.negOccurrences = CloneHelper.occurrenceClone(e.getNegOccurrences());
 		this.length = 1;
-		this.posSup = posSeqIds.cardinality();
-		this.negSup = negSeqIds.cardinality();
-		this.cRatio = posSup - negSup;
+		calculate();
 	}
 	
 	/**
 	 * add new element into this pattern 
 	 */
-	public boolean addClosure(Element next){
+	public boolean addElement(Element next){
 		/** find the common sequence ids **/
 		posSeqIds.and(next.getPosSeqIds());
 		if(maxPossiblePosSupportCheck()){
@@ -67,9 +66,7 @@ public class Pattern {
 		/** update pattern **/
 		this.valueList.add(next.getValue());
 		this.length ++;
-		this.posSup = posSeqIds.cardinality();
-		this.negSup = negSeqIds.cardinality();
-		this.cRatio = posSup - negSup;
+		calculate();
 		
 		return true;
 	}
@@ -170,7 +167,7 @@ public class Pattern {
 	 */
 	private boolean maxPossiblePosSupportCheck(){
 		double maxPossibleCRatio = (double)posSeqIds.cardinality() / Parameter.posSize;
-		if( maxPossibleCRatio < Results.threshold){
+		if( maxPossibleCRatio < Results.pkThreshold.getcRatio()){
 			/** the max possible cRatio is already less the threshold, ignore this pattern **/
 			return false;
 		}
@@ -178,7 +175,7 @@ public class Pattern {
 	}
 	
 	@Override
-	protected Pattern clone() {
+	public Pattern clone() {
 		Pattern clone = new Pattern();
 		clone.valueList = CloneHelper.valueListCopy(this.valueList);
 		clone.posSeqIds = (BitSet)this.posSeqIds.clone();
@@ -197,8 +194,30 @@ public class Pattern {
 	 * generate the peer key for this pattern
 	 */
 	public PeerKey getPeerKey(){
-		return new PeerKey(cRatio, posSup);
+		return new PeerKey(cRatio, posSup, length);
 	}
+	
+	/** 
+	 * calculate posSup, negSup and cRatio
+	 * **/
+	private void calculate(){
+		this.posSup = (double)this.posSeqIds.cardinality() / (double)Parameter.posSize;
+		this.negSup = (double)this.negSeqIds.cardinality() / (double)Parameter.negSize;
+		this.cRatio = posSup - negSup;
+		
+	}
+	
+	@Override
+	public String toString(){
+		StringBuffer sb = new StringBuffer();
+		sb.append("	" + getPeerKey().toString());
+		for(Value v : valueList){
+			sb.append(v.toString());
+		}
+		sb.append("\n");
+		return sb.toString();
+	}
+	
 	
 	/************************************************
 	 * Getter and Setter

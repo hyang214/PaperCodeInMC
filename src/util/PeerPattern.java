@@ -17,11 +17,13 @@ public class PeerPattern {
 	 */
 	private Double cRatio;
 	private Double posSup;
+	private int length;
 	private List<Pattern> peerlist;
 	
 	public PeerPattern(Pattern first){
 		this.cRatio = first.getcRatio();
 		this.posSup = first.getPosSup();
+		this.length = first.getLength();
 		this.peerlist = new ArrayList<Pattern>();
 		this.peerlist.add(first);
 	}
@@ -30,7 +32,7 @@ public class PeerPattern {
 	 * add new peer pattern into this object
 	 */
 	public void addPattern(Pattern peer){
-		if(cRatio.equals(peer.getcRatio()) && posSup.equals(peer.getPosSup())){
+		if(cRatio.equals(peer.getcRatio()) && posSup.equals(peer.getPosSup()) && length == peer.getLength()){
 			peerlist.add(peer);
 		}
 	}
@@ -79,4 +81,13 @@ public class PeerPattern {
 	public void setPeerlist(List<Pattern> peerlist) {
 		this.peerlist = peerlist;
 	}
+
+	public int getLength() {
+		return length;
+	}
+
+	public void setLength(int length) {
+		this.length = length;
+	}
+	
 }

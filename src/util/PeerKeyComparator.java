@@ -11,18 +11,24 @@ import java.util.Comparator;
 public class PeerKeyComparator implements Comparator<PeerKey>{
 
 	@Override
-	public int compare(PeerKey o1, PeerKey o2) {
-		if(o1.getcRatio() > o2.getcRatio()){
+	public int compare(PeerKey target, PeerKey threshold) {
+		if(target.getcRatio() > threshold.getcRatio()){
 			return 1;
-		}else if(o1.getcRatio() < o2.getcRatio()){
+		}else if(target.getcRatio() < threshold.getcRatio()){
 			return -1;
 		}else{
-			if(o1.getPosSup() > o2.getPosSup()){
+			if(target.getLength() > threshold.getLength()){
 				return 1;
-			}else if(o1.getPosSup() < o2.getPosSup()){
+			}else if(target.getLength() < threshold.getLength()){
 				return -1;
 			}else{
-				return 0;
+				if(target.getPosSup() > threshold.getPosSup()){
+					return 1;
+				}else if(target.getPosSup() < threshold.getPosSup()){
+					return -1;
+				}else{
+					return 0;
+				}
 			}
 		}
 	}

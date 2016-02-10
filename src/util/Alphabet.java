@@ -19,17 +19,20 @@ public class Alphabet {
 	 * map: store elements by bit set
 	 * inverseIndex: use to find elements with common item
 	 * sourceIndex: use to update the occurrence information
+	 * sourceList: store all natural element by list
 	 * heuristicList: use to speed up the process of mining top-k DSP
 	 */
 	private Map<BitSet, Element> map;
 	private Map<Integer, List<Element>> inverseIndex;
 	private Map<Integer, List<Element>> sourceIndex;
+	private List<Element> sourceList;
 	private List<Element> heuristicList;
 	
 	public Alphabet() {
 		this.map = new HashMap<>();
 		this.inverseIndex = new HashMap<>();
 		this.sourceIndex = new HashMap<>();
+		this.sourceList = new ArrayList<>();
 		this.heuristicList = new ArrayList<>();
 	}
 	
@@ -82,6 +85,7 @@ public class Alphabet {
 		     }
 		     set.add(addOne);
 		 }
+		 sourceList.add(addOne);
 	}
 	
 	/**
@@ -117,36 +121,46 @@ public class Alphabet {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Alphabet:\n");
 		/** element map **/
-		sb.append("Map:\n");
+		sb.append(" Map:\n");
 		for(BitSet key : map.keySet()){
 			sb.append(map.get(key).toString());
 		}
 		
 		/** inverseIndex **/
-		sb.append("Inverse Index:\n");
-		for(Integer item : inverseIndex.keySet()){
-			sb.append("	Item: " + ItemMap.iDecode(item));
-			for(Element e: inverseIndex.get(item)){
-				sb.append("			" + e.getValue().toString());
-			}
-		}
+//		sb.append(" Inverse Index:\n");
+//		for(Integer item : inverseIndex.keySet()){
+//			sb.append("	Item: " + ItemMap.iDecode(item) + "\n");
+//			for(Element e: inverseIndex.get(item)){
+//				sb.append("			" + e.getValue().toString());
+//			}
+//		}
 		
 		/** sourceIndex **/
-		sb.append("Source Index:\n");
-		for(Integer item : sourceIndex.keySet()){
-			sb.append("	Item: " + ItemMap.iDecode(item));
-			for(Element e: sourceIndex.get(item)){
-				sb.append("			" + e.getValue().toString());
-			}
-		}
+//		sb.append(" Source Index:\n");
+//		for(Integer item : sourceIndex.keySet()){
+//			sb.append("	Item: " + ItemMap.iDecode(item) + "\n");
+//			for(Element e: sourceIndex.get(item)){
+//				sb.append("			" + e.getValue().toString());
+//			}
+//		}
 		
 		/** heuristicList **/
-		sb.append("Heuristic List:\n");
+		sb.append(" Heuristic List:\n");
 		for(Element h : heuristicList){
 			sb.append(h.simpleDetail());
 		}
 		
 		return sb.toString();
+	}
+	
+	/** 
+	 * clear useless object 
+	 * **/
+	public void clearUO() {
+		this.map = null;
+		this.sourceIndex = null;
+		this.sourceList = null;
+		this.inverseIndex = null;
 	}
 	
 	/************************************************
@@ -155,7 +169,7 @@ public class Alphabet {
 	public Element getElementByBitSet(BitSet bs){
 		return map.get(bs);
 	}
-	
+
 	public Map<BitSet, Element> getMap() {
 		return map;
 	}
@@ -195,4 +209,13 @@ public class Alphabet {
 	public void setHeuristicList(ArrayList<Element> heuristicList) {
 		this.heuristicList = heuristicList;
 	}
+
+	public List<Element> getSourceList() {
+		return sourceList;
+	}
+
+	public void setSourceList(List<Element> sourceList) {
+		this.sourceList = sourceList;
+	}
+	
 }

@@ -11,25 +11,23 @@ public class Sequences
 
 	public Sequences()
 	{
-		/** read sequences from file **/
+		/** read sequences from files **/
 		try
 		{
 			/** positive data set **/
-			File file = new File(Parameter.posFileName);
+			File file = new File(Parameter.posFilePath);
 			Scanner sc = new Scanner(file);
 			while(sc.hasNext())
 				posInstances.add(sc.nextLine());
 			sc.close();
-			Parameter.posSeqId.set(0, this.posInstances.size(), true);
 			Parameter.posSize = this.posInstances.size();
 
 			/** negative data set **/
-			file = new File(Parameter.negFileName);
+			file = new File(Parameter.negFilePath);
 			sc = new Scanner(file);
 			while(sc.hasNext())
 				negInstances.add(sc.nextLine());
 			sc.close();
-			Parameter.negSeqId.set(0, this.negInstances.size(), true);
 			Parameter.negSize = this.negInstances.size();
 		}
 		catch(Exception e)
@@ -50,11 +48,6 @@ public class Sequences
 			//TODO error: unknown data set
 			return null;
 		}
-	}
-
-	public void setSequences(ArrayList<String> sequences) 
-	{
-		this.posInstances = sequences;
 	}
 	
 	/**
