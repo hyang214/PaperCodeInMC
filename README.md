@@ -4,7 +4,6 @@ I placed all the code of four papers which is published in my master career. The
 + Mining Top-k Distinguishing Sequential Patterns with Gap Constraint
 + Mining Itemset-based Top-k Distinguishing Sequential Patterns with Gap Constraint
 + Mining Frequent Closed Sequential Patterns with Non-user-defined Gap Constraints
-***
 
 ## 1. iDSP-Miner
 
@@ -23,9 +22,6 @@ I placed all the code of four papers which is published in my master career. The
 ## 3. kiDSP-Miner
 
 + <b>TODO</b>
->+ <b>Abstract</b>: 
->+ <b>Bible</b>: 
->+ <b>Download</b>: [Mining Itemset-based Top-k Distinguishing Sequential Patterns with Gap Constraint]()
 
 
 ## 4. FOUNTAIN
