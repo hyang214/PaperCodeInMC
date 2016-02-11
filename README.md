@@ -5,6 +5,10 @@ All code of the papers which is published in my master career are in this reposi
 + Mining Itemset-based Top-k Distinguishing Sequential Patterns with Gap Constraint
 + Mining Frequent Closed Sequential Patterns with Non-user-defined Gap Constraints
 
+Attention: 
++ The code of iDSP-Miner, kDSP-Miner and FOUNTAIN have not been uploaded.
++ The code of kiDSP-Miner is still under review and modify.
+
 ## 1. iDSP-Miner
 
 + <b>Abstract</b>: Mining contrast sequential patterns, which are sequential patterns that characterize a given sequence class and distinguish that class from another given sequence class, has a wide range of applications including medical informatics, computational finance and consumer behavior analysis. In previous studies on contrast sequential pattern mining, each element in a sequence is a single item or symbol. This paper considers a more general case where each element in a sequence is a set of items. The associated contrast sequential patterns will be called itemset-based distinguishing sequential patterns (itemset-DSP). After discussing the challenges on mining itemset-DSP, we present iDSP-Miner, a mining method with various pruning techniques, for mining itemset-DSPs that satisfy given support and gap constraint. In this study, we also propose a concise border-like representation (with exclusive bounds) for sets of similar itemset-DSPs and use that representation to improve efficiency of our proposed algorithm. Our empirical study using both real data and synthetic data demonstrates that iDSP-Miner is effective and efficient.
