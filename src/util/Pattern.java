@@ -210,7 +210,7 @@ public class Pattern {
 	@Override
 	public String toString(){
 		StringBuffer sb = new StringBuffer();
-		sb.append("	" + getPeerKey().toString());
+		sb.append("	" + getPeerKey().toString() + " ");
 		for(Value v : valueList){
 			sb.append(v.toString());
 		}

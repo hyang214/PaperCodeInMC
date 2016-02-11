@@ -42,7 +42,7 @@ public class Results {
 			
 			/** there are already K peer patterns in results, compare peer pattern with the first pattern in results **/
 			PeerKey pPK = pattern.getPeerKey();
-			int compare = pkc.compare(pkThreshold, pPK);
+			int compare = pkc.compare(pPK, pkThreshold);
 			if(compare < 0){
 				/** pattern is not the top-k peer pattern, ignore it **/
 				return;
@@ -50,8 +50,10 @@ public class Results {
 				/** store this peer pattern **/
 				store(pattern);
 				
-				/** remove the peer pattern by the threshold **/
-				remove(pkThreshold);
+				/** remove the peer pattern by the threshold if this pattern is not the peer pattern with
+				 * threshold pattern **/
+				if(compare > 0)
+					remove(pkThreshold);
 			}
 		}
 	}

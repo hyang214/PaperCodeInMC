@@ -1,0 +1,4 @@
+# ignore files of which type belongs to following list
+
+# java
+*.class
