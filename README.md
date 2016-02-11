@@ -1,5 +1,5 @@
 # PaperCodeInMC
-I placed all the code of four papers which is published in my master career. There are:
+All code of the papers which is published in my master career are in this repository. There are:
 + Mining Itemset-based Distinguishing Sequential Patterns with Gap Constraint
 + Mining Top-k Distinguishing Sequential Patterns with Gap Constraint
 + Mining Itemset-based Top-k Distinguishing Sequential Patterns with Gap Constraint
