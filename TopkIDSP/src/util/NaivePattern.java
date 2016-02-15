@@ -29,7 +29,21 @@ public class NaivePattern {
 	private double negSup;
 	private double cRatio;
 	
+	/** for clone **/
 	private NaivePattern() {
+	}
+	
+	/** for generate navie pattern by pattern with concise representation **/
+	public NaivePattern(Pattern source){
+		this.valueList = new ArrayList<>();
+		this.posSeqIds = (BitSet)source.getPosSeqIds().clone();
+		this.negSeqIds = (BitSet)source.getNegSeqIds().clone();
+		this.posOccurrences = CloneHelper.occurrenceClone(source.getPosOccurrences());
+		this.negOccurrences = CloneHelper.occurrenceClone(source.getNegOccurrences());
+		this.length = source.getLength();
+		this.posSup = source.getPosSup();
+		this.negSup = source.getNegSup();
+		this.cRatio = source.getcRatio();
 	}
 	
 	public NaivePattern(Element e){
