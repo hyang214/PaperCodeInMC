@@ -1,0 +1,36 @@
+iDSP-Miner alpha 40 beta 20 maxGap 4 minGap 0 .dblp3DB100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 126
+Time cost of updateAllFollowSet: 357 ms
+Time cost of remove Impossible: 22 ms
+Time Cost of Build Draft Index: 126
+Time cost of updateAllFollowSet: 870 ms
+Alphabet: 2724
+Size of Start-elements:27
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1507 ms.
+Time Cost of Generate Pos:1
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 2 ms.
+Total Time cost: 1509 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 17
+*  <closed: {IEEE Trans. Software Eng., }  generators: > SUP_IN_POS:50 SUP_IN_NEG:3
+*  <closed: {ACM Comput. Surv., }  generators: > SUP_IN_POS:49 SUP_IN_NEG:12
+*  <closed: {VLDB J., }  generators: > SUP_IN_POS:56 SUP_IN_NEG:7
+*  <closed: {PVLDB, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:6
+*  <closed: {PODS, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > SUP_IN_POS:65 SUP_IN_NEG:7
+*  <closed: {Inf. Syst., }  generators: > SUP_IN_POS:64 SUP_IN_NEG:14
+*  <closed: {ER, }  generators: > SUP_IN_POS:48 SUP_IN_NEG:2
+*  <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:1
+*  <closed: {ICDE, VLDB, }  generators: > SUP_IN_POS:50 SUP_IN_NEG:3
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:1
+*  <closed: {ACM Trans. Database Syst., VLDB, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Conference, }  generators: > SUP_IN_POS:56 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: > SUP_IN_POS:45 SUP_IN_NEG:1
+*  <closed: {VLDB, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:43 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, SIGMOD Conference, }  generators: > SUP_IN_POS:44 SUP_IN_NEG:0

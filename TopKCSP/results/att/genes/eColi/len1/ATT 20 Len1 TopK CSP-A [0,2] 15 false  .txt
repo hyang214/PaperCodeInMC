@@ -1,0 +1,68 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 15
+ pos: ./data/genes/eColi/eColi_A.txt
+ neg: ./data/genes/eColi/eColi_B.txt
+run ***************************
+Trycount: 59928
+Thread cost: 639 ms.
+Time cost: 648
+Trycount: 59928
+Thread cost: 430 ms.
+Time cost: 433
+Trycount: 59928
+Thread cost: 362 ms.
+Time cost: 365
+Trycount: 59928
+Thread cost: 366 ms.
+Time cost: 367
+Trycount: 59928
+Thread cost: 324 ms.
+Time cost: 325
+Trycount: 59928
+Thread cost: 362 ms.
+Time cost: 363
+Trycount: 59928
+Thread cost: 352 ms.
+Time cost: 353
+Trycount: 59928
+Thread cost: 362 ms.
+Time cost: 363
+Trycount: 59928
+Thread cost: 344 ms.
+Time cost: 345
+Trycount: 59928
+Thread cost: 387 ms.
+Time cost: 388
+Trycount: 59928
+Thread cost: 347 ms.
+Time cost: 348
+Trycount: 59928
+Thread cost: 346 ms.
+Time cost: 346
+Trycount: 59928
+Thread cost: 361 ms.
+Time cost: 361
+Trycount: 59928
+Thread cost: 347 ms.
+Time cost: 347
+Trycount: 59928
+Thread cost: 345 ms.
+Time cost: 345
+Trycount: 59928
+Thread cost: 345 ms.
+Time cost: 345
+Trycount: 59928
+Thread cost: 343 ms.
+Time cost: 344
+Trycount: 59928
+Thread cost: 344 ms.
+Time cost: 345
+Trycount: 59928
+Thread cost: 344 ms.
+Time cost: 344
+Trycount: 59928
+Thread cost: 345 ms.
+Time cost: 345
+ATT: 0.37385 s

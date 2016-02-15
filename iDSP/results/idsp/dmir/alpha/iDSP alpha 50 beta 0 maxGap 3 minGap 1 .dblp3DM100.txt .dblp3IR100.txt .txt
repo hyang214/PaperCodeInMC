@@ -1,0 +1,20 @@
+iDSP-Miner alpha 50 beta 0 maxGap 3 minGap 1 .dblp3DM100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 151
+Time cost of updateAllFollowSet: 1788 ms
+Time cost of remove Impossible: 53 ms
+Time Cost of Build Draft Index: 110
+Time cost of updateAllFollowSet: 650 ms
+Alphabet: 2647
+Size of Start-elements:20
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2763 ms.
+Time Cost of Generate Pos:18
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 18 ms.
+Total Time cost: 2781 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 1
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:50 SUP_IN_NEG:0

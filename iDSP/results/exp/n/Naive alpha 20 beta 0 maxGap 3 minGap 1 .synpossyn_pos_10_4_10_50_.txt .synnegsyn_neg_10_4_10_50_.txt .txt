@@ -1,0 +1,5 @@
+Naive alpha 20 beta 0 maxGap 3 minGap 1 .synpossyn_pos_10_4_10_50_.txt .synnegsyn_neg_10_4_10_50_.txt
+Time Cost of Build Index: 18
+create: 1000
+mapping: 69041
+Time Cost of Indexer Construction: 44 ms.

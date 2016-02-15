@@ -1,0 +1,440 @@
+iDSP-Miner alpha 25 beta 20 maxGap 5 minGap 0 .dblp4DB.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 110
+Time cost of updateAllFollowSet: 312 ms
+Time cost of remove Impossible: 16 ms
+Time Cost of Build Draft Index: 140
+Time cost of updateAllFollowSet: 2450 ms
+Alphabet: 2915
+Size of Start-elements:62
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3074 ms.
+Time Cost of Generate Pos:63
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 63 ms.
+Total Time cost: 3137 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 208
+*  contrast: 59  [{}, {VLDB}]  [{}, {SIGMOD Record}]   Pos: 71 Neg: 12
+      Type: 1
+*  contrast: 54  [{}, {ACM Trans. Database Syst.}]  [{}, {VLDB}]   Pos: 64 Neg: 10
+      Type: 1
+*  contrast: 54  [{}, {SIGMOD Record}]  [{}, {VLDB}]   Pos: 64 Neg: 10
+      Type: 1
+*  contrast: 52  [{}, {SIGMOD Record}]  [{}, {SIGMOD Record}]   Pos: 62 Neg: 10
+      Type: 1
+*  contrast: 50  [{}, {VLDB}]  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]   Pos: 68 Neg: 18
+      Type: 1
+*  contrast: 50  [{}, {VLDB}]  [{}, {VLDB}]  [{}, {SIGMOD Conference}]   Pos: 68 Neg: 18
+      Type: 1
+*  contrast: 49  [{}, {VLDB}]  [{}, {ACM Trans. Database Syst.}]   Pos: 64 Neg: 15
+      Type: 1
+*  contrast: 49  [{}, {VLDB}]  [{}, {VLDB}]  [{}, {VLDB}]   Pos: 63 Neg: 14
+      Type: 1
+*  contrast: 47  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]   Pos: 63 Neg: 16
+      Type: 1
+*  contrast: 46  [{}, {ACM Trans. Database Syst.}]  [{}, {SIGMOD Record}]   Pos: 50 Neg: 4
+      Type: 1
+*  contrast: 45  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 58 Neg: 13
+      Type: 1
+*  contrast: 42  [{}, {ACM Trans. Database Syst.}]  [{}, {ACM Trans. Database Syst.}]   Pos: 50 Neg: 8
+      Type: 1
+*  contrast: 41  [{}, {IEEE Trans. Software Eng.}]   Pos: 50 Neg: 9
+      Type: 1
+*  contrast: 41  [{{SIGMOD Record}, {VLDB}, }, {VLDB, SIGMOD Record}]   Pos: 45 Neg: 4
+      Type: 1
+*  contrast: 41  [{}, {Inf. Syst.}]  [{}, {SIGMOD Record}]   Pos: 43 Neg: 2
+      Type: 1
+*  contrast: 40  [{}, {Inf. Syst.}]  [{}, {VLDB}]   Pos: 46 Neg: 6
+      Type: 1
+*  contrast: 40  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]   Pos: 59 Neg: 19
+      Type: 1
+*  contrast: 39  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 55 Neg: 16
+      Type: 1
+*  contrast: 38  [{}, {SIGMOD Record}]  [{}, {EDBT}]   Pos: 47 Neg: 9
+      Type: 1
+*  contrast: 37  [{}, {ACM Comput. Surv.}]   Pos: 49 Neg: 12
+      Type: 1
+*  contrast: 37  [{{SIGMOD Record}, {SIGMOD Conference}, }, {SIGMOD Record, SIGMOD Conference}]   Pos: 44 Neg: 7
+      Type: 1
+*  contrast: 37  [{}, {IEEE Database Eng. Bull.}]   Pos: 38 Neg: 1
+      Type: 1
+*  contrast: 37  [{}, {ER}]   Pos: 48 Neg: 11
+      Type: 1
+*  contrast: 37  [{}, {SIGMOD Conference}]  [{}, {Inf. Syst.}]   Pos: 46 Neg: 9
+      Type: 1
+*  contrast: 37  [{}, {SIGMOD Record}]  [{}, {ACM Trans. Database Syst.}]   Pos: 43 Neg: 6
+      Type: 1
+*  contrast: 37  [{}, {VLDB}]  [{}, {VLDB}]  [{}, {ICDE}]   Pos: 57 Neg: 20
+      Type: 1
+*  contrast: 36  [{}, {VLDB}]  [{}, {VLDB J.}]   Pos: 53 Neg: 17
+      Type: 1
+*  contrast: 36  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 52 Neg: 16
+      Type: 1
+*  contrast: 35  [{{SIGMOD Conference}, {ACM Trans. Database Syst.}, }, {ACM Trans. Database Syst., SIGMOD Conference}]   Pos: 42 Neg: 7
+      Type: 1
+*  contrast: 35  [{}, {VLDB}]  [{}, {EDBT}]   Pos: 51 Neg: 16
+      Type: 1
+*  contrast: 35  [{}, {VLDB}]  [{}, {Commun. ACM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [{}, {VLDB}]  [{}, {Inf. Syst.}]   Pos: 46 Neg: 11
+      Type: 1
+*  contrast: 35  [{}, {SIGMOD Record}]  [{}, {VLDB J.}]   Pos: 44 Neg: 9
+      Type: 1
+*  contrast: 35  [{}, {EDBT}]  [{}, {SIGMOD Record}]   Pos: 43 Neg: 8
+      Type: 1
+*  contrast: 35  [{}, {ICDE}]  [{}, {VLDB}]  [{}, {SIGMOD Conference}]   Pos: 53 Neg: 18
+      Type: 1
+*  contrast: 35  [{}, {ICDE}]  [{}, {VLDB}]  [{}, {VLDB}]   Pos: 49 Neg: 14
+      Type: 1
+*  contrast: 34  [{}, {ICDE}]  [{}, {VLDB}]  [{}, {ICDE}]   Pos: 53 Neg: 19
+      Type: 1
+*  contrast: 34  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 52 Neg: 18
+      Type: 1
+*  contrast: 33  [{{VLDB}, {ACM Trans. Database Syst.}, }, {ACM Trans. Database Syst., VLDB}]   Pos: 41 Neg: 8
+      Type: 1
+*  contrast: 33  [{}, {ACM Trans. Database Syst.}]  [{}, {Commun. ACM}]   Pos: 34 Neg: 1
+      Type: 1
+*  contrast: 33  [{}, {SIGMOD Conference}]  [{}, {Commun. ACM}]   Pos: 42 Neg: 9
+      Type: 1
+*  contrast: 33  [{}, {SIGMOD Record}]  [{}, {Inf. Syst.}]   Pos: 36 Neg: 3
+      Type: 1
+*  contrast: 33  [{}, {VLDB}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 45 Neg: 12
+      Type: 1
+*  contrast: 32  [{{SIGMOD Record}, }, {SIGMOD Record, IEEE Data Eng. Bull.}]   Pos: 35 Neg: 3
+      Type: 2
+*  contrast: 32  [{}, {SIGMOD Record}]  [{}, {Commun. ACM}]   Pos: 36 Neg: 4
+      Type: 1
+*  contrast: 32  [{}, {SIGMOD Record}]  [{}, {CoRR}]   Pos: 36 Neg: 4
+      Type: 1
+*  contrast: 32  [{}, {Inf. Syst.}]  [{}, {SIGMOD Conference}]   Pos: 41 Neg: 9
+      Type: 1
+*  contrast: 32  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Record}]   Pos: 45 Neg: 13
+      Type: 1
+*  contrast: 32  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]   Pos: 50 Neg: 18
+      Type: 1
+*  contrast: 32  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 44 Neg: 12
+      Type: 1
+*  contrast: 30  [{}, {SIGMOD Conference}]  [{}, {EDBT}]   Pos: 49 Neg: 19
+      Type: 1
+*  contrast: 30  [{}, {SIGMOD Record}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 46 Neg: 16
+      Type: 1
+*  contrast: 30  [{}, {EDBT}]  [{}, {VLDB}]   Pos: 43 Neg: 13
+      Type: 1
+*  contrast: 30  [{}, {EDBT}]  [{}, {SIGMOD Conference}]   Pos: 43 Neg: 13
+      Type: 1
+*  contrast: 30  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 47 Neg: 17
+      Type: 1
+*  contrast: 30  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 45 Neg: 15
+      Type: 1
+*  contrast: 29  [{}, {VLDB J.}]  [{}, {SIGMOD Record}]   Pos: 38 Neg: 9
+      Type: 1
+*  contrast: 29  [{}, {VLDB J.}]  [{}, {VLDB}]   Pos: 38 Neg: 9
+      Type: 1
+*  contrast: 29  [{}, {Commun. ACM}]  [{}, {SIGMOD Conference}]   Pos: 34 Neg: 5
+      Type: 1
+*  contrast: 29  [{}, {ICDE, SIGMOD Conference}]  [{}, {SIGMOD Record}]   Pos: 37 Neg: 8
+      Type: 3
+*  contrast: 29  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 49 Neg: 20
+      Type: 1
+*  contrast: 28  [{}, {DBPL}]   Pos: 31 Neg: 3
+      Type: 1
+*  contrast: 28  [{{SIGMOD Record}, {ACM Trans. Database Syst.}, }, {ACM Trans. Database Syst., SIGMOD Record}]   Pos: 29 Neg: 1
+      Type: 1
+*  contrast: 28  [{}, {Commun. ACM}]  [{}, {SIGMOD Record}]   Pos: 32 Neg: 4
+      Type: 1
+*  contrast: 28  [{{ICDE}, }, {ICDE, SIGMOD Conference}]  [{}, {VLDB}]   Pos: 40 Neg: 12
+      Type: 2
+*  contrast: 27  [{{SIGMOD Record}, {ICDE}, }, {ICDE, SIGMOD Record}]   Pos: 37 Neg: 10
+      Type: 1
+*  contrast: 27  [{{SIGMOD Conference}, {Inf. Syst.}, }, {Inf. Syst., SIGMOD Conference}]   Pos: 30 Neg: 3
+      Type: 1
+*  contrast: 27  [{{ICDE}, }, {ICDE, IEEE Data Eng. Bull.}]   Pos: 34 Neg: 7
+      Type: 2
+*  contrast: 27  [{}, {Commun. ACM}]  [{}, {VLDB}]   Pos: 32 Neg: 5
+      Type: 1
+*  contrast: 27  [{}, {Inf. Syst.}]  [{}, {ICDE}]   Pos: 38 Neg: 11
+      Type: 1
+*  contrast: 27  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 39 Neg: 12
+      Type: 1
+*  contrast: 26  [{}, {OODBS}]   Pos: 26 Neg: 0
+      Type: 1
+*  contrast: 26  [{}, {ACM Trans. Database Syst.}]  [{}, {VLDB J.}]   Pos: 35 Neg: 9
+      Type: 1
+*  contrast: 26  [{}, {Commun. ACM}]  [{}, {ICDE}]   Pos: 34 Neg: 8
+      Type: 1
+*  contrast: 26  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]   Pos: 45 Neg: 19
+      Type: 1
+*  contrast: 25  [{}, {CoopIS}]   Pos: 29 Neg: 4
+      Type: 1
+*  contrast: 25  [{}, {DOOD}]   Pos: 30 Neg: 5
+      Type: 1
+*  contrast: 25  [{}, {IFIP Congress}]   Pos: 26 Neg: 1
+      Type: 1
+*  contrast: 25  [{}, {ICDE}]  [{}, {EDBT}]   Pos: 44 Neg: 19
+      Type: 1
+*  contrast: 25  [{}, {ACM Trans. Database Syst.}]  [{}, {Inf. Syst.}]   Pos: 33 Neg: 8
+      Type: 1
+*  contrast: 25  [{}, {EDBT}]  [{}, {ICDE}]   Pos: 40 Neg: 15
+      Type: 1
+*  contrast: 25  [{}, {Inf. Syst.}]  [{}, {ACM Trans. Database Syst.}]   Pos: 30 Neg: 5
+      Type: 1
+*  contrast: 25  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 45 Neg: 20
+      Type: 1
+*  contrast: 24  [{}, {ACM Trans. Database Syst.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 40 Neg: 16
+      Type: 1
+*  contrast: 24  [{}, {SIGMOD Record}]  [{}, {PVLDB}]   Pos: 30 Neg: 6
+      Type: 1
+*  contrast: 24  [{}, {Commun. ACM}]  [{}, {Commun. ACM}]   Pos: 32 Neg: 8
+      Type: 1
+*  contrast: 24  [{}, {EDBT}]  [{}, {EDBT}]   Pos: 36 Neg: 12
+      Type: 1
+*  contrast: 24  [{}, {SIGMOD Record}]  [{}, {ICDE, SIGMOD Conference}]   Pos: 35 Neg: 11
+      Type: 3
+*  contrast: 24  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 36 Neg: 12
+      Type: 1
+*  contrast: 23  [{}, {CoRR}]  [{}, {SIGMOD Record}]   Pos: 26 Neg: 3
+      Type: 1
+*  contrast: 23  [{}, {CoRR}]  [{}, {VLDB}]   Pos: 25 Neg: 2
+      Type: 1
+*  contrast: 23  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {VLDB}]   Pos: 41 Neg: 18
+      Type: 1
+*  contrast: 23  [{}, {VLDB}]  [{}, {VLDB}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 43 Neg: 20
+      Type: 1
+*  contrast: 23  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 39 Neg: 16
+      Type: 1
+*  contrast: 22  [{{VLDB}, {Inf. Syst.}, }, {Inf. Syst., VLDB}]   Pos: 25 Neg: 3
+      Type: 1
+*  contrast: 22  [{{SIGMOD Conference}, {VLDB}, }, {VLDB, SIGMOD Conference, IEEE Data Eng. Bull.}]   Pos: 25 Neg: 3
+      Type: 5
+*  contrast: 22  [{}, {VLDB}]  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]   Pos: 42 Neg: 20
+      Type: 1
+*  contrast: 22  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]   Pos: 40 Neg: 18
+      Type: 1
+*  contrast: 22  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 33 Neg: 11
+      Type: 1
+*  contrast: 21  [{{VLDB}, {VLDB J.}, }, {VLDB, VLDB J.}]   Pos: 29 Neg: 8
+      Type: 1
+*  contrast: 21  [{{VLDB J.}, {ICDE}, }, {ICDE, VLDB J.}]   Pos: 30 Neg: 9
+      Type: 1
+*  contrast: 21  [{}, {PODS}]   Pos: 40 Neg: 19
+      Type: 1
+*  contrast: 21  [{{SIGMOD Conference}, {VLDB J.}, }, {VLDB J., SIGMOD Conference}]   Pos: 28 Neg: 7
+      Type: 1
+*  contrast: 21  [{}, {ICDE}]  [{}, {Commun. ACM}]   Pos: 30 Neg: 9
+      Type: 1
+*  contrast: 21  [{}, {VLDB J.}]  [{}, {ACM Trans. Database Syst.}]   Pos: 27 Neg: 6
+      Type: 1
+*  contrast: 21  [{}, {VLDB J.}]  [{}, {VLDB J.}]   Pos: 35 Neg: 14
+      Type: 1
+*  contrast: 21  [{}, {VLDB J.}]  [{}, {Commun. ACM}]   Pos: 25 Neg: 4
+      Type: 1
+*  contrast: 21  [{}, {Inf. Syst.}]  [{}, {VLDB J.}]   Pos: 30 Neg: 9
+      Type: 1
+*  contrast: 21  [{}, {ACM Trans. Database Syst.}]  [{}, {ICDE, SIGMOD Conference}]   Pos: 30 Neg: 9
+      Type: 3
+*  contrast: 21  [{}, {VLDB}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]   Pos: 39 Neg: 18
+      Type: 1
+*  contrast: 21  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 35 Neg: 14
+      Type: 1
+*  contrast: 21  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {VLDB}]   Pos: 31 Neg: 10
+      Type: 1
+*  contrast: 21  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 37 Neg: 16
+      Type: 1
+*  contrast: 20  [{}, {SIGMOD Record}]  [{}, {CIKM}]   Pos: 35 Neg: 15
+      Type: 1
+*  contrast: 20  [{}, {CoRR}]  [{}, {VLDB J.}]   Pos: 27 Neg: 7
+      Type: 1
+*  contrast: 20  [{}, {SIGMOD Conference}]  [{}, {CoRR}]  [{}, {ICDE}]   Pos: 31 Neg: 11
+      Type: 1
+*  contrast: 20  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]   Pos: 38 Neg: 18
+      Type: 1
+*  contrast: 20  [{}, {VLDB}]  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]   Pos: 32 Neg: 12
+      Type: 1
+*  contrast: 19  [{}, {IDEAS}]   Pos: 26 Neg: 7
+      Type: 1
+*  contrast: 19  [{}, {DEXA}]   Pos: 28 Neg: 9
+      Type: 1
+*  contrast: 19  [{}, {ICDE}]  [{}, {Inf. Syst.}]   Pos: 34 Neg: 15
+      Type: 1
+*  contrast: 19  [{}, {Inf. Syst.}]  [{}, {Inf. Syst.}]   Pos: 27 Neg: 8
+      Type: 1
+*  contrast: 19  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]  [{}, {CoRR}]   Pos: 32 Neg: 13
+      Type: 1
+*  contrast: 19  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 35 Neg: 16
+      Type: 1
+*  contrast: 18  [{{SIGMOD Conference}, {EDBT}, }, {SIGMOD Conference, EDBT}]   Pos: 28 Neg: 10
+      Type: 1
+*  contrast: 18  [{}, {ICDT}]   Pos: 27 Neg: 9
+      Type: 1
+*  contrast: 18  [{}, {IEEE Computer}]   Pos: 35 Neg: 17
+      Type: 1
+*  contrast: 18  [{}, {ICDE}]  [{}, {VLDB}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 37 Neg: 19
+      Type: 1
+*  contrast: 18  [{}, {VLDB}]  [{}, {SIGMOD Conference}]  [{}, {CoRR}]   Pos: 33 Neg: 15
+      Type: 1
+*  contrast: 18  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]  [{}, {SIGMOD Conference}]   Pos: 34 Neg: 16
+      Type: 1
+*  contrast: 18  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 38 Neg: 20
+      Type: 1
+*  contrast: 18  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 32 Neg: 14
+      Type: 1
+*  contrast: 17  [{}, {Distributed and Parallel Databases}]   Pos: 30 Neg: 13
+      Type: 1
+*  contrast: 17  [{{ACM Trans. Database Syst.}, {ICDE}, }, {ICDE, ACM Trans. Database Syst.}]   Pos: 26 Neg: 9
+      Type: 1
+*  contrast: 17  [{{VLDB}, {ICDE, SIGMOD Conference}, }, {ICDE, VLDB, SIGMOD Conference}]   Pos: 26 Neg: 9
+      Type: 3
+*  contrast: 17  [{}, {ACM Trans. Database Syst.}]  [{}, {EDBT}]   Pos: 28 Neg: 11
+      Type: 1
+*  contrast: 17  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {VLDB J.}]   Pos: 36 Neg: 19
+      Type: 1
+*  contrast: 17  [{}, {ICDE, SIGMOD Conference}]  [{}, {ACM Trans. Database Syst.}]   Pos: 26 Neg: 9
+      Type: 3
+*  contrast: 17  [{}, {ICDE, SIGMOD Conference}]  [{}, {VLDB J.}]   Pos: 28 Neg: 11
+      Type: 3
+*  contrast: 17  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 35 Neg: 18
+      Type: 1
+*  contrast: 17  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]   Pos: 36 Neg: 19
+      Type: 1
+*  contrast: 16  [{}, {WISE}]   Pos: 25 Neg: 9
+      Type: 1
+*  contrast: 16  [{}, {Commun. ACM}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 26 Neg: 10
+      Type: 1
+*  contrast: 16  [{}, {EDBT}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 34 Neg: 18
+      Type: 1
+*  contrast: 16  [{}, {CoRR}]  [{}, {SIGMOD Conference}]   Pos: 29 Neg: 13
+      Type: 1
+*  contrast: 16  [{}, {ICDE, SIGMOD Conference}]  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]   Pos: 27 Neg: 11
+      Type: 3
+*  contrast: 16  [{}, {VLDB J.}]  [{}, {ICDE, SIGMOD Conference}]   Pos: 28 Neg: 12
+      Type: 3
+*  contrast: 16  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]  [{}, {ICDE, SIGMOD Conference}]   Pos: 27 Neg: 11
+      Type: 3
+*  contrast: 16  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 30 Neg: 14
+      Type: 1
+*  contrast: 15  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]  [{}, {CoRR}]   Pos: 27 Neg: 12
+      Type: 1
+*  contrast: 15  [{}, {EDBT}]  [{}, {VLDB J.}]   Pos: 29 Neg: 14
+      Type: 1
+*  contrast: 15  [{}, {EDBT}]  [{}, {PVLDB}]   Pos: 28 Neg: 13
+      Type: 1
+*  contrast: 15  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {CoRR}]   Pos: 32 Neg: 17
+      Type: 1
+*  contrast: 15  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 35 Neg: 20
+      Type: 1
+*  contrast: 15  [{}, {ICDE}]  [{}, {VLDB}]  [{}, {CIKM}]   Pos: 32 Neg: 17
+      Type: 1
+*  contrast: 15  [{}, {ICDE}]  [{}, {CoRR}]  [{}, {ICDE}]   Pos: 30 Neg: 15
+      Type: 1
+*  contrast: 15  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 35 Neg: 20
+      Type: 1
+*  contrast: 15  [{}, {CoRR}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 25 Neg: 10
+      Type: 1
+*  contrast: 15  [{}, {VLDB}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 34 Neg: 19
+      Type: 1
+*  contrast: 15  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 28 Neg: 13
+      Type: 1
+*  contrast: 15  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 27 Neg: 12
+      Type: 1
+*  contrast: 14  [{{VLDB}, {IEEE Trans. Knowl. Data Eng.}, }, {VLDB, IEEE Trans. Knowl. Data Eng.}]   Pos: 28 Neg: 14
+      Type: 1
+*  contrast: 14  [{{SIGMOD Conference}, {IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., SIGMOD Conference}]   Pos: 32 Neg: 18
+      Type: 1
+*  contrast: 14  [{}, {VLDB J.}]  [{}, {EDBT}]   Pos: 27 Neg: 13
+      Type: 1
+*  contrast: 14  [{}, {VLDB J.}]  [{}, {PVLDB}]   Pos: 25 Neg: 11
+      Type: 1
+*  contrast: 14  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 31 Neg: 17
+      Type: 1
+*  contrast: 14  [{}, {Inf. Syst.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 33 Neg: 19
+      Type: 1
+*  contrast: 14  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {SIGMOD Conference}]   Pos: 32 Neg: 18
+      Type: 1
+*  contrast: 14  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]   Pos: 29 Neg: 15
+      Type: 1
+*  contrast: 13  [{}, {ACM Trans. Inf. Syst.}]   Pos: 32 Neg: 19
+      Type: 1
+*  contrast: 13  [{}, {ACM Trans. Database Syst.}]  [{}, {CoRR}]   Pos: 26 Neg: 13
+      Type: 1
+*  contrast: 13  [{}, {VLDB}]  [{}, {CoRR}]   Pos: 33 Neg: 20
+      Type: 1
+*  contrast: 13  [{}, {CoRR}]  [{}, {PVLDB}]   Pos: 27 Neg: 14
+      Type: 1
+*  contrast: 13  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {EDBT}]   Pos: 31 Neg: 18
+      Type: 1
+*  contrast: 13  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 31 Neg: 18
+      Type: 1
+*  contrast: 13  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 31 Neg: 18
+      Type: 1
+*  contrast: 13  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 28 Neg: 15
+      Type: 1
+*  contrast: 13  [{}, {VLDB}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]   Pos: 29 Neg: 16
+      Type: 1
+*  contrast: 12  [{{EDBT}, {ICDE}, }, {ICDE, EDBT}]   Pos: 27 Neg: 15
+      Type: 1
+*  contrast: 12  [{}, {SSDBM}]   Pos: 30 Neg: 18
+      Type: 1
+*  contrast: 12  [{}, {VLDB}]  [{}, {PVLDB}]   Pos: 28 Neg: 16
+      Type: 1
+*  contrast: 12  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ACM Trans. Database Syst.}]   Pos: 27 Neg: 15
+      Type: 1
+*  contrast: 12  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 28 Neg: 16
+      Type: 1
+*  contrast: 11  [{}, {Inf. Process. Lett.}]   Pos: 27 Neg: 16
+      Type: 1
+*  contrast: 11  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 29 Neg: 18
+      Type: 1
+*  contrast: 11  [{}, {VLDB}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 30 Neg: 19
+      Type: 1
+*  contrast: 11  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]   Pos: 30 Neg: 19
+      Type: 1
+*  contrast: 11  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 31 Neg: 20
+      Type: 1
+*  contrast: 11  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]   Pos: 27 Neg: 16
+      Type: 1
+*  contrast: 11  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 28 Neg: 17
+      Type: 1
+*  contrast: 11  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 27 Neg: 16
+      Type: 1
+*  contrast: 11  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {PVLDB}]   Pos: 25 Neg: 14
+      Type: 1
+*  contrast: 10  [{}, {EDBT}]  [{}, {CoRR}]   Pos: 25 Neg: 15
+      Type: 1
+*  contrast: 10  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{{SIGMOD Conference}, {ICDE}, }, {ICDE, SIGMOD Conference}]   Pos: 27 Neg: 17
+      Type: 1
+*  contrast: 10  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 26 Neg: 16
+      Type: 1
+*  contrast: 9  [{}, {SIGMOD Conference}]  [{}, {PVLDB}]   Pos: 28 Neg: 19
+      Type: 1
+*  contrast: 9  [{}, {VLDB J.}]  [{}, {CoRR}]   Pos: 28 Neg: 19
+      Type: 1
+*  contrast: 9  [{}, {PVLDB}]  [{}, {PVLDB}]   Pos: 26 Neg: 17
+      Type: 1
+*  contrast: 9  [{}, {ICDE}]  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 28 Neg: 19
+      Type: 1
+*  contrast: 9  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 29 Neg: 20
+      Type: 1
+*  contrast: 9  [{}, {SIGMOD Conference}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]   Pos: 25 Neg: 16
+      Type: 1
+*  contrast: 8  [{}, {VLDB}]  [{}, {VLDB}]  [{}, {CIKM}]   Pos: 28 Neg: 20
+      Type: 1
+*  contrast: 8  [{}, {ICDE}]  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]   Pos: 26 Neg: 18
+      Type: 1
+*  contrast: 7  [{}, {EDBT}]  [{}, {CIKM}]   Pos: 25 Neg: 18
+      Type: 1
+*  contrast: 7  [{}, {SIGMOD Conference}]  [{}, {ICDE}]  [{}, {CIKM}]   Pos: 27 Neg: 20
+      Type: 1
+*  contrast: 6  [{}, {ICDE}]  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {ICDE}]   Pos: 26 Neg: 20
+      Type: 1
+*  contrast: 6  [{}, {VLDB}]  [{}, {ICDE}]  [{}, {CIKM}]  [{}, {ICDE}]   Pos: 26 Neg: 20
+      Type: 1
+*  contrast: 5  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {ICDE}]  [{}, {CoRR}]   Pos: 25 Neg: 20
+      Type: 1
+Avg size:1.046468401486989
+Avg length:2.3090128755364807
+Max size:3
+Max length:5
+Naive Size: 233

@@ -1,0 +1,22 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 5
+ pos: ./data/ADLs/ActivityX/A X15.txt
+ neg: ./data/ADLs/ActivityX/B X15.txt
+run ***************************
+Trycount: 102900141
+Time cost: 183481
+Value: [Toileting Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Showering Spare_Time/TV ]
+ CRatio: 0.8809523809523809 posSup: 0.9285714285714286 negSup: 0.047619047619047616
+Value: [Sleeping Toileting Showering Spare_Time/TV ]
+ CRatio: 0.8809523809523809 posSup: 0.9285714285714286 negSup: 0.047619047619047616
+Value: [Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+Value: [Showering Breakfast ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+min: 0.8571428571428571
+max: 0.9285714285714286
+avg: 0.8952380952380953

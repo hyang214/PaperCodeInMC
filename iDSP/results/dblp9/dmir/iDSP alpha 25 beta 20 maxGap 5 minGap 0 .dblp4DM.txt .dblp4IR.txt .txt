@@ -1,0 +1,216 @@
+iDSP-Miner alpha 25 beta 20 maxGap 5 minGap 0 .dblp4DM.txt .dblp4IR.txt
+Time Cost of Build Draft Index: 142
+Time cost of updateAllFollowSet: 1404 ms
+Time cost of remove Impossible: 46 ms
+Time Cost of Build Draft Index: 94
+Time cost of updateAllFollowSet: 640 ms
+Alphabet: 2575
+Size of Start-elements:107
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2341 ms.
+Time Cost of Generate Pos:31
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 31 ms.
+Total Time cost: 2372 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 96
+*  contrast: 72  [{}, {KDD}]  [{}, {KDD}]   Pos: 84 Neg: 12
+      Type: 1
+*  contrast: 56  [{}, {KDD}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 64 Neg: 8
+      Type: 1
+*  contrast: 50  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {KDD}]   Pos: 59 Neg: 9
+      Type: 1
+*  contrast: 45  [{}, {CIKM}]  [{}, {KDD}]   Pos: 63 Neg: 18
+      Type: 1
+*  contrast: 44  [{{KDD}, }, {KDD, SIGKDD Explorations}]   Pos: 48 Neg: 4
+      Type: 2
+*  contrast: 44  [{}, {CoRR}]  [{}, {KDD}]   Pos: 49 Neg: 5
+      Type: 1
+*  contrast: 41  [{{KDD}, }, {KDD, Data Min. Knowl. Discov.}]   Pos: 41 Neg: 0
+      Type: 2
+*  contrast: 41  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 53 Neg: 12
+      Type: 1
+*  contrast: 39  [{}, {PAKDD, ICDM}]   Pos: 42 Neg: 3
+      Type: 3
+*  contrast: 38  [{{KDD}, }, {KDD, PKDD}]   Pos: 38 Neg: 0
+      Type: 2
+*  contrast: 37  [{}, {ICDM, Data Min. Knowl. Discov.}]   Pos: 38 Neg: 1
+      Type: 3
+*  contrast: 36  [{{KDD}, }, {KDD, ICDM, SDM}]   Pos: 38 Neg: 2
+      Type: 6
+*  contrast: 36  [{{CoRR}, }, {ICDM, CoRR}]   Pos: 39 Neg: 3
+      Type: 2
+*  contrast: 36  [{}, {ICDM, SIGKDD Explorations}]   Pos: 39 Neg: 3
+      Type: 3
+*  contrast: 36  [{}, {ICDM, ICDM Workshops}]   Pos: 37 Neg: 1
+      Type: 3
+*  contrast: 35  [{{KDD}, {CoRR}, }, {KDD, CoRR}]   Pos: 44 Neg: 9
+      Type: 1
+*  contrast: 35  [{}, {CIKM}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 47 Neg: 12
+      Type: 1
+*  contrast: 34  [{{KDD}, }, {ICDE, KDD}]   Pos: 39 Neg: 5
+      Type: 2
+*  contrast: 34  [{{IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., Data Min. Knowl. Discov.}]   Pos: 35 Neg: 1
+      Type: 2
+*  contrast: 34  [{{CoRR}, }, {SDM, CoRR}]   Pos: 35 Neg: 1
+      Type: 2
+*  contrast: 34  [{{KDD}, }, {KDD, PAKDD}]   Pos: 38 Neg: 4
+      Type: 2
+*  contrast: 33  [{{IEEE Trans. Knowl. Data Eng.}, }, {Knowl. Inf. Syst., IEEE Trans. Knowl. Data Eng.}]   Pos: 33 Neg: 0
+      Type: 2
+*  contrast: 33  [{}, {KDD}]  [{}, {IJCAI}]   Pos: 43 Neg: 10
+      Type: 1
+*  contrast: 33  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {CoRR}]   Pos: 43 Neg: 10
+      Type: 1
+*  contrast: 32  [{{CIKM}, {KDD}, }, {CIKM, KDD, ICDM}]   Pos: 36 Neg: 4
+      Type: 5
+*  contrast: 32  [{{KDD}, }, {KDD, ICDM Workshops}]   Pos: 32 Neg: 0
+      Type: 2
+*  contrast: 32  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {CIKM}]   Pos: 47 Neg: 15
+      Type: 1
+*  contrast: 32  [{}, {IJCAI}]  [{}, {KDD}]   Pos: 40 Neg: 8
+      Type: 1
+*  contrast: 31  [{}, {DMKD}]   Pos: 31 Neg: 0
+      Type: 1
+*  contrast: 31  [{}, {ICDE, ICDM}]   Pos: 34 Neg: 3
+      Type: 3
+*  contrast: 31  [{{KDD}, {CIKM}, }, {CIKM, KDD, SDM}]   Pos: 32 Neg: 1
+      Type: 5
+*  contrast: 31  [{{KDD}, }, {KDD, Knowl. Inf. Syst., ICDM}]   Pos: 32 Neg: 1
+      Type: 6
+*  contrast: 30  [{}, {ECML/PKDD (1)}]   Pos: 32 Neg: 2
+      Type: 1
+*  contrast: 30  [{{KDD}, }, {KDD, ICML}]   Pos: 35 Neg: 5
+      Type: 2
+*  contrast: 29  [{}, {ECML}]   Pos: 36 Neg: 7
+      Type: 1
+*  contrast: 28  [{}, {Data Knowl. Eng.}]   Pos: 35 Neg: 7
+      Type: 1
+*  contrast: 28  [{{IJCAI}, {KDD}, }, {KDD, IJCAI}]   Pos: 32 Neg: 4
+      Type: 1
+*  contrast: 28  [{{KDD}, {IEEE Trans. Knowl. Data Eng.}, }, {KDD, IEEE Trans. Knowl. Data Eng., ICDM}]   Pos: 30 Neg: 2
+      Type: 5
+*  contrast: 28  [{}, {Data Min. Knowl. Discov., SDM}]   Pos: 28 Neg: 0
+      Type: 3
+*  contrast: 28  [{}, {ICDM, PKDD}]   Pos: 30 Neg: 2
+      Type: 3
+*  contrast: 28  [{{IEEE Trans. Knowl. Data Eng.}, }, {PAKDD, IEEE Trans. Knowl. Data Eng.}]   Pos: 29 Neg: 1
+      Type: 2
+*  contrast: 27  [{}, {ECML/PKDD (2)}]   Pos: 34 Neg: 7
+      Type: 1
+*  contrast: 27  [{}, {Statistical Analysis and Data Mining}]   Pos: 30 Neg: 3
+      Type: 1
+*  contrast: 27  [{}, {PAKDD (1)}]   Pos: 32 Neg: 5
+      Type: 1
+*  contrast: 27  [{}, {PAKDD (2)}]   Pos: 27 Neg: 0
+      Type: 1
+*  contrast: 27  [{{KDD}, }, {KDD, SIGMOD Conference}]   Pos: 28 Neg: 1
+      Type: 2
+*  contrast: 27  [{{CIKM}, }, {CIKM, Data Min. Knowl. Discov.}]   Pos: 28 Neg: 1
+      Type: 2
+*  contrast: 27  [{}, {PAKDD, SDM}]   Pos: 30 Neg: 3
+      Type: 3
+*  contrast: 26  [{{KDD}, }, {KDD, Knowl. Inf. Syst., SDM}]   Pos: 27 Neg: 1
+      Type: 6
+*  contrast: 26  [{}, {ICDM, AAAI}]   Pos: 31 Neg: 5
+      Type: 3
+*  contrast: 26  [{}, {SIGMOD Conference, ICDM}]   Pos: 26 Neg: 0
+      Type: 3
+*  contrast: 26  [{{CIKM}, }, {CIKM, ICDM Workshops}]   Pos: 29 Neg: 3
+      Type: 2
+*  contrast: 25  [{}, {DaWaK}]   Pos: 26 Neg: 1
+      Type: 1
+*  contrast: 25  [{}, {ICDE, SDM}]   Pos: 25 Neg: 0
+      Type: 3
+*  contrast: 25  [{{IEEE Trans. Knowl. Data Eng.}, }, {ICDE, IEEE Trans. Knowl. Data Eng.}]   Pos: 30 Neg: 5
+      Type: 2
+*  contrast: 25  [{{IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., ICDM, SDM}]   Pos: 25 Neg: 0
+      Type: 6
+*  contrast: 24  [{{IEEE Trans. Knowl. Data Eng.}, {CoRR}, }, {IEEE Trans. Knowl. Data Eng., CoRR}]   Pos: 30 Neg: 6
+      Type: 1
+*  contrast: 24  [{{KDD}, {IEEE Trans. Knowl. Data Eng.}, }, {KDD, IEEE Trans. Knowl. Data Eng., SDM}]   Pos: 25 Neg: 1
+      Type: 5
+*  contrast: 24  [{}, {ICDM, ICML}]   Pos: 29 Neg: 5
+      Type: 3
+*  contrast: 24  [{}, {Knowl. Inf. Syst., ICDM, SDM}]   Pos: 25 Neg: 1
+      Type: 7
+*  contrast: 24  [{{KDD}, }, {KDD, Machine Learning}]   Pos: 26 Neg: 2
+      Type: 2
+*  contrast: 24  [{{KDD}, }, {KDD, TKDD}]   Pos: 25 Neg: 1
+      Type: 2
+*  contrast: 24  [{}, {CoRR}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 30 Neg: 6
+      Type: 1
+*  contrast: 23  [{}, {ASONAM}]   Pos: 25 Neg: 2
+      Type: 1
+*  contrast: 23  [{}, {VLDB J.}]   Pos: 30 Neg: 7
+      Type: 1
+*  contrast: 23  [{{CIKM}, }, {CIKM, Knowl. Inf. Syst.}]   Pos: 30 Neg: 7
+      Type: 2
+*  contrast: 23  [{}, {KDD}]  [{}, {WWW}]   Pos: 36 Neg: 13
+      Type: 1
+*  contrast: 23  [{}, {CIKM}]  [{}, {CoRR}]  [{}, {CoRR}]   Pos: 37 Neg: 14
+      Type: 1
+*  contrast: 22  [{}, {ICTAI}]   Pos: 26 Neg: 4
+      Type: 1
+*  contrast: 22  [{}, {Bioinformatics}]   Pos: 30 Neg: 8
+      Type: 1
+*  contrast: 22  [{{KDD}, }, {KDD, VLDB}]   Pos: 25 Neg: 3
+      Type: 2
+*  contrast: 22  [{{CIKM}, }, {CIKM, ICDE}]   Pos: 29 Neg: 7
+      Type: 2
+*  contrast: 22  [{{IJCAI}, }, {ICDM, IJCAI}]   Pos: 26 Neg: 4
+      Type: 2
+*  contrast: 22  [{{CIKM}, }, {CIKM, PAKDD}]   Pos: 25 Neg: 3
+      Type: 2
+*  contrast: 21  [{{KDD}, }, {KDD, AAAI}]   Pos: 27 Neg: 6
+      Type: 2
+*  contrast: 20  [{}, {IEEE Intelligent Systems}]   Pos: 28 Neg: 8
+      Type: 1
+*  contrast: 20  [{}, {BMC Bioinformatics}]   Pos: 29 Neg: 9
+      Type: 1
+*  contrast: 20  [{{KDD}, {CIKM}, {IEEE Trans. Knowl. Data Eng.}, }, {CIKM, KDD, IEEE Trans. Knowl. Data Eng.}]   Pos: 25 Neg: 5
+      Type: 4
+*  contrast: 20  [{}, {IJCAI}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 25 Neg: 5
+      Type: 1
+*  contrast: 20  [{}, {KDD}]  [{}, {CIKM, CoRR}]   Pos: 29 Neg: 9
+      Type: 3
+*  contrast: 18  [{{WWW}, {KDD}, }, {KDD, WWW}]   Pos: 27 Neg: 9
+      Type: 1
+*  contrast: 18  [{}, {EDBT}]   Pos: 25 Neg: 7
+      Type: 1
+*  contrast: 16  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {WWW}]   Pos: 25 Neg: 9
+      Type: 1
+*  contrast: 16  [{}, {WWW}]  [{}, {KDD}]   Pos: 30 Neg: 14
+      Type: 1
+*  contrast: 15  [{}, {Inf. Sci.}]   Pos: 26 Neg: 11
+      Type: 1
+*  contrast: 15  [{}, {J. Intell. Inf. Syst.}]   Pos: 28 Neg: 13
+      Type: 1
+*  contrast: 15  [{}, {IJCAI}]  [{}, {CoRR}]   Pos: 26 Neg: 11
+      Type: 1
+*  contrast: 15  [{}, {WWW}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 25 Neg: 10
+      Type: 1
+*  contrast: 14  [{}, {CIKM}]  [{}, {IJCAI}]   Pos: 30 Neg: 16
+      Type: 1
+*  contrast: 14  [{}, {IJCAI}]  [{}, {CIKM}]   Pos: 28 Neg: 14
+      Type: 1
+*  contrast: 13  [{}, {KDD}]  [{}, {WSDM}]   Pos: 25 Neg: 12
+      Type: 1
+*  contrast: 13  [{}, {CoRR}]  [{}, {CoRR}]  [{}, {CoRR}]   Pos: 29 Neg: 16
+      Type: 1
+*  contrast: 11  [{}, {SAC}]   Pos: 28 Neg: 17
+      Type: 1
+*  contrast: 11  [{}, {KDD}]  [{}, {SIGIR}]   Pos: 29 Neg: 18
+      Type: 1
+*  contrast: 10  [{}, {Web Intelligence}]   Pos: 26 Neg: 16
+      Type: 1
+*  contrast: 6  [{}, {SIGIR}]  [{}, {KDD}]   Pos: 26 Neg: 20
+      Type: 1
+Avg size:1.4027149321266967
+Avg length:1.1570680628272252
+Max size:3
+Max length:3
+Naive Size: 191

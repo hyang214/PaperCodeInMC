@@ -1,0 +1,31 @@
+iDSP-Miner alpha 6 beta 0 maxGap 1 minGap 0 .gamelogdata6pos3.txt .gamelogdata6neg3.txt
+Time Cost of Build Draft Index: 6
+Time cost of updateAllFollowSet: 3 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 1
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 38
+Size of Start-elements:27
+Avg size of elements:1.2222222222222223
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 15 ms.
+Time Cost of Generate Pos:13
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 15 ms.
+Total Time cost: 30 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 11
+ <closed: {40}  generators: > SUP_IN_POS:12 SUP_IN_NEG:0
+ <closed: {6}  generators: > SUP_IN_POS:10 SUP_IN_NEG:0
+ <closed: {4}  generators: > SUP_IN_POS:13 SUP_IN_NEG:0
+ <closed: {54}  generators: > SUP_IN_POS:14 SUP_IN_NEG:0
+ <closed: {2}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {57, 51, 25, 50}  generators: {57, 51}{25}{50}> SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {27}  generators: > <closed: {5}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {3}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0

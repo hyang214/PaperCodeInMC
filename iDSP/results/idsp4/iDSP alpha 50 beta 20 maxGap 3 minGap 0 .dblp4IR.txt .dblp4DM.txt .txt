@@ -1,0 +1,52 @@
+iDSP-Miner alpha 50 beta 20 maxGap 3 minGap 0 .dblp4IR.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 93
+Time cost of updateAllFollowSet: 361 ms
+Time cost of remove Impossible: 11 ms
+Time Cost of Build Draft Index: 158
+Time cost of updateAllFollowSet: 2396 ms
+Alphabet: 2575
+Size of Start-elements:15
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3033 ms.
+Time Cost of Generate Pos:3
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 3 ms.
+Total Time cost: 3036 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 16
+*  contrast: 60  [{{SIGIR},}, {TREC, SIGIR}]   Pos: 62 Neg: 2
+      Type: 2
+*  contrast: 56  [{{SIGIR},}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 1
+      Type: 2
+*  contrast: 55  [}, {ECIR}]   Pos: 59 Neg: 4
+      Type: 1
+*  contrast: 54  [}, {JASIST}]   Pos: 61 Neg: 7
+      Type: 1
+*  contrast: 53  [{{SIGIR},}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 3
+      Type: 2
+*  contrast: 51  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 62 Neg: 11
+      Type: 1
+*  contrast: 48  [{{SIGIR},}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 3
+      Type: 2
+*  contrast: 48  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 60 Neg: 12
+      Type: 2
+*  contrast: 48  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 59 Neg: 11
+      Type: 1
+*  contrast: 47  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 57 Neg: 10
+      Type: 2
+*  contrast: 40  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 56 Neg: 16
+      Type: 1
+*  contrast: 37  [}, {ACM Trans. Inf. Syst.}]   Pos: 56 Neg: 19
+      Type: 1
+*  contrast: 37  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 56 Neg: 19
+      Type: 1
+*  contrast: 34  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]   Pos: 52 Neg: 18
+      Type: 1
+*  contrast: 33  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 53 Neg: 20
+      Type: 1
+*  contrast: 31  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 51 Neg: 20
+      Type: 1
+Naive Size:22

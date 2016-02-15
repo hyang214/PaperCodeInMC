@@ -1,0 +1,12 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/ADLs/ActivityX/A X25.txt
+ neg: ./data/ADLs/ActivityX/B X25.txt
+run ***************************
+Trycount: 102900141
+Time cost: 296862
+Trycount: 102900141
+Time cost: 297608
+ATT: 297.2715 s

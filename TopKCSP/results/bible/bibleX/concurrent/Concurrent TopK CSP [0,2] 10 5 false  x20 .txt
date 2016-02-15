@@ -1,0 +1,47 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/bibleX/old X20.txt
+ neg: ./data/bible/bibleX/new X20.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread cost: 4175143 ms.
+Thread end: 4
+Thread cost: 4331460 ms.
+Thread end: 3
+Thread cost: 5445509 ms.
+Thread end: 2
+Thread cost: 5793304 ms.
+Thread end: 1
+Thread cost: 6340000 ms.
+Thread end: 0
+Trycount: 0
+Time cost: 6375383
+Value: [l o r d , ]
+ CRatio: 0.17982346302292998 posSup: 0.2653290668511632 negSup: 0.08550560382823322
+Value: [l r d , ]
+ CRatio: 0.18340639823994703 posSup: 0.26727492865173397 negSup: 0.08386853041178693
+Value: [l r d ]
+ CRatio: 0.1844897359486038 posSup: 0.269869411052495 negSup: 0.0853796751038912
+Value: [l d , ]
+ CRatio: 0.19390012280637153 posSup: 0.42938683732595345 negSup: 0.23548671451958192
+Value: [l r , ]
+ CRatio: 0.19419865218692167 posSup: 0.3678543630545706 negSup: 0.17365571086764892
+Value: [l o ]
+ CRatio: 0.19464849642486248 posSup: 0.45066159301219405 negSup: 0.25601309658733157
+Value: [l r ]
+ CRatio: 0.20056678163176161 posSup: 0.38895615324742716 negSup: 0.18838937161566555
+Value: [, l d , ]
+ CRatio: 0.20264674015315082 posSup: 0.33953126351292917 negSup: 0.13688452335977835
+Value: [, l d ]
+ CRatio: 0.20350180414161637 posSup: 0.3458012626481017 negSup: 0.14229945850648532
+Value: [l d ]
+ CRatio: 0.2208249702578744 posSup: 0.4916976563175646 negSup: 0.2708726860596902
+min: 0.17982346302292998
+max: 0.2208249702578744
+avg: 0.19580071648140396

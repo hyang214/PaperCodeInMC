@@ -1,0 +1,23 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 5
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Trycount: 12747560
+Thread cost: 68107 ms.
+Time cost: 68237
+Value: [children ]
+ CRatio: 0.04382505292888943 posSup: 0.06032171581769437 negSup: 0.016496662888804938
+Value: [land ]
+ CRatio: 0.06614207763750352 posSup: 0.07848309262302171 negSup: 0.012341014985518197
+Value: [king ]
+ CRatio: 0.06838073488509802 posSup: 0.0789587477298279 negSup: 0.010578012844729883
+Value: [israel ]
+ CRatio: 0.08581229575992878 posSup: 0.09513102136123844 negSup: 0.009318725601309658
+Value: [lord ]
+ CRatio: 0.17711200402196503 posSup: 0.2544322407679668 negSup: 0.07732023674600176
+min: 0.04382505292888943
+max: 0.17711200402196503
+avg: 0.08825443304667695

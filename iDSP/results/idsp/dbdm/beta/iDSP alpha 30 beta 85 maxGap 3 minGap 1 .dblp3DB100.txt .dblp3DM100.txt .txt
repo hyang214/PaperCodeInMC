@@ -1,0 +1,51 @@
+iDSP-Miner alpha 30 beta 85 maxGap 3 minGap 1 .dblp3DB100.txt .dblp3DM100.txt
+Time Cost of Build Draft Index: 114
+Time cost of updateAllFollowSet: 332 ms
+Time cost of remove Impossible: 18 ms
+Time Cost of Build Draft Index: 171
+Time cost of updateAllFollowSet: 3075 ms
+Alphabet: 2974
+Size of Start-elements:41
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3746 ms.
+Time Cost of Generate Pos:0
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 1 ms.
+Total Time cost: 3747 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 32
+*  <closed: {IEEE Trans. Software Eng., }  generators: > SUP_IN_POS:50 SUP_IN_NEG:9
+*  <closed: {CIKM, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:77
+*  <closed: {ACM Comput. Surv., }  generators: > SUP_IN_POS:49 SUP_IN_NEG:13
+*  <closed: {Distributed and Parallel Databases, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:13
+*  <closed: {PVLDB, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:26
+*  <closed: {Commun. ACM, }  generators: > SUP_IN_POS:55 SUP_IN_NEG:22
+*  <closed: {PODS, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:19
+*  <closed: {EDBT, }  generators: > SUP_IN_POS:65 SUP_IN_NEG:28
+*  <closed: {DOOD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:5
+*  <closed: {DBPL, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:3
+*  <closed: {CoRR, }  generators: > SUP_IN_POS:54 SUP_IN_NEG:77
+*  <closed: {SSDBM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:19
+*  <closed: {IEEE Computer, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:19
+*  <closed: {IEEE Database Eng. Bull., }  generators: > SUP_IN_POS:38 SUP_IN_NEG:1
+*  <closed: {ER, }  generators: > SUP_IN_POS:48 SUP_IN_NEG:11
+*  <closed: {ACM Trans. Inf. Syst., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:19
+*  <closed: {J. Intell. Inf. Syst., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:28
+*  <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:24
+*  <closed: {ICDE, SIGMOD Record, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:10
+*  <closed: {ICDE, VLDB J., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:10
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:7
+*  <closed: {ICDE, VLDB, }  generators: > SUP_IN_POS:50 SUP_IN_NEG:17
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:7
+*  <closed: {ACM Trans. Database Syst., VLDB, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:8
+*  <closed: {VLDB, SIGMOD Conference, }  generators: > SUP_IN_POS:56 SUP_IN_NEG:13
+*  <closed: {VLDB, SIGMOD Record, }  generators: > SUP_IN_POS:45 SUP_IN_NEG:4
+*  <closed: {VLDB, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:40 SUP_IN_NEG:5
+*  <closed: {SIGMOD Conference, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:43 SUP_IN_NEG:8
+*  <closed: {SIGMOD Record, SIGMOD Conference, }  generators: > SUP_IN_POS:44 SUP_IN_NEG:7
+*  <closed: {Inf. Syst., SIGMOD Conference, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:3
+*  <closed: {IEEE Trans. Knowl. Data Eng., SIGMOD Conference, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:19
+*  <closed: {SIGMOD Record, IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:3

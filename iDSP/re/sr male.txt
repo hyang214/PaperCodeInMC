@@ -1,0 +1,4 @@
+towel,bread;book;cola,slaver;coffee,beef,cola;milk;
+bread;book;milk,slaver;cola;towel,book;
+milk;book,bread;milk,slaver;coffee,beef,cola;
+bread,cola;coffee;cola;lipstick,cola;milk,cola;

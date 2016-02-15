@@ -1,0 +1,37 @@
+Naive alpha 20 beta 50 maxGap 3 minGap 1 .synpossyn_pos_30_4_10_50_.txt .synnegsyn_neg_30_4_10_50_.txt
+Time Cost of Build Index: 15
+Time Cost of Indexer Construction: 1248 ms.
+Menory: 17064648
+Total Time cost: 1248 ms.
+--- Results: ----------------------------------------------
+Pos ******************* 30
+*  <closed: {23, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:39
+*  <closed: {17, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:38
+*  <closed: {9, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:40
+*  <closed: {5, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:39
+*  <closed: {3, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:35
+*  <closed: {24, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:40
+*  <closed: {25, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:40
+*  <closed: {29, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:42
+*  <closed: {15, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:40
+*  <closed: {14, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:41
+*  <closed: {1, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:36
+*  <closed: {19, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:40
+*  <closed: {27, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:41
+*  <closed: {20, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:37
+*  <closed: {26, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:37
+*  <closed: {11, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:37
+*  <closed: {7, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:38
+*  <closed: {18, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:33
+*  <closed: {21, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:38
+*  <closed: {16, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:39
+*  <closed: {4, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:38
+*  <closed: {12, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:39
+*  <closed: {13, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:38
+*  <closed: {22, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:42
+*  <closed: {6, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:40
+*  <closed: {10, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:37
+*  <closed: {0, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:40
+*  <closed: {28, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:38
+*  <closed: {8, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:40
+*  <closed: {2, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:38

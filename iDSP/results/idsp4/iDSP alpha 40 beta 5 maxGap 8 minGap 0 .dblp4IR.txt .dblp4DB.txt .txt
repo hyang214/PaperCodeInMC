@@ -1,0 +1,56 @@
+iDSP-Miner alpha 40 beta 5 maxGap 8 minGap 0 .dblp4IR.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 90
+Time cost of updateAllFollowSet: 417 ms
+Time cost of remove Impossible: 12 ms
+Time Cost of Build Draft Index: 117
+Time cost of updateAllFollowSet: 499 ms
+Alphabet: 2673
+Size of Start-elements:22
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1141 ms.
+Time Cost of Generate Pos:4
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 5 ms.
+Total Time cost: 1146 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 18
+*  contrast: 80  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 85 Neg: 5
+      Type: 1
+*  contrast: 65  [}, {SIGIR}]  [}, {CIKM}]   Pos: 68 Neg: 3
+      Type: 1
+*  contrast: 64  [}, {CIKM}]  [}, {SIGIR}]   Pos: 65 Neg: 1
+      Type: 1
+*  contrast: 61  [{{SIGIR},}, {TREC, SIGIR}]   Pos: 62 Neg: 1
+      Type: 2
+*  contrast: 58  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 60 Neg: 2
+      Type: 1
+*  contrast: 56  [}, {JASIST}]   Pos: 61 Neg: 5
+      Type: 1
+*  contrast: 56  [{{SIGIR},}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 1
+      Type: 2
+*  contrast: 55  [{{SIGIR},}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 1
+      Type: 2
+*  contrast: 50  [{{SIGIR},}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 1
+      Type: 2
+*  contrast: 50  [}, {SIGIR}]  [}, {ACM Trans. Inf. Syst.}]   Pos: 53 Neg: 3
+      Type: 1
+*  contrast: 48  [{{SIGIR},}, {SIGIR, ECIR}]   Pos: 49 Neg: 1
+      Type: 2
+*  contrast: 46  [}, {ACM Trans. Inf. Syst.}]  [}, {SIGIR}]   Pos: 49 Neg: 3
+      Type: 1
+*  contrast: 43  [}, {SIGIR}]  [}, {CoRR}]   Pos: 47 Neg: 4
+      Type: 1
+*  contrast: 42  [}, {RIAO}]   Pos: 43 Neg: 1
+      Type: 1
+*  contrast: 42  [{{CIKM},}, {TREC, CIKM}]   Pos: 43 Neg: 1
+      Type: 2
+*  contrast: 40  [}, {TREC, Inf. Process. Manage.}]   Pos: 40 Neg: 0
+      Type: 3
+*  contrast: 39  [{{CIKM},}, {CIKM, SIGIR Forum}]   Pos: 40 Neg: 1
+      Type: 2
+*  contrast: 38  [}, {JASIS}]   Pos: 42 Neg: 4
+      Type: 1
+Naive Size:27

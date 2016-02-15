@@ -1,0 +1,25 @@
+iDSP-Miner alpha 12 beta 0 maxGap 3 minGap 0 .srcgamelogdata6pos3.txt .srcgamelogdata6neg3.txt
+Time Cost of Build Draft Index: 0
+Time cost of updateAllFollowSet: 0 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 0
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 0
+Size of Start-elements:0
+Avg size of elements:NaN
+Size of Follow-elements:0
+AVG size of follow-set:NaN
+Time Cost of Indexer Construction: 0 ms.
+Time Cost of Generate Pos:0
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 0 ms.
+Total Time cost: 0 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 0
+Avg size:NaN
+Avg length:NaN
+Max size:-2147483648
+Max length:-2147483648
+Naive Size: 0

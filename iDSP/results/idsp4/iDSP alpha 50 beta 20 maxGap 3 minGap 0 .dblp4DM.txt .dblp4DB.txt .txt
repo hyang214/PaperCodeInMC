@@ -1,0 +1,44 @@
+iDSP-Miner alpha 50 beta 20 maxGap 3 minGap 0 .dblp4DM.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 413
+Time cost of updateAllFollowSet: 1507 ms
+Time cost of remove Impossible: 68 ms
+Time Cost of Build Draft Index: 174
+Time cost of updateAllFollowSet: 511 ms
+Alphabet: 2915
+Size of Start-elements:19
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2694 ms.
+Time Cost of Generate Pos:9
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 11 ms.
+Total Time cost: 2705 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 12
+*  contrast: 65  [}, {Data Min. Knowl. Discov.}]   Pos: 75 Neg: 10
+      Type: 1
+*  contrast: 62  [}, {SIGKDD Explorations}]   Pos: 68 Neg: 6
+      Type: 1
+*  contrast: 61  [}, {KDD, ICDM}]   Pos: 62 Neg: 1
+      Type: 3
+*  contrast: 60  [}, {PAKDD}]   Pos: 65 Neg: 5
+      Type: 1
+*  contrast: 58  [}, {Knowl. Inf. Syst.}]   Pos: 69 Neg: 11
+      Type: 1
+*  contrast: 57  [}, {ICDM Workshops}]   Pos: 60 Neg: 3
+      Type: 1
+*  contrast: 56  [}, {ICDM, SDM}]   Pos: 56 Neg: 0
+      Type: 3
+*  contrast: 54  [}, {KDD, SDM}]   Pos: 54 Neg: 0
+      Type: 3
+*  contrast: 50  [}, {ICML}]   Pos: 51 Neg: 1
+      Type: 1
+*  contrast: 50  [}, {PKDD}]   Pos: 58 Neg: 8
+      Type: 1
+*  contrast: 48  [{{CIKM},}, {CIKM, KDD}]   Pos: 51 Neg: 3
+      Type: 2
+*  contrast: 44  [}, {IJCAI}]   Pos: 53 Neg: 9
+      Type: 1
+Naive Size:19

@@ -1,0 +1,128 @@
+iDSP-Miner alpha 25 beta 20 maxGap 5 minGap 0 .dblp4IR.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 78
+Time cost of updateAllFollowSet: 397 ms
+Time cost of remove Impossible: 12 ms
+Time Cost of Build Draft Index: 165
+Time cost of updateAllFollowSet: 2386 ms
+Alphabet: 2575
+Size of Start-elements:66
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3108 ms.
+Time Cost of Generate Pos:20
+Time Cost of Minimum:2
+Time Cost of Merging Patterns:2
+Try : 0
+Time of generate patterns: 24 ms.
+Total Time cost: 3132 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 54
+*  contrast: 53  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 64 Neg: 11
+      Type: 1
+*  contrast: 47  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 60 Neg: 13
+      Type: 2
+*  contrast: 47  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 58 Neg: 11
+      Type: 2
+*  contrast: 46  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 59 Neg: 13
+      Type: 1
+*  contrast: 40  [}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 49 Neg: 9
+      Type: 3
+*  contrast: 40  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR, CIKM}]   Pos: 49 Neg: 9
+      Type: 3
+*  contrast: 40  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 57 Neg: 17
+      Type: 1
+*  contrast: 38  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 58 Neg: 20
+      Type: 1
+*  contrast: 37  [{{SIGIR, CIKM},}, {TREC, SIGIR, CIKM}]   Pos: 38 Neg: 1
+      Type: 4
+*  contrast: 36  [}, {JASIS}]   Pos: 42 Neg: 6
+      Type: 1
+*  contrast: 36  [{{SIGIR},}, {SIGIR, ACM Trans. Inf. Syst.}]   Pos: 38 Neg: 2
+      Type: 2
+*  contrast: 33  [{{SIGIR},}, {TREC, SIGIR, SIGIR Forum}]   Pos: 33 Neg: 0
+      Type: 6
+*  contrast: 33  [{{SIGIR, CIKM},}, {SIGIR, CIKM, SIGIR Forum}]   Pos: 34 Neg: 1
+      Type: 4
+*  contrast: 33  [{{SIGIR},}, {SIGIR, SIGIR Forum, ECIR}]   Pos: 33 Neg: 0
+      Type: 6
+*  contrast: 33  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 48 Neg: 15
+      Type: 1
+*  contrast: 32  [{{SIGIR},}, {SIGIR, RIAO}]   Pos: 32 Neg: 0
+      Type: 2
+*  contrast: 32  [{{SIGIR},}, {SIGIR, JASIST}]   Pos: 35 Neg: 3
+      Type: 2
+*  contrast: 31  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 48 Neg: 17
+      Type: 1
+*  contrast: 30  [}, {TREC, ACM Trans. Inf. Syst.}]   Pos: 30 Neg: 0
+      Type: 3
+*  contrast: 30  [{{SIGIR},}, {TREC, SIGIR, Inf. Process. Manage.}]   Pos: 30 Neg: 0
+      Type: 6
+*  contrast: 30  [{{SIGIR},}, {TREC, SIGIR, ECIR}]   Pos: 30 Neg: 0
+      Type: 6
+*  contrast: 30  [{{CIKM},}, {Inf. Process. Manage., CIKM}]   Pos: 34 Neg: 4
+      Type: 2
+*  contrast: 29  [{{SIGIR},}, {TREC, SIGIR, Inf. Retr.}]   Pos: 29 Neg: 0
+      Type: 6
+*  contrast: 28  [{{SIGIR, CIKM},}, {SIGIR, CIKM, ECIR}]   Pos: 31 Neg: 3
+      Type: 4
+*  contrast: 26  [}, {Inf. Retr., ECIR}]   Pos: 26 Neg: 0
+      Type: 3
+*  contrast: 26  [{{SIGIR},}, {SIGIR, CLEF, CLEF (Working Notes)}]   Pos: 27 Neg: 1
+      Type: 6
+*  contrast: 25  [}, {ICTIR}]   Pos: 25 Neg: 0
+      Type: 1
+*  contrast: 25  [}, {TREC, CLEF (Working Notes)}]   Pos: 25 Neg: 0
+      Type: 3
+*  contrast: 25  [{{SIGIR},}, {SIGIR, Inf. Process. Manage., SIGIR Forum}]   Pos: 25 Neg: 0
+      Type: 6
+*  contrast: 25  [}, {Inf. Process. Manage., ACM Trans. Inf. Syst.}]   Pos: 25 Neg: 0
+      Type: 3
+*  contrast: 25  [{{CIKM},}, {CIKM, SIGIR Forum, ECIR}]   Pos: 25 Neg: 0
+      Type: 6
+*  contrast: 25  [}, {Inf. Retr., SIGIR Forum}]   Pos: 25 Neg: 0
+      Type: 3
+*  contrast: 25  [}, {SIGIR}]  [}, {CIKM}]  [}, {CoRR}]   Pos: 37 Neg: 12
+      Type: 1
+*  contrast: 25  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 39 Neg: 14
+      Type: 1
+*  contrast: 24  [}, {ECDL}]   Pos: 27 Neg: 3
+      Type: 1
+*  contrast: 24  [}, {Inf. Process. Manage., ECIR}]   Pos: 25 Neg: 1
+      Type: 3
+*  contrast: 24  [{{SIGIR, CIKM},}, {SIGIR, CIKM, Inf. Retr.}]   Pos: 25 Neg: 1
+      Type: 4
+*  contrast: 23  [{{CIKM},}, {SIGIR, CIKM}]  [}, {CoRR}]   Pos: 34 Neg: 11
+      Type: 2
+*  contrast: 21  [}, {SPIRE}]   Pos: 25 Neg: 4
+      Type: 1
+*  contrast: 20  [}, {SIGIR}]  [}, {CIKM}]  [}, {WSDM}]   Pos: 31 Neg: 11
+      Type: 1
+*  contrast: 19  [}, {CoRR}]  [}, {SIGIR}]   Pos: 30 Neg: 11
+      Type: 1
+*  contrast: 18  [{{CoRR}, {SIGIR},}, {SIGIR, CoRR}]   Pos: 28 Neg: 10
+      Type: 1
+*  contrast: 18  [{{CIKM},}, {CIKM, ACM Trans. Inf. Syst.}]   Pos: 26 Neg: 8
+      Type: 2
+*  contrast: 18  [}, {SIGIR}]  [}, {CIKM}]  [}, {WWW}]   Pos: 29 Neg: 11
+      Type: 1
+*  contrast: 17  [}, {JCDL}]   Pos: 27 Neg: 10
+      Type: 1
+*  contrast: 16  [{{CIKM},}, {SIGIR, CIKM}]  [}, {WWW}]   Pos: 26 Neg: 10
+      Type: 2
+*  contrast: 15  [{{CIKM},}, {SIGIR, CIKM}]  [}, {WSDM}]   Pos: 28 Neg: 13
+      Type: 2
+*  contrast: 14  [{{WWW}, {SIGIR},}, {SIGIR, WWW}]   Pos: 25 Neg: 11
+      Type: 1
+*  contrast: 13  [}, {WWW}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 25 Neg: 12
+      Type: 2
+*  contrast: 12  [}, {CIKM}]  [}, {CIKM}]  [}, {WSDM}]   Pos: 29 Neg: 17
+      Type: 1
+*  contrast: 11  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {WSDM}]   Pos: 25 Neg: 14
+      Type: 1
+*  contrast: 10  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 27 Neg: 17
+      Type: 1
+*  contrast: 9  [{{WSDM}, {CIKM},}, {CIKM, WSDM}]   Pos: 26 Neg: 17
+      Type: 1
+*  contrast: 8  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {WWW}]   Pos: 26 Neg: 18
+      Type: 1
+Naive Size: 133

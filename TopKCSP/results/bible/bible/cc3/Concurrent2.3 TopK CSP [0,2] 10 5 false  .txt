@@ -1,0 +1,47 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread cost: 12946 ms.
+Thread end: 2
+Thread cost: 13661 ms.
+Thread end: 4
+Thread cost: 17107 ms.
+Thread end: 3
+Thread cost: 19116 ms.
+Thread end: 0
+Thread cost: 22729 ms.
+Thread end: 1
+Trycount: 0
+Time cost: 22926
+Value: [lord said ]
+ CRatio: 0.03207004812790446 posSup: 0.03874427051803165 negSup: 0.006674222390127188
+Value: [o ]
+ CRatio: 0.03450295122236953 posSup: 0.04155495978552279 negSup: 0.007052008563153255
+Value: [people ]
+ CRatio: 0.036165073161343424 posSup: 0.08401798841131194 negSup: 0.04785291524996852
+Value: [sons ]
+ CRatio: 0.03671964745010452 posSup: 0.04414944218628384 negSup: 0.007429794736179322
+Value: [lord god ]
+ CRatio: 0.03844849102962856 posSup: 0.042981925105941364 negSup: 0.004533434076312807
+Value: [children ]
+ CRatio: 0.04382505292888943 posSup: 0.06032171581769437 negSup: 0.016496662888804938
+Value: [land ]
+ CRatio: 0.06614207763750352 posSup: 0.07848309262302171 negSup: 0.012341014985518197
+Value: [king ]
+ CRatio: 0.06838073488509802 posSup: 0.0789587477298279 negSup: 0.010578012844729883
+Value: [israel ]
+ CRatio: 0.08581229575992878 posSup: 0.09513102136123844 negSup: 0.009318725601309658
+Value: [lord ]
+ CRatio: 0.17711200402196503 posSup: 0.2544322407679668 negSup: 0.07732023674600176
+min: 0.03207004812790446
+max: 0.17711200402196503
+avg: 0.06191783762247353

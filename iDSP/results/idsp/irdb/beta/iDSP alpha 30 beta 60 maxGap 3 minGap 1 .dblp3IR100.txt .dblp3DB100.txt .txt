@@ -1,0 +1,42 @@
+iDSP-Miner alpha 30 beta 60 maxGap 3 minGap 1 .dblp3IR100.txt .dblp3DB100.txt
+Time Cost of Build Draft Index: 88
+Time cost of updateAllFollowSet: 413 ms
+Time cost of remove Impossible: 14 ms
+Time Cost of Build Draft Index: 119
+Time cost of updateAllFollowSet: 602 ms
+Alphabet: 2724
+Size of Start-elements:48
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1246 ms.
+Time Cost of Generate Pos:1
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 2 ms.
+Total Time cost: 1248 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 23
+*  <closed: {JASIS, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:4
+*  <closed: {WWW, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:19
+*  <closed: {WSDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:3
+*  <closed: {TREC, Inf. Retr., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {TREC, ACM Trans. Inf. Syst., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, Inf. Process. Manage., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, CIKM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:1
+*  <closed: {TREC, SIGIR, SIGIR Forum, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, ECIR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGIR, JASIST, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, RIAO, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGIR, CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:2
+*  <closed: {SIGIR, Inf. Retr., }  generators: > SUP_IN_POS:52 SUP_IN_NEG:1
+*  <closed: {SIGIR, CLEF, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGIR, ACM Trans. Inf. Syst., }  generators: > SUP_IN_POS:38 SUP_IN_NEG:3
+*  <closed: {SIGIR, CLEF (Working Notes), }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., SIGIR Forum, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., CIKM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {SIGIR, CIKM, ECIR, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:1
+*  <closed: {SIGIR, CIKM, SIGIR Forum, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:1
+*  <closed: {CIKM, Inf. Retr., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, ECIR, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {CLEF, CLEF (Working Notes), }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0

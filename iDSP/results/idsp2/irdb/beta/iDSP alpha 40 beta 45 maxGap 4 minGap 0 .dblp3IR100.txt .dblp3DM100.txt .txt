@@ -1,0 +1,34 @@
+iDSP-Miner alpha 40 beta 45 maxGap 4 minGap 0 .dblp3IR100.txt .dblp3DM100.txt
+Time Cost of Build Draft Index: 82
+Time cost of updateAllFollowSet: 437 ms
+Time cost of remove Impossible: 15 ms
+Time Cost of Build Draft Index: 157
+Time cost of updateAllFollowSet: 2410 ms
+Alphabet: 2647
+Size of Start-elements:22
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3128 ms.
+Time Cost of Generate Pos:2
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 3 ms.
+Total Time cost: 3131 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 15
+*  <closed: {RIAO, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:2
+*  <closed: {ACM Trans. Inf. Syst., }  generators: > SUP_IN_POS:56 SUP_IN_NEG:19
+*  <closed: {JASIST, }  generators: > SUP_IN_POS:63 SUP_IN_NEG:7
+*  <closed: {JASIS, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:6
+*  <closed: {WWW, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:41
+*  <closed: {TREC, SIGIR, }  generators: > SUP_IN_POS:62 SUP_IN_NEG:2
+*  <closed: {TREC, Inf. Process. Manage., }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {TREC, CIKM, }  generators: {CIKM, }> SUP_IN_POS:43 SUP_IN_NEG:1
+*  <closed: {SIGIR, Inf. Process. Manage., }  generators: > SUP_IN_POS:57 SUP_IN_NEG:3
+*  <closed: {SIGIR, CIKM, }  generators: {CIKM, }> SUP_IN_POS:60 SUP_IN_NEG:23
+*  <closed: {SIGIR, SIGIR Forum, }  generators: > SUP_IN_POS:57 SUP_IN_NEG:1
+*  <closed: {SIGIR, ECIR, }  generators: > SUP_IN_POS:49 SUP_IN_NEG:3
+*  <closed: {SIGIR, Inf. Retr., }  generators: > SUP_IN_POS:52 SUP_IN_NEG:3
+*  <closed: {CIKM, SIGIR Forum, }  generators: {CIKM, }> SUP_IN_POS:40 SUP_IN_NEG:1
+*  <closed: {CIKM, }  generators: > <closed: {CIKM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:52 SUP_IN_NEG:42

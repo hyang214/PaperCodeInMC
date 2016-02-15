@@ -1,0 +1,53 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/ADLs/Location/A_s.txt
+ neg: ./data/ADLs/Location/B_s.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread start: 5
+Thread start: 6
+Thread cost: 13 ms.
+Thread end: 5
+Thread cost: 4 ms.
+Thread end: 6
+Thread cost: 21 ms.
+Thread end: 2
+Thread cost: 23 ms.
+Thread end: 3
+Thread cost: 27 ms.
+Thread end: 1
+Thread cost: 24 ms.
+Thread end: 4
+Thread cost: 29 ms.
+Thread end: 0
+Trycount: 0
+Time cost: 38
+Value: [Cupboard Fridge ]
+ CRatio: 0.8212121212121213 posSup: 0.8666666666666667 negSup: 0.045454545454545456
+Value: [Cupboard Fridge Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Fridge Seat Basin ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Basin Shower Cupboard ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Fridge Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Fridge ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Cupboard Microwave ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Shower Cupboard ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Toaster ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+min: 0.8212121212121213
+max: 0.9333333333333333
+avg: 0.8821212121212122

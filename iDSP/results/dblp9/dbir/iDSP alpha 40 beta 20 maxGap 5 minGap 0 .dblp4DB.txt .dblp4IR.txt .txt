@@ -1,0 +1,58 @@
+iDSP-Miner alpha 40 beta 20 maxGap 5 minGap 0 .dblp4DB.txt .dblp4IR.txt
+Time Cost of Build Draft Index: 126
+Time cost of updateAllFollowSet: 343 ms
+Time cost of remove Impossible: 15 ms
+Time Cost of Build Draft Index: 110
+Time cost of updateAllFollowSet: 686 ms
+Alphabet: 2673
+Size of Start-elements:27
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1280 ms.
+Time Cost of Generate Pos:0
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 0 ms.
+Total Time cost: 1280 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 17
+*  contrast: 56  [{}, {EDBT}]   Pos: 63 Neg: 7
+      Type: 1
+*  contrast: 56  [{}, {VLDB, SIGMOD Conference}]   Pos: 56 Neg: 0
+      Type: 3
+*  contrast: 50  [{}, {Inf. Syst.}]   Pos: 64 Neg: 14
+      Type: 1
+*  contrast: 48  [{}, {VLDB J.}]   Pos: 55 Neg: 7
+      Type: 1
+*  contrast: 47  [{}, {IEEE Trans. Software Eng.}]   Pos: 50 Neg: 3
+      Type: 1
+*  contrast: 47  [{}, {ICDE, VLDB}]   Pos: 50 Neg: 3
+      Type: 3
+*  contrast: 46  [{}, {ER}]   Pos: 48 Neg: 2
+      Type: 1
+*  contrast: 46  [{}, {ICDE, SIGMOD Conference}]   Pos: 47 Neg: 1
+      Type: 3
+*  contrast: 44  [{}, {VLDB, SIGMOD Record}]   Pos: 45 Neg: 1
+      Type: 3
+*  contrast: 44  [{}, {SIGMOD Record, SIGMOD Conference}]   Pos: 44 Neg: 0
+      Type: 3
+*  contrast: 43  [{}, {SIGMOD Conference, IEEE Data Eng. Bull.}]   Pos: 43 Neg: 0
+      Type: 3
+*  contrast: 41  [{}, {ACM Trans. Database Syst., SIGMOD Conference}]   Pos: 42 Neg: 1
+      Type: 3
+*  contrast: 41  [{}, {ACM Trans. Database Syst., VLDB}]   Pos: 41 Neg: 0
+      Type: 3
+*  contrast: 40  [{}, {PODS}]   Pos: 40 Neg: 0
+      Type: 1
+*  contrast: 40  [{}, {VLDB, IEEE Data Eng. Bull.}]   Pos: 40 Neg: 0
+      Type: 3
+*  contrast: 37  [{}, {ACM Comput. Surv.}]   Pos: 49 Neg: 12
+      Type: 1
+*  contrast: 35  [{}, {PVLDB}]   Pos: 41 Neg: 6
+      Type: 1
+Avg size:1.2571428571428571
+Avg length:1.0
+Max size:2
+Max length:1
+Naive Size: 35

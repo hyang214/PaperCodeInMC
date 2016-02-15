@@ -1,0 +1,91 @@
+iDSP-Miner alpha 35 beta 0 maxGap 3 minGap 1 .dblp3IR100.txt .dblp3DM100.txt
+Time Cost of Build Draft Index: 79
+Time cost of updateAllFollowSet: 425 ms
+Time cost of remove Impossible: 17 ms
+Time Cost of Build Draft Index: 168
+Time cost of updateAllFollowSet: 2608 ms
+Alphabet: 2647
+Size of Start-elements:32
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3386 ms.
+Time Cost of Generate Pos:177
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 178 ms.
+Total Time cost: 3564 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 72
+*  <closed: {TREC, Inf. Process. Manage., }  generators: {Inf. Process. Manage., }{TREC, }> SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, ECIR, }  generators: {ECIR, }{SIGIR Forum, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, ECIR, }  generators: {ECIR, }{TREC, }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR Forum, }  generators: {TREC, }{SIGIR Forum, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, CIKM, }  generators: {CIKM, }{TREC, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {CIKM, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }{SIGIR Forum, }> <closed: {CIKM, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }{SIGIR Forum, }> <closed: {Inf. Retr., }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {ECIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {TREC, CIKM, }  generators: {CIKM, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> <closed: {Inf. Process. Manage., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR, Inf. Retr., }  generators: {SIGIR, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {TREC, SIGIR, }  generators: {SIGIR, }> SUP_IN_POS:43 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> <closed: {TREC, SIGIR, }  generators: {SIGIR, }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {Inf. Process. Manage., }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ACM Trans. Inf. Syst., }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {Inf. Process. Manage., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {Inf. Retr., }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, SIGIR, }  generators: {TREC, }{SIGIR, }> <closed: {TREC, SIGIR, }  generators: {TREC, }{SIGIR, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {SIGIR, CIKM, }  generators: {CIKM, }{SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }{SIGIR Forum, }> <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ECIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {Inf. Retr., }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {TREC, SIGIR, }  generators: {SIGIR, }> SUP_IN_POS:43 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, CIKM, }  generators: {SIGIR, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {Inf. Process. Manage., }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {Inf. Process. Manage., }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {Inf. Retr., }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {Inf. Retr., }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {ECIR, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:44 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, CIKM, }  generators: {SIGIR, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, CIKM, }  generators: > <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, CIKM, }  generators: {CIKM, }> <closed: {CIKM, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, CIKM, }  generators: {SIGIR, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {CIKM, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {TREC, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR Forum, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {TREC, SIGIR, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0

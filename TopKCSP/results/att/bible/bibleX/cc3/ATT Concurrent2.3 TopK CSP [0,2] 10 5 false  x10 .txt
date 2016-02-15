@@ -1,0 +1,18 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/bibleX/old X10.txt
+ neg: ./data/bible/bibleX/new X10.txt
+run ***************************
+Trycount: 0
+Time cost: 484327
+Trycount: 0
+Time cost: 467226
+Trycount: 0
+Time cost: 482822
+Trycount: 0
+Time cost: 469536
+Trycount: 0
+Time cost: 482053
+ATT: 477.7398 s

@@ -1,0 +1,48 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 25
+ pos: ./data/genes/eColi/eColi_A.txt
+ neg: ./data/genes/eColi/eColi_B.txt
+run ***************************
+Trycount: 0
+Time cost: 390
+Trycount: 0
+Time cost: 209
+Trycount: 0
+Time cost: 211
+Trycount: 0
+Time cost: 199
+Trycount: 0
+Time cost: 209
+Trycount: 0
+Time cost: 185
+Trycount: 0
+Time cost: 174
+Trycount: 0
+Time cost: 175
+Trycount: 0
+Time cost: 179
+Trycount: 0
+Time cost: 172
+Trycount: 0
+Time cost: 155
+Trycount: 0
+Time cost: 155
+Trycount: 0
+Time cost: 147
+Trycount: 0
+Time cost: 154
+Trycount: 0
+Time cost: 136
+Trycount: 0
+Time cost: 138
+Trycount: 0
+Time cost: 155
+Trycount: 0
+Time cost: 149
+Trycount: 0
+Time cost: 154
+Trycount: 0
+Time cost: 149
+ATT: 0.18195 s

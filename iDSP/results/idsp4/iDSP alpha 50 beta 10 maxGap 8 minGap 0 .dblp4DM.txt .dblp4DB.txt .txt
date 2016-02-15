@@ -1,0 +1,60 @@
+iDSP-Miner alpha 50 beta 10 maxGap 8 minGap 0 .dblp4DM.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 137
+Time cost of updateAllFollowSet: 1381 ms
+Time cost of remove Impossible: 53 ms
+Time Cost of Build Draft Index: 120
+Time cost of updateAllFollowSet: 489 ms
+Alphabet: 2915
+Size of Start-elements:19
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2195 ms.
+Time Cost of Generate Pos:16
+Time Cost of Minimum:1
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 17 ms.
+Total Time cost: 2212 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 20
+*  contrast: 80  [}, {KDD}]  [}, {KDD}]   Pos: 86 Neg: 6
+      Type: 1
+*  contrast: 65  [}, {Data Min. Knowl. Discov.}]   Pos: 75 Neg: 10
+      Type: 1
+*  contrast: 62  [}, {SIGKDD Explorations}]   Pos: 68 Neg: 6
+      Type: 1
+*  contrast: 61  [{{KDD},}, {KDD, ICDM}]   Pos: 62 Neg: 1
+      Type: 2
+*  contrast: 61  [}, {KDD}]  [}, {CIKM}]   Pos: 68 Neg: 7
+      Type: 1
+*  contrast: 60  [}, {PAKDD}]   Pos: 65 Neg: 5
+      Type: 1
+*  contrast: 59  [}, {KDD}]  [}, {Knowl. Inf. Syst.}]   Pos: 64 Neg: 5
+      Type: 1
+*  contrast: 57  [}, {ICDM Workshops}]   Pos: 60 Neg: 3
+      Type: 1
+*  contrast: 56  [}, {ICDM, SDM}]   Pos: 56 Neg: 0
+      Type: 3
+*  contrast: 54  [{{KDD},}, {KDD, SDM}]   Pos: 54 Neg: 0
+      Type: 2
+*  contrast: 53  [}, {CIKM}]  [}, {KDD}]   Pos: 63 Neg: 10
+      Type: 1
+*  contrast: 51  [}, {Knowl. Inf. Syst.}]  [}, {KDD}]   Pos: 52 Neg: 1
+      Type: 1
+*  contrast: 50  [}, {ICML}]   Pos: 51 Neg: 1
+      Type: 1
+*  contrast: 50  [}, {PKDD}]   Pos: 58 Neg: 8
+      Type: 1
+*  contrast: 50  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {KDD}]   Pos: 53 Neg: 3
+      Type: 1
+*  contrast: 48  [{{CIKM}, {KDD},}, {CIKM, KDD}]   Pos: 51 Neg: 3
+      Type: 1
+*  contrast: 46  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {KDD}]  [}, {KDD}]   Pos: 51 Neg: 5
+      Type: 1
+*  contrast: 44  [}, {IJCAI}]   Pos: 53 Neg: 9
+      Type: 1
+*  contrast: 44  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {Knowl. Inf. Syst.}]   Pos: 51 Neg: 7
+      Type: 1
+*  contrast: 44  [}, {CoRR}]  [}, {KDD}]   Pos: 50 Neg: 6
+      Type: 1
+Naive Size:24

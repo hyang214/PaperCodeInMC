@@ -1,0 +1,32 @@
+Method: TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/ADLs/LocationX/A_s X20.txt
+ neg: ./data/ADLs/LocationX/B_s X20.txt
+run ***************************
+Trycount: 6828132
+Time cost: 16506
+Value: [Cupboard Fridge ]
+ CRatio: 0.8212121212121213 posSup: 0.8666666666666667 negSup: 0.045454545454545456
+Value: [Fridge Seat Basin ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Basin Shower Cupboard ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Fridge Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Fridge ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Cupboard Fridge Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Cupboard Microwave ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Toaster ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+min: 0.8212121212121213
+max: 0.9333333333333333
+avg: 0.8821212121212122

@@ -1,0 +1,77 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 25
+ pos: ./data/genes/eColiX/eColi_A X5.txt
+ neg: ./data/genes/eColiX/eColi_B X5.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread cost: 0 ms.
+Thread end: 4
+Thread cost: 924 ms.
+Thread end: 3
+Thread cost: 934 ms.
+Thread end: 1
+Thread cost: 1069 ms.
+Thread end: 0
+Thread cost: 1223 ms.
+Thread end: 2
+Trycount: 0
+Time cost: 1256
+Value: [a t a t c c c ]
+ CRatio: 0.3922351233671988 posSup: 0.6037735849056604 negSup: 0.21153846153846154
+Value: [a c c t t t g ]
+ CRatio: 0.3925979680696662 posSup: 0.5849056603773585 negSup: 0.19230769230769232
+Value: [t t t a a a t ]
+ CRatio: 0.3929608127721335 posSup: 0.5660377358490566 negSup: 0.17307692307692307
+Value: [a a t t t c a ]
+ CRatio: 0.3929608127721335 posSup: 0.5660377358490566 negSup: 0.17307692307692307
+Value: [t c c t t t g ]
+ CRatio: 0.39332365747460085 posSup: 0.5471698113207547 negSup: 0.15384615384615385
+Value: [a t t t t a a ]
+ CRatio: 0.39368650217706824 posSup: 0.5283018867924528 negSup: 0.1346153846153846
+Value: [a t t t a a a ]
+ CRatio: 0.39368650217706824 posSup: 0.5283018867924528 negSup: 0.1346153846153846
+Value: [a a a t t t a ]
+ CRatio: 0.39477503628447025 posSup: 0.4716981132075472 negSup: 0.07692307692307693
+Value: [c t t t a a a t ]
+ CRatio: 0.3951378809869376 posSup: 0.4528301886792453 negSup: 0.057692307692307696
+Value: [a t a t t t g c ]
+ CRatio: 0.395500725689405 posSup: 0.4339622641509434 negSup: 0.038461538461538464
+Value: [a t t t t c a ]
+ CRatio: 0.41146589259796806 posSup: 0.6037735849056604 negSup: 0.19230769230769232
+Value: [t t t a a t t ]
+ CRatio: 0.41219158200290273 posSup: 0.5660377358490566 negSup: 0.15384615384615385
+Value: [c t t t a c a t ]
+ CRatio: 0.4125544267053701 posSup: 0.5471698113207547 negSup: 0.1346153846153846
+Value: [t t t a a a c ]
+ CRatio: 0.4132801161103048 posSup: 0.5094339622641509 negSup: 0.09615384615384616
+Value: [t a t t t g a a ]
+ CRatio: 0.4132801161103048 posSup: 0.5094339622641509 negSup: 0.09615384615384616
+Value: [a t t t g a a t ]
+ CRatio: 0.41400580551523947 posSup: 0.4716981132075472 negSup: 0.057692307692307696
+Value: [c t t t a a a ]
+ CRatio: 0.41400580551523947 posSup: 0.4716981132075472 negSup: 0.057692307692307696
+Value: [a t t t t t c a ]
+ CRatio: 0.41436865021770686 posSup: 0.4528301886792453 negSup: 0.038461538461538464
+Value: [a t t t t t c ]
+ CRatio: 0.43033381712626995 posSup: 0.6226415094339622 negSup: 0.19230769230769232
+Value: [a c t t t a c a ]
+ CRatio: 0.4317851959361393 posSup: 0.5471698113207547 negSup: 0.11538461538461539
+Value: [g t a a t t a c ]
+ CRatio: 0.4317851959361393 posSup: 0.5471698113207547 negSup: 0.11538461538461539
+Value: [c a t t t g a a ]
+ CRatio: 0.4339622641509434 posSup: 0.4339622641509434 negSup: 0.0
+Value: [t t t a t a a c ]
+ CRatio: 0.4521044992743106 posSup: 0.49056603773584906 negSup: 0.038461538461538464
+Value: [c t t t a c a ]
+ CRatio: 0.48766328011611026 posSup: 0.6415094339622641 negSup: 0.15384615384615385
+Value: [a t t t g a a ]
+ CRatio: 0.5264876632801161 posSup: 0.6226415094339622 negSup: 0.09615384615384616
+min: 0.3922351233671988
+max: 0.5264876632801161
+avg: 0.41744557329463

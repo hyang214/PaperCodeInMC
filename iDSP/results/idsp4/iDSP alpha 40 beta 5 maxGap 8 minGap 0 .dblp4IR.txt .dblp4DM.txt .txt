@@ -1,0 +1,224 @@
+iDSP-Miner alpha 40 beta 5 maxGap 8 minGap 0 .dblp4IR.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 79
+Time cost of updateAllFollowSet: 410 ms
+Time cost of remove Impossible: 12 ms
+Time Cost of Build Draft Index: 159
+Time cost of updateAllFollowSet: 2092 ms
+Alphabet: 2575
+Size of Start-elements:22
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2777 ms.
+Time Cost of Generate Pos:105
+Time Cost of Minimum:2
+Time Cost of Merging Patterns:3
+Try : 0
+Time of generate patterns: 110 ms.
+Total Time cost: 2887 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 102
+*  contrast: 60  [{{SIGIR},}, {TREC, SIGIR}]   Pos: 62 Neg: 2
+      Type: 2
+*  contrast: 57  [}, {Inf. Process. Manage.}]  [}, {Inf. Process. Manage.}]   Pos: 58 Neg: 1
+      Type: 1
+*  contrast: 56  [{{SIGIR},}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 1
+      Type: 2
+*  contrast: 53  [{{Inf. Process. Manage.}, {SIGIR},}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 3
+      Type: 1
+*  contrast: 51  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 55 Neg: 4
+      Type: 1
+*  contrast: 49  [}, {SIGIR}]  [}, {ACM Trans. Inf. Syst.}]   Pos: 53 Neg: 4
+      Type: 1
+*  contrast: 48  [{{Inf. Retr.}, {SIGIR},}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 3
+      Type: 1
+*  contrast: 47  [}, {Inf. Process. Manage.}]  [}, {JASIST}]   Pos: 49 Neg: 2
+      Type: 1
+*  contrast: 47  [}, {Inf. Process. Manage.}]  [}, {Inf. Retr.}]   Pos: 48 Neg: 1
+      Type: 1
+*  contrast: 47  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]  [}, {Inf. Process. Manage.}]   Pos: 48 Neg: 1
+      Type: 1
+*  contrast: 47  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 50 Neg: 3
+      Type: 1
+*  contrast: 46  [{{SIGIR},}, {SIGIR, ECIR}]   Pos: 49 Neg: 3
+      Type: 2
+*  contrast: 46  [}, {SIGIR}]  [}, {CIKM}]  [}, {Inf. Retr.}]   Pos: 48 Neg: 2
+      Type: 1
+*  contrast: 46  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 50 Neg: 4
+      Type: 1
+*  contrast: 45  [}, {Inf. Retr.}]  [}, {Inf. Retr.}]   Pos: 45 Neg: 0
+      Type: 1
+*  contrast: 45  [}, {ACM Trans. Inf. Syst.}]  [}, {SIGIR}]   Pos: 49 Neg: 4
+      Type: 1
+*  contrast: 45  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 50 Neg: 5
+      Type: 1
+*  contrast: 45  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 49 Neg: 4
+      Type: 2
+*  contrast: 44  [}, {Inf. Process. Manage.}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 46 Neg: 2
+      Type: 1
+*  contrast: 44  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 48 Neg: 4
+      Type: 3
+*  contrast: 43  [}, {JASIST}]  [}, {JASIST}]   Pos: 47 Neg: 4
+      Type: 1
+*  contrast: 43  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 47 Neg: 4
+      Type: 2
+*  contrast: 43  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 47 Neg: 4
+      Type: 2
+*  contrast: 43  [}, {Inf. Process. Manage.}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 47 Neg: 4
+      Type: 1
+*  contrast: 43  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 48 Neg: 5
+      Type: 2
+*  contrast: 43  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 47 Neg: 4
+      Type: 2
+*  contrast: 43  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 48 Neg: 5
+      Type: 2
+*  contrast: 42  [{{CIKM},}, {TREC, CIKM}]   Pos: 43 Neg: 1
+      Type: 2
+*  contrast: 42  [}, {SIGIR}]  [}, {JASIST}]   Pos: 47 Neg: 5
+      Type: 1
+*  contrast: 42  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 46 Neg: 4
+      Type: 1
+*  contrast: 41  [}, {RIAO}]   Pos: 43 Neg: 2
+      Type: 1
+*  contrast: 41  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 45 Neg: 4
+      Type: 3
+*  contrast: 41  [}, {SIGIR}]  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 45 Neg: 4
+      Type: 6
+*  contrast: 41  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 46 Neg: 5
+      Type: 1
+*  contrast: 41  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 44 Neg: 3
+      Type: 1
+*  contrast: 41  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 46 Neg: 5
+      Type: 1
+*  contrast: 40  [{{Inf. Process. Manage.},}, {TREC, Inf. Process. Manage.}]   Pos: 40 Neg: 0
+      Type: 2
+*  contrast: 40  [}, {JASIST}]  [}, {Inf. Process. Manage.}]   Pos: 42 Neg: 2
+      Type: 1
+*  contrast: 40  [{{CIKM},}, {SIGIR, CIKM}]  [}, {Inf. Retr.}]   Pos: 43 Neg: 3
+      Type: 2
+*  contrast: 40  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 45 Neg: 5
+      Type: 1
+*  contrast: 40  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 45 Neg: 5
+      Type: 1
+*  contrast: 40  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 45 Neg: 5
+      Type: 1
+*  contrast: 40  [}, {SIGIR}]  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 44 Neg: 4
+      Type: 2
+*  contrast: 40  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 43 Neg: 3
+      Type: 2
+*  contrast: 40  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 44 Neg: 4
+      Type: 1
+*  contrast: 40  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR, CIKM}]   Pos: 44 Neg: 4
+      Type: 3
+*  contrast: 39  [{{CIKM},}, {CIKM, SIGIR Forum}]   Pos: 40 Neg: 1
+      Type: 2
+*  contrast: 39  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 41 Neg: 2
+      Type: 1
+*  contrast: 39  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 44 Neg: 5
+      Type: 1
+*  contrast: 39  [}, {Inf. Process. Manage.}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 41 Neg: 2
+      Type: 1
+*  contrast: 39  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 44 Neg: 5
+      Type: 1
+*  contrast: 39  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 44 Neg: 5
+      Type: 2
+*  contrast: 39  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 43 Neg: 4
+      Type: 2
+*  contrast: 39  [}, {SIGIR}]  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 44 Neg: 5
+      Type: 4
+*  contrast: 39  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 43 Neg: 4
+      Type: 1
+*  contrast: 39  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 44 Neg: 5
+      Type: 1
+*  contrast: 39  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 43 Neg: 4
+      Type: 1
+*  contrast: 38  [}, {JASIST}]  [}, {SIGIR}]   Pos: 42 Neg: 4
+      Type: 1
+*  contrast: 38  [}, {Inf. Process. Manage.}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {Inf. Process. Manage.}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 42 Neg: 4
+      Type: 1
+*  contrast: 38  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 42 Neg: 4
+      Type: 1
+*  contrast: 38  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 43 Neg: 5
+      Type: 2
+*  contrast: 38  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR, CIKM}]   Pos: 42 Neg: 4
+      Type: 3
+*  contrast: 38  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 42 Neg: 4
+      Type: 4
+*  contrast: 38  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 42 Neg: 4
+      Type: 1
+*  contrast: 38  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {Inf. Process. Manage.}]   Pos: 40 Neg: 2
+      Type: 1
+*  contrast: 38  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]  [}, {CIKM}]   Pos: 43 Neg: 5
+      Type: 2
+*  contrast: 37  [}, {Inf. Retr.}]  [}, {SIGIR, CIKM}]   Pos: 41 Neg: 4
+      Type: 3
+*  contrast: 37  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {Inf. Process. Manage.}]   Pos: 42 Neg: 5
+      Type: 1
+*  contrast: 37  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 41 Neg: 4
+      Type: 1
+*  contrast: 37  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 42 Neg: 5
+      Type: 1
+*  contrast: 37  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 41 Neg: 4
+      Type: 1
+*  contrast: 37  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 41 Neg: 4
+      Type: 2
+*  contrast: 37  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 41 Neg: 4
+      Type: 1
+*  contrast: 37  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 41 Neg: 4
+      Type: 1
+*  contrast: 37  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 42 Neg: 5
+      Type: 1
+*  contrast: 37  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 41 Neg: 4
+      Type: 3
+*  contrast: 37  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 41 Neg: 4
+      Type: 3
+*  contrast: 37  [}, {SIGIR}]  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 42 Neg: 5
+      Type: 2
+*  contrast: 36  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 36  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 40 Neg: 4
+      Type: 1
+*  contrast: 36  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 36  [}, {SIGIR}]  [}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 40 Neg: 4
+      Type: 3
+*  contrast: 36  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 40 Neg: 4
+      Type: 2
+*  contrast: 36  [}, {SIGIR}]  [{{SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 40 Neg: 4
+      Type: 2
+*  contrast: 36  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 40 Neg: 4
+      Type: 2
+*  contrast: 36  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 40 Neg: 4
+      Type: 4
+*  contrast: 36  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 40 Neg: 4
+      Type: 1
+*  contrast: 36  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 36  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 36  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 40 Neg: 4
+      Type: 1
+*  contrast: 36  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 35  [}, {Inf. Process. Manage.}]  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [}, {CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [{{CIKM},}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 40 Neg: 5
+      Type: 2
+*  contrast: 35  [}, {SIGIR}]  [}, {SIGIR}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+*  contrast: 35  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 40 Neg: 5
+      Type: 1
+Naive Size:157

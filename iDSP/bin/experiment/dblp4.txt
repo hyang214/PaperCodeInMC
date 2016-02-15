@@ -1,0 +1,11 @@
+50 20 3 0 ./dblp4/DM.txt ./dblp4/DB.txt idsp4
+50 20 8 0 ./dblp4/DM.txt ./dblp4/DB.txt idsp4
+50 20 3 0 ./dblp4/DM.txt ./dblp4/IR.txt idsp4
+50 20 8 0 ./dblp4/DM.txt ./dblp4/IR.txt idsp4
+50 20 3 0 ./dblp4/DB.txt ./dblp4/DM.txt idsp4
+50 20 8 0 ./dblp4/DB.txt ./dblp4/DM.txt idsp4
+50 20 3 0 ./dblp4/DB.txt ./dblp4/IR.txt idsp4
+50 20 8 0 ./dblp4/DB.txt ./dblp4/IR.txt idsp4
+50 20 3 0 ./dblp4/IR.txt ./dblp4/DB.txt idsp4
+50 20 8 0 ./dblp4/IR.txt ./dblp4/DB.txt idsp4
+50 20 3 0 ./dblp4/IR.txt ./dblp4/DM.txt idsp4

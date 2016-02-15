@@ -1,0 +1,12 @@
+20 0 3 1 ./syn/pos/syn_pos_30_1_10_50_.txt ./syn/neg/syn_neg_30_1_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_2_10_50_.txt ./syn/neg/syn_neg_30_2_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_3_10_50_.txt ./syn/neg/syn_neg_30_4_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_4_10_50_.txt ./syn/neg/syn_neg_30_4_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_5_10_50_.txt ./syn/neg/syn_neg_30_5_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_6_10_50_.txt ./syn/neg/syn_neg_30_6_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_1_10_50_.txt ./syn/neg/syn_neg_30_1_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_2_10_50_.txt ./syn/neg/syn_neg_30_2_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_3_10_50_.txt ./syn/neg/syn_neg_30_4_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_4_10_50_.txt ./syn/neg/syn_neg_30_4_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_5_10_50_.txt ./syn/neg/syn_neg_30_5_10_50_.txt es
+20 0 3 1 ./syn/pos/syn_pos_30_6_10_50_.txt ./syn/neg/syn_neg_30_6_10_50_.txt es

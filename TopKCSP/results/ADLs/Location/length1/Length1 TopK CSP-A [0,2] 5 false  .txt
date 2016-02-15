@@ -1,0 +1,23 @@
+Method: TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 5
+ pos: ./data/ADLs/Location/A_s.txt
+ neg: ./data/ADLs/Location/B_s.txt
+run ***************************
+Trycount: 540
+Thread cost: 20 ms.
+Time cost: 26
+Value: [Shower Cupboard Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Cupboard Fridge Microwave ]
+ CRatio: 0.8666666666666667 posSup: 0.8666666666666667 negSup: 0.0
+Value: [Shower Cupboard ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Cupboard Microwave ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+Value: [Toaster ]
+ CRatio: 0.9333333333333333 posSup: 0.9333333333333333 negSup: 0.0
+min: 0.8666666666666667
+max: 0.9333333333333333
+avg: 0.9066666666666668

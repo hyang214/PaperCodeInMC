@@ -1,0 +1,29 @@
+iDSP-Miner alpha 25 beta 0 maxGap 3 minGap 1 .dblp3DB100.txt .dblp3DM100.txt
+Time Cost of Build Draft Index: 129
+Time cost of updateAllFollowSet: 415 ms
+Time cost of remove Impossible: 18 ms
+Time Cost of Build Draft Index: 165
+Time cost of updateAllFollowSet: 3060 ms
+Alphabet: 2974
+Size of Start-elements:64
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3968 ms.
+Time Cost of Generate Pos:818
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 818 ms.
+Total Time cost: 4786 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 10
+*  <closed: {OODBS, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {Int. J. Cooperative Inf. Syst., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ACM Comput. Surv., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Database Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {VLDB, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0

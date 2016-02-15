@@ -1,0 +1,82 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 20
+ pos: ./data/ADLs/Activity/A.txt
+ neg: ./data/ADLs/Activity/B.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread start: 5
+Thread start: 6
+Thread start: 7
+Thread start: 8
+Thread start: 9
+Thread cost: 0 ms.
+Thread end: 9
+Thread cost: 17 ms.
+Thread end: 7
+Thread cost: 27 ms.
+Thread end: 1
+Thread cost: 19 ms.
+Thread end: 6
+Thread cost: 11 ms.
+Thread end: 8
+Thread cost: 32 ms.
+Thread end: 2
+Thread cost: 34 ms.
+Thread end: 0
+Thread cost: 32 ms.
+Thread end: 3
+Thread cost: 33 ms.
+Thread end: 4
+Thread cost: 33 ms.
+Thread end: 5
+Trycount: 0
+Time cost: 44
+Value: [Spare_Time/TV Toileting Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.7857142857142857 posSup: 0.7857142857142857 negSup: 0.0
+Value: [Sleeping Toileting Showering Spare_Time/TV Spare_Time/TV ]
+ CRatio: 0.7857142857142857 posSup: 0.7857142857142857 negSup: 0.0
+Value: [Spare_Time/TV Toileting Showering Breakfast ]
+ CRatio: 0.7857142857142857 posSup: 0.7857142857142857 negSup: 0.0
+Value: [Sleeping Showering Spare_Time/TV Spare_Time/TV ]
+ CRatio: 0.7857142857142857 posSup: 0.7857142857142857 negSup: 0.0
+Value: [Spare_Time/TV Sleeping Toileting Showering Spare_Time/TV ]
+ CRatio: 0.8095238095238095 posSup: 0.8571428571428571 negSup: 0.047619047619047616
+Value: [Spare_Time/TV Sleeping Showering Spare_Time/TV ]
+ CRatio: 0.8095238095238095 posSup: 0.8571428571428571 negSup: 0.047619047619047616
+Value: [Spare_Time/TV Sleeping Showering ]
+ CRatio: 0.8095238095238095 posSup: 0.8571428571428571 negSup: 0.047619047619047616
+Value: [Showering Spare_Time/TV Spare_Time/TV ]
+ CRatio: 0.8095238095238095 posSup: 0.8571428571428571 negSup: 0.047619047619047616
+Value: [Showering Spare_Time/TV ]
+ CRatio: 0.8095238095238095 posSup: 1.0 negSup: 0.19047619047619047
+Value: [Toileting Showering Spare_Time/TV ]
+ CRatio: 0.8333333333333334 posSup: 0.9285714285714286 negSup: 0.09523809523809523
+Value: [Sleeping Toileting Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Toileting Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Toileting Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Toileting Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Toileting Showering Spare_Time/TV ]
+ CRatio: 0.8809523809523809 posSup: 0.9285714285714286 negSup: 0.047619047619047616
+Value: [Sleeping Showering Spare_Time/TV ]
+ CRatio: 0.8809523809523809 posSup: 0.9285714285714286 negSup: 0.047619047619047616
+Value: [Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+Value: [Showering Breakfast ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+min: 0.7857142857142857
+max: 0.9285714285714286
+avg: 0.8392857142857144

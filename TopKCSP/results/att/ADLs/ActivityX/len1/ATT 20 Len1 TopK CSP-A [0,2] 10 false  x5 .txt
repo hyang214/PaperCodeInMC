@@ -1,0 +1,68 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/ADLs/ActivityX/A X5.txt
+ neg: ./data/ADLs/ActivityX/B X5.txt
+run ***************************
+Trycount: 6147
+Thread cost: 72 ms.
+Time cost: 79
+Trycount: 6147
+Thread cost: 87 ms.
+Time cost: 89
+Trycount: 6147
+Thread cost: 34 ms.
+Time cost: 35
+Trycount: 6147
+Thread cost: 53 ms.
+Time cost: 54
+Trycount: 6147
+Thread cost: 25 ms.
+Time cost: 26
+Trycount: 6147
+Thread cost: 37 ms.
+Time cost: 38
+Trycount: 6147
+Thread cost: 35 ms.
+Time cost: 36
+Trycount: 6147
+Thread cost: 25 ms.
+Time cost: 26
+Trycount: 6147
+Thread cost: 52 ms.
+Time cost: 53
+Trycount: 6147
+Thread cost: 26 ms.
+Time cost: 27
+Trycount: 6147
+Thread cost: 27 ms.
+Time cost: 28
+Trycount: 6147
+Thread cost: 36 ms.
+Time cost: 36
+Trycount: 6147
+Thread cost: 26 ms.
+Time cost: 27
+Trycount: 6147
+Thread cost: 29 ms.
+Time cost: 30
+Trycount: 6147
+Thread cost: 32 ms.
+Time cost: 33
+Trycount: 6147
+Thread cost: 39 ms.
+Time cost: 40
+Trycount: 6147
+Thread cost: 29 ms.
+Time cost: 31
+Trycount: 6147
+Thread cost: 59 ms.
+Time cost: 60
+Trycount: 6147
+Thread cost: 20 ms.
+Time cost: 20
+Trycount: 6147
+Thread cost: 19 ms.
+Time cost: 20
+ATT: 0.044899999999999995 s

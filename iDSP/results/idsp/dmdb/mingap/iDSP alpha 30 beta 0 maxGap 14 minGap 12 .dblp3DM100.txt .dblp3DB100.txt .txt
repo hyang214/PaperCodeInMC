@@ -1,0 +1,31 @@
+iDSP-Miner alpha 30 beta 0 maxGap 14 minGap 12 .dblp3DM100.txt .dblp3DB100.txt
+Time Cost of Build Draft Index: 171
+Time cost of updateAllFollowSet: 1472 ms
+Time cost of remove Impossible: 53 ms
+Time Cost of Build Draft Index: 130
+Time cost of updateAllFollowSet: 573 ms
+Alphabet: 2974
+Size of Start-elements:76
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2480 ms.
+Time Cost of Generate Pos:14
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 14 ms.
+Total Time cost: 2494 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 12
+*  <closed: {KDD, Data Min. Knowl. Discov., }  generators: {KDD, }{Data Min. Knowl. Discov., }> SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {Statistical Analysis and Data Mining, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, ICDM Workshops, }  generators: {ICDM, }{ICDM Workshops, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {CIKM, KDD, ICDM, }  generators: {CIKM, KDD, }{KDD, ICDM, }{CIKM, ICDM, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, AAAI, }  generators: {AAAI, }{ICDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {CIKM, Knowl. Inf. Syst., }  generators: {Knowl. Inf. Syst., }{CIKM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, IEEE Trans. Knowl. Data Eng., ICDM, }  generators: {KDD, ICDM, }{KDD, IEEE Trans. Knowl. Data Eng., }{IEEE Trans. Knowl. Data Eng., ICDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM Workshops, }  generators: {KDD, }{ICDM Workshops, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, IJCAI, }  generators: {KDD, }{IJCAI, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, Knowl. Inf. Syst., ICDM, }  generators: {Knowl. Inf. Syst., ICDM, }{KDD, Knowl. Inf. Syst., }{KDD, ICDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, SDM, }  generators: {KDD, ICDM, }{SDM, }> SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {CIKM, KDD, SDM, }  generators: {CIKM, KDD, }{CIKM, SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0

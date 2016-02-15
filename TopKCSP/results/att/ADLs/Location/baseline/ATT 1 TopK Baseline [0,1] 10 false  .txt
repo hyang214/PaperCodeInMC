@@ -1,0 +1,10 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 1]
+ K: 10
+ pos: ./data/ADLs/Location/A_s.txt
+ neg: ./data/ADLs/Location/B_s.txt
+run ***************************
+Trycount: 1803597836
+Time cost: 15468101
+ATT: 15468.14 s

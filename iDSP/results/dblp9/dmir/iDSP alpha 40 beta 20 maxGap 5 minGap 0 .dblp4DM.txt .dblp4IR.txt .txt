@@ -1,0 +1,94 @@
+iDSP-Miner alpha 40 beta 20 maxGap 5 minGap 0 .dblp4DM.txt .dblp4IR.txt
+Time Cost of Build Draft Index: 126
+Time cost of updateAllFollowSet: 1513 ms
+Time cost of remove Impossible: 47 ms
+Time Cost of Build Draft Index: 93
+Time cost of updateAllFollowSet: 687 ms
+Alphabet: 2575
+Size of Start-elements:34
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2466 ms.
+Time Cost of Generate Pos:15
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 15 ms.
+Total Time cost: 2481 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 35
+*  contrast: 72  [{}, {KDD}]  [{}, {KDD}]   Pos: 84 Neg: 12
+      Type: 1
+*  contrast: 56  [{}, {KDD}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 64 Neg: 8
+      Type: 1
+*  contrast: 55  [{}, {PKDD}]   Pos: 58 Neg: 3
+      Type: 1
+*  contrast: 55  [{{KDD}, }, {KDD, ICDM}]   Pos: 62 Neg: 7
+      Type: 2
+*  contrast: 54  [{}, {ICDM Workshops}]   Pos: 60 Neg: 6
+      Type: 1
+*  contrast: 52  [{}, {ICDM, SDM}]   Pos: 56 Neg: 4
+      Type: 3
+*  contrast: 51  [{}, {KDD}]  [{}, {CIKM}]   Pos: 68 Neg: 17
+      Type: 1
+*  contrast: 50  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {KDD}]   Pos: 59 Neg: 9
+      Type: 1
+*  contrast: 49  [{{KDD}, }, {KDD, SDM}]   Pos: 54 Neg: 5
+      Type: 2
+*  contrast: 45  [{}, {CIKM}]  [{}, {KDD}]   Pos: 63 Neg: 18
+      Type: 1
+*  contrast: 44  [{{KDD}, }, {KDD, SIGKDD Explorations}]   Pos: 48 Neg: 4
+      Type: 2
+*  contrast: 44  [{}, {KDD}]  [{}, {CoRR}]   Pos: 60 Neg: 16
+      Type: 1
+*  contrast: 44  [{}, {CoRR}]  [{}, {KDD}]   Pos: 49 Neg: 5
+      Type: 1
+*  contrast: 43  [{}, {TKDD}]   Pos: 45 Neg: 2
+      Type: 1
+*  contrast: 43  [{}, {Knowl. Inf. Syst., ICDM}]   Pos: 45 Neg: 2
+      Type: 3
+*  contrast: 42  [{{IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., ICDM}]   Pos: 47 Neg: 5
+      Type: 2
+*  contrast: 41  [{}, {ICDE}]   Pos: 56 Neg: 15
+      Type: 1
+*  contrast: 41  [{{KDD}, }, {KDD, Data Min. Knowl. Discov.}]   Pos: 41 Neg: 0
+      Type: 2
+*  contrast: 41  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 53 Neg: 12
+      Type: 1
+*  contrast: 39  [{}, {PAKDD, ICDM}]   Pos: 42 Neg: 3
+      Type: 3
+*  contrast: 38  [{{CIKM}, {KDD}, }, {CIKM, KDD}]   Pos: 51 Neg: 13
+      Type: 1
+*  contrast: 37  [{{KDD}, }, {KDD, Knowl. Inf. Syst.}]   Pos: 40 Neg: 3
+      Type: 2
+*  contrast: 37  [{{CIKM}, }, {CIKM, SDM}]   Pos: 41 Neg: 4
+      Type: 2
+*  contrast: 36  [{{KDD}, {IEEE Trans. Knowl. Data Eng.}, }, {KDD, IEEE Trans. Knowl. Data Eng.}]   Pos: 43 Neg: 7
+      Type: 1
+*  contrast: 35  [{}, {SIGMOD Conference}]   Pos: 45 Neg: 10
+      Type: 1
+*  contrast: 35  [{{KDD}, {CoRR}, }, {KDD, CoRR}]   Pos: 44 Neg: 9
+      Type: 1
+*  contrast: 35  [{}, {CIKM}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 47 Neg: 12
+      Type: 1
+*  contrast: 34  [{{CIKM}, }, {CIKM, ICDM}]   Pos: 46 Neg: 12
+      Type: 2
+*  contrast: 33  [{}, {ICML}]   Pos: 51 Neg: 18
+      Type: 1
+*  contrast: 33  [{}, {KDD}]  [{}, {IJCAI}]   Pos: 43 Neg: 10
+      Type: 1
+*  contrast: 33  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {CoRR}]   Pos: 43 Neg: 10
+      Type: 1
+*  contrast: 32  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {CIKM}]   Pos: 47 Neg: 15
+      Type: 1
+*  contrast: 32  [{}, {IJCAI}]  [{}, {KDD}]   Pos: 40 Neg: 8
+      Type: 1
+*  contrast: 30  [{{CIKM}, {IEEE Trans. Knowl. Data Eng.}, }, {CIKM, IEEE Trans. Knowl. Data Eng.}]   Pos: 40 Neg: 10
+      Type: 1
+*  contrast: 30  [{}, {AAAI}]   Pos: 49 Neg: 19
+      Type: 1
+Avg size:1.2419354838709677
+Avg length:1.2653061224489797
+Max size:2
+Max length:2
+Naive Size: 49

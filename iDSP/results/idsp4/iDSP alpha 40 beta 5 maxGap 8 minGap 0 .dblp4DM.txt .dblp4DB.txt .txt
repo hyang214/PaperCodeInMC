@@ -1,0 +1,190 @@
+iDSP-Miner alpha 40 beta 5 maxGap 8 minGap 0 .dblp4DM.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 129
+Time cost of updateAllFollowSet: 1704 ms
+Time cost of remove Impossible: 45 ms
+Time Cost of Build Draft Index: 122
+Time cost of updateAllFollowSet: 564 ms
+Alphabet: 2915
+Size of Start-elements:34
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2578 ms.
+Time Cost of Generate Pos:31
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 32 ms.
+Total Time cost: 2610 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 85
+*  contrast: 82  [}, {KDD}]  [}, {ICDM}]   Pos: 87 Neg: 5
+      Type: 1
+*  contrast: 82  [}, {ICDM}]  [}, {ICDM}]   Pos: 86 Neg: 4
+      Type: 1
+*  contrast: 73  [}, {KDD}]  [}, {KDD}]  [}, {KDD}]   Pos: 75 Neg: 2
+      Type: 1
+*  contrast: 72  [}, {ICDM}]  [}, {KDD}]   Pos: 76 Neg: 4
+      Type: 1
+*  contrast: 65  [}, {KDD}]  [}, {Data Min. Knowl. Discov.}]   Pos: 70 Neg: 5
+      Type: 1
+*  contrast: 61  [{{KDD}, {ICDM},}, {KDD, ICDM}]   Pos: 62 Neg: 1
+      Type: 1
+*  contrast: 61  [}, {ICDM}]  [}, {CIKM}]   Pos: 65 Neg: 4
+      Type: 1
+*  contrast: 61  [}, {ICDM}]  [}, {Knowl. Inf. Syst.}]   Pos: 63 Neg: 2
+      Type: 1
+*  contrast: 59  [}, {KDD}]  [}, {Knowl. Inf. Syst.}]   Pos: 64 Neg: 5
+      Type: 1
+*  contrast: 59  [}, {SIGKDD Explorations}]  [}, {ICDM}]   Pos: 62 Neg: 3
+      Type: 1
+*  contrast: 58  [}, {Knowl. Inf. Syst.}]  [}, {ICDM}]   Pos: 60 Neg: 2
+      Type: 1
+*  contrast: 58  [}, {ICDM}]  [}, {Data Min. Knowl. Discov.}]   Pos: 59 Neg: 1
+      Type: 1
+*  contrast: 58  [}, {SIGKDD Explorations}]  [}, {KDD}]   Pos: 61 Neg: 3
+      Type: 1
+*  contrast: 57  [}, {ICDM Workshops}]   Pos: 60 Neg: 3
+      Type: 1
+*  contrast: 57  [}, {Data Min. Knowl. Discov.}]  [}, {KDD}]   Pos: 61 Neg: 4
+      Type: 1
+*  contrast: 56  [{{ICDM},}, {ICDM, SDM}]   Pos: 56 Neg: 0
+      Type: 2
+*  contrast: 56  [}, {ICDM}]  [}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 61 Neg: 5
+      Type: 1
+*  contrast: 56  [}, {KDD}]  [}, {KDD}]  [}, {CIKM}]   Pos: 59 Neg: 3
+      Type: 1
+*  contrast: 55  [}, {KDD}]  [}, {CIKM}]  [}, {KDD}]   Pos: 57 Neg: 2
+      Type: 1
+*  contrast: 54  [{{KDD},}, {KDD, SDM}]   Pos: 54 Neg: 0
+      Type: 2
+*  contrast: 54  [}, {Data Min. Knowl. Discov.}]  [}, {ICDM}]   Pos: 57 Neg: 3
+      Type: 1
+*  contrast: 53  [}, {CIKM}]  [}, {ICDM}]   Pos: 57 Neg: 4
+      Type: 1
+*  contrast: 53  [}, {KDD}]  [}, {SIGKDD Explorations}]   Pos: 56 Neg: 3
+      Type: 1
+*  contrast: 52  [}, {KDD}]  [}, {KDD}]  [}, {CoRR}]   Pos: 57 Neg: 5
+      Type: 1
+*  contrast: 51  [}, {Knowl. Inf. Syst.}]  [}, {KDD}]   Pos: 52 Neg: 1
+      Type: 1
+*  contrast: 50  [}, {ICML}]   Pos: 51 Neg: 1
+      Type: 1
+*  contrast: 50  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {KDD}]   Pos: 53 Neg: 3
+      Type: 1
+*  contrast: 49  [}, {PKDD}]  [}, {KDD}]   Pos: 52 Neg: 3
+      Type: 1
+*  contrast: 49  [}, {KDD}]  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 54 Neg: 5
+      Type: 1
+*  contrast: 48  [{{CIKM}, {KDD},}, {CIKM, KDD}]   Pos: 51 Neg: 3
+      Type: 1
+*  contrast: 48  [}, {PKDD}]  [}, {ICDM}]   Pos: 52 Neg: 4
+      Type: 1
+*  contrast: 47  [{{KDD}, {SIGKDD Explorations},}, {KDD, SIGKDD Explorations}]   Pos: 48 Neg: 1
+      Type: 1
+*  contrast: 47  [}, {Data Min. Knowl. Discov.}]  [}, {Data Min. Knowl. Discov.}]   Pos: 49 Neg: 2
+      Type: 1
+*  contrast: 47  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {ICDM}]  [}, {ICDM}]   Pos: 50 Neg: 3
+      Type: 1
+*  contrast: 46  [}, {KDD}]  [}, {PKDD}]   Pos: 49 Neg: 3
+      Type: 1
+*  contrast: 46  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {KDD}]  [}, {KDD}]   Pos: 51 Neg: 5
+      Type: 1
+*  contrast: 45  [{{CIKM}, {ICDM},}, {CIKM, ICDM}]   Pos: 46 Neg: 1
+      Type: 1
+*  contrast: 45  [}, {ICDM}]  [}, {SIGKDD Explorations}]   Pos: 48 Neg: 3
+      Type: 1
+*  contrast: 45  [}, {CIKM}]  [}, {KDD}]  [}, {KDD}]   Pos: 50 Neg: 5
+      Type: 1
+*  contrast: 45  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {ICDM}]   Pos: 49 Neg: 4
+      Type: 1
+*  contrast: 44  [{{ICDM}, {IEEE Trans. Knowl. Data Eng.},}, {IEEE Trans. Knowl. Data Eng., ICDM}]   Pos: 47 Neg: 3
+      Type: 1
+*  contrast: 44  [{{Knowl. Inf. Syst.}, {ICDM},}, {Knowl. Inf. Syst., ICDM}]   Pos: 45 Neg: 1
+      Type: 1
+*  contrast: 44  [}, {AAAI}]   Pos: 49 Neg: 5
+      Type: 1
+*  contrast: 44  [}, {Data Min. Knowl. Discov.}]  [}, {CIKM}]   Pos: 47 Neg: 3
+      Type: 1
+*  contrast: 44  [}, {SIGKDD Explorations}]  [}, {Data Min. Knowl. Discov.}]   Pos: 45 Neg: 1
+      Type: 1
+*  contrast: 44  [}, {KDD}]  [}, {CIKM}]  [}, {CoRR}]   Pos: 47 Neg: 3
+      Type: 1
+*  contrast: 43  [}, {TKDD}]   Pos: 45 Neg: 2
+      Type: 1
+*  contrast: 43  [}, {Knowl. Inf. Syst.}]  [}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 47 Neg: 4
+      Type: 1
+*  contrast: 43  [}, {CoRR}]  [}, {ICDM}]   Pos: 48 Neg: 5
+      Type: 1
+*  contrast: 42  [}, {KDD}]  [}, {IJCAI}]   Pos: 43 Neg: 1
+      Type: 1
+*  contrast: 42  [}, {Data Min. Knowl. Discov.}]  [}, {Knowl. Inf. Syst.}]   Pos: 44 Neg: 2
+      Type: 1
+*  contrast: 42  [}, {SIGKDD Explorations}]  [}, {SIGKDD Explorations}]   Pos: 42 Neg: 0
+      Type: 1
+*  contrast: 42  [}, {PKDD}]  [}, {Data Min. Knowl. Discov.}]   Pos: 45 Neg: 3
+      Type: 1
+*  contrast: 41  [{{KDD}, {Data Min. Knowl. Discov.},}, {KDD, Data Min. Knowl. Discov.}]   Pos: 41 Neg: 0
+      Type: 1
+*  contrast: 41  [}, {Data Min. Knowl. Discov.}]  [}, {SIGKDD Explorations}]   Pos: 42 Neg: 1
+      Type: 1
+*  contrast: 41  [}, {Knowl. Inf. Syst.}]  [}, {Knowl. Inf. Syst.}]   Pos: 43 Neg: 2
+      Type: 1
+*  contrast: 41  [}, {Knowl. Inf. Syst.}]  [}, {Data Min. Knowl. Discov.}]   Pos: 42 Neg: 1
+      Type: 1
+*  contrast: 40  [{{Knowl. Inf. Syst.}, {KDD},}, {KDD, Knowl. Inf. Syst.}]   Pos: 40 Neg: 0
+      Type: 1
+*  contrast: 40  [{{KDD}, {CoRR},}, {KDD, CoRR}]   Pos: 44 Neg: 4
+      Type: 1
+*  contrast: 40  [{{CIKM},}, {CIKM, SDM}]   Pos: 41 Neg: 1
+      Type: 2
+*  contrast: 40  [}, {CIKM}]  [}, {Data Min. Knowl. Discov.}]   Pos: 42 Neg: 2
+      Type: 1
+*  contrast: 40  [}, {Knowl. Inf. Syst.}]  [}, {CIKM}]   Pos: 44 Neg: 4
+      Type: 1
+*  contrast: 40  [}, {ICDM}]  [}, {ICDE}]   Pos: 45 Neg: 5
+      Type: 1
+*  contrast: 40  [}, {SIGKDD Explorations}]  [}, {CIKM}]   Pos: 43 Neg: 3
+      Type: 1
+*  contrast: 40  [}, {SIGKDD Explorations}]  [}, {CoRR}]   Pos: 43 Neg: 3
+      Type: 1
+*  contrast: 40  [}, {IJCAI}]  [}, {KDD}]   Pos: 41 Neg: 1
+      Type: 1
+*  contrast: 40  [}, {KDD}]  [}, {ICDE}]  [}, {KDD}]   Pos: 45 Neg: 5
+      Type: 1
+*  contrast: 40  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {Knowl. Inf. Syst.}]   Pos: 43 Neg: 3
+      Type: 1
+*  contrast: 40  [}, {ICDM}]  [}, {CoRR}]  [}, {CoRR}]   Pos: 42 Neg: 2
+      Type: 1
+*  contrast: 39  [{{KDD}, {IEEE Trans. Knowl. Data Eng.},}, {KDD, IEEE Trans. Knowl. Data Eng.}]   Pos: 43 Neg: 4
+      Type: 1
+*  contrast: 39  [{{ICDM},}, {PAKDD, ICDM}]   Pos: 42 Neg: 3
+      Type: 2
+*  contrast: 39  [}, {ICDM}]  [}, {IJCAI}]   Pos: 40 Neg: 1
+      Type: 1
+*  contrast: 39  [}, {SIGKDD Explorations}]  [}, {Knowl. Inf. Syst.}]   Pos: 41 Neg: 2
+      Type: 1
+*  contrast: 39  [}, {KDD}]  [}, {CIKM}]  [}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 44 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {SIGKDD Explorations}]  [}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 40 Neg: 2
+      Type: 1
+*  contrast: 38  [}, {CIKM}]  [}, {CIKM}]  [}, {KDD}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {CIKM}]  [}, {KDD}]  [}, {CIKM}]   Pos: 43 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {Data Min. Knowl. Discov.}]   Pos: 41 Neg: 3
+      Type: 1
+*  contrast: 38  [}, {KDD}]  [}, {CIKM}]  [}, {CIKM}]  [}, {KDD}]   Pos: 40 Neg: 2
+      Type: 1
+*  contrast: 38  [}, {KDD}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {KDD}]   Pos: 40 Neg: 2
+      Type: 1
+*  contrast: 37  [}, {CIKM}]  [}, {Knowl. Inf. Syst.}]   Pos: 42 Neg: 5
+      Type: 1
+*  contrast: 37  [}, {PKDD}]  [}, {SIGKDD Explorations}]   Pos: 40 Neg: 3
+      Type: 1
+*  contrast: 36  [}, {KDD}]  [}, {CoRR}]  [}, {KDD}]   Pos: 40 Neg: 4
+      Type: 1
+*  contrast: 36  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {IEEE Trans. Knowl. Data Eng.}]  [}, {Knowl. Inf. Syst.}]   Pos: 41 Neg: 5
+      Type: 1
+*  contrast: 35  [}, {KDD}]  [}, {KDD}]  [}, {ICDE}]   Pos: 40 Neg: 5
+      Type: 1
+Naive Size:89

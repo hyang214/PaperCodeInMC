@@ -1,0 +1,415 @@
+iDSP-Miner alpha 20 beta 0 maxGap 3 minGap 1 .dblp3DB100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 164
+Time cost of updateAllFollowSet: 377 ms
+Time cost of remove Impossible: 24 ms
+Time Cost of Build Draft Index: 152
+Time cost of updateAllFollowSet: 719 ms
+Alphabet: 2724
+Size of Start-elements:105
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1490 ms.
+Time Cost of Generate Pos:289
+Time Cost of Minimum:22
+Time Cost of Merging Patterns:12
+Try : 0
+Time of generate patterns: 323 ms.
+Total Time cost: 1813 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 396
+*  <closed: {CoopIS, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {Distributed and Parallel Databases, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, VLDB J., }  generators: {SIGMOD Record, }{VLDB J., }> SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {DOOD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDT, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ACM Comput. Surv., SIGMOD Conference, }  generators: {ACM Comput. Surv., }{SIGMOD Conference, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {DBPL, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDE, Commun. ACM, }  generators: {Commun. ACM, }{ICDE, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, ACM Trans. Database Syst., }  generators: {ACM Trans. Database Syst., }{ICDE, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, IEEE Trans. Knowl. Data Eng., }  generators: {IEEE Trans. Knowl. Data Eng., }{VLDB, }> SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {Commun. ACM, SIGMOD Conference, }  generators: {Commun. ACM, }{SIGMOD Conference, }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, ACM Comput. Surv., }  generators: {ACM Comput. Surv., }{VLDB, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {POS, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {OODBS, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., VLDB, }  generators: {VLDB, }{IEEE Trans. Software Eng., }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., SIGMOD Conference, }  generators: {SIGMOD Conference, }{IEEE Trans. Software Eng., }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Record, }  generators: {SIGMOD Record, }{ACM Trans. Database Syst., }> SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {IEEE Database Eng. Bull., }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, Commun. ACM, }  generators: {SIGMOD Record, }{Commun. ACM, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ACM SIGMOD Digital Review, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {CAiSE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, IEEE Data Eng. Bull., }  generators: {SIGMOD Record, }{IEEE Data Eng. Bull., }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., VLDB, }  generators: {Inf. Syst., }{VLDB, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {JCDKB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {PDIS, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, VLDB J., SIGMOD Conference, }  generators: {VLDB J., SIGMOD Conference, }{VLDB, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, SIGMOD Conference, }  generators: {VLDB, SIGMOD Record, }{SIGMOD Conference, }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, SIGMOD Conference, }  generators: {ICDE, VLDB, }{ICDE, SIGMOD Conference, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., VLDB, SIGMOD Conference, }  generators: {ACM Trans. Database Syst., SIGMOD Conference, }{VLDB, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Conference, IEEE Data Eng. Bull., }  generators: {SIGMOD Conference, }{IEEE Data Eng. Bull., }{VLDB, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {VLDB, PODS, }  generators: {VLDB, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, PODS, }  generators: {SIGMOD Conference, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, SIGMOD Conference, }  generators: {ICDE, SIGMOD Record, }{ICDE, SIGMOD Conference, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }{ACM Trans. Database Syst., }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ER, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, VLDB, }  generators: {VLDB, }{ICDE, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Software Eng., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, EDBT, }  generators: {EDBT, }{ICDE, }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Trans. Software Eng., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ER, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {Inf. Syst., SIGMOD Conference, }  generators: {Inf. Syst., }{SIGMOD Conference, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }{ACM Trans. Database Syst., }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Comput. Surv., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Software Eng., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ER, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }{ACM Trans. Database Syst., }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ER, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ACM Comput. Surv., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ACM Comput. Surv., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }{VLDB, }> <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }{VLDB, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }{VLDB, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }{ICDE, }> <closed: {ICDE, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {Commun. ACM, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {Commun. ACM, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {Commun. ACM, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Commun. ACM, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }{ACM Trans. Database Syst., }> <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }{ACM Trans. Database Syst., }> <closed: {ICDE, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {Inf. Syst., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> <closed: {VLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {VLDB, }{ICDE, }> <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {VLDB, }{ICDE, }> <closed: {VLDB, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {VLDB, }{ICDE, }> <closed: {EDBT, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {VLDB, }{ICDE, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {CoRR, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, EDBT, }  generators: {EDBT, }{VLDB, }> <closed: {ICDE, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SSDBM, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SSDBM, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {IEEE Computer, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ER, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ER, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ER, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ER, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }{VLDB, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {ACM Trans. Database Syst., }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }> <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }> SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }> <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {ICDE, }> <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Record, IEEE Trans. Knowl. Data Eng., }  generators: {IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: {ICDE, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {VLDB J., SIGMOD Conference, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., SIGMOD Conference, }  generators: {IEEE Trans. Knowl. Data Eng., }> <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB, }  generators: {ICDE, }> SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {VLDB J., SIGMOD Conference, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., SIGMOD Conference, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Record, }  generators: {ICDE, }> <closed: {VLDB, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {VLDB J., SIGMOD Conference, }  generators: {SIGMOD Conference, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, VLDB J., }  generators: {ICDE, }> SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }{VLDB, }> <closed: {ICDE, VLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, EDBT, }  generators: {SIGMOD Conference, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, EDBT, }  generators: {ICDE, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ACM Trans. Database Syst., SIGMOD Conference, }  generators: {SIGMOD Conference, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: {VLDB, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {ICDE, }> <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }> SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ICDE, VLDB, }  generators: {VLDB, }> SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {ICDE, }> <closed: {ICDE, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, VLDB, }  generators: {ICDE, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> <closed: {VLDB, SIGMOD Record, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, SIGMOD Record, }  generators: {VLDB, }> <closed: {ICDE, VLDB, }  generators: {ICDE, }> SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {Inf. Syst., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {EDBT, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {EDBT, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {EDBT, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., SIGMOD Conference, }  generators: {VLDB J., }{SIGMOD Conference, }> SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., SIGMOD Conference, }  generators: {IEEE Trans. Knowl. Data Eng., }{SIGMOD Conference, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB J., }  generators: {VLDB J., }{ICDE, }> SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, VLDB J., }  generators: {VLDB J., }{ICDE, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {IEEE Data Eng. Bull., }{ICDE, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {Inf. Syst., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., SIGMOD Conference, }  generators: {VLDB J., }{SIGMOD Conference, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., SIGMOD Conference, }  generators: {IEEE Trans. Knowl. Data Eng., }{SIGMOD Conference, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB J., }  generators: {VLDB J., }{ICDE, }> SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {Inf. Syst., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {EDBT, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {EDBT, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {Commun. ACM, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {CoRR, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {VLDB J., }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: {SIGMOD Conference, }{ICDE, }> <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {EDBT, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {VLDB, }> <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, SIGMOD Record, }  generators: {SIGMOD Record, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB, }  generators: {ICDE, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, SIGMOD Record, }  generators: {SIGMOD Record, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, VLDB, }  generators: {ICDE, }> <closed: {ICDE, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, IEEE Data Eng. Bull., }  generators: {ICDE, }> SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB J., }  generators: {ICDE, }> SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB J., SIGMOD Conference, }  generators: {SIGMOD Conference, }> <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:29 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:25 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {EDBT, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {PVLDB, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {IEEE Data Eng. Bull., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:27 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB J., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:28 SUP_IN_NEG:0
+*  <closed: {Inf. Syst., }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> <closed: {ICDE, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB J., }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {ICDE, VLDB, }  generators: {ICDE, }> <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:24 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: {ICDE, }> <closed: {ICDE, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, VLDB J., }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:22 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, SIGMOD Conference, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:26 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:0

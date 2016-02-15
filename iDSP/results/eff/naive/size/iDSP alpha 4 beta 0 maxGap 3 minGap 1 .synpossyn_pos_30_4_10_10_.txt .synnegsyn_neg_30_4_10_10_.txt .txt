@@ -1,0 +1,193 @@
+Naive alpha 4 beta 0 maxGap 3 minGap 1 .synpossyn_pos_30_4_10_10_.txt .synnegsyn_neg_30_4_10_10_.txt
+Time Cost of Build Index: 16
+Time Cost of Indexer Construction: 125 ms.
+ 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 2 2 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 2 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 2 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 2 0 1 1 0 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 0 1 2 2 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 2 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 2 2 2 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 2 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 2 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 2 1 1 1 1 2 1 2 1 1 1 2 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 1 1 1 1 1 1 2 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 1 1 1 1 1 1 2 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 1 1 1 1 1 1 2 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 1 0 0 1 1 2 2 2 2 2 2 2 2 2 1 1 1 1 0 1 1 2 2 2 2 2 2 2 2 2 1 1 1 1 0 1 1 1 1 0 0 0 1 1 0 0 0 0 0 0 0 1 1 1 2 2 2 2 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 1 1 1 1 0 0 1 2 1 1 0 0 1 2 2 1 0 0 1 2 1 1 0 0 1 2 2 1 1 1 1 1 1 1 1 2 2 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 0 2 2 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 1 1 0 1 0 0 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 2 2 2 1 0 0 2 1 1 1 1 1 1 1 0 0 1 1 0 0 1 2 2 2 1 0 0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 1 1 0 1 2 2 1 1 1 1 1 1 0 1 1 2 2 0 0 1 1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 2 1 1 1 1 1 2 1 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 2 2 2 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 2 2 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 2 2 2 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 1 2 2 1 1 1 1 2 2 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 2 2 1 2 2 1Menory: 46304824
+Total Time cost: 374 ms.
+--- Results: ----------------------------------------------
+Pos ******************* 186
+*  <closed: {26, 15, }  generators: {15, }{26, }> <closed: {26, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, 15, }  generators: {15, }{26, }> <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {15, }  generators: > <closed: {26, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {15, }  generators: > <closed: {19, }  generators: > <closed: {3, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {26, 15, }  generators: {15, }{26, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {12, }  generators: > <closed: {5, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {12, }  generators: > <closed: {5, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {12, }  generators: > <closed: {20, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {28, }  generators: > <closed: {27, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {28, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {28, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, }  generators: > <closed: {26, 23, }  generators: {23, }{26, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, 29, }  generators: {29, }{24, }> <closed: {5, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, 29, }  generators: {29, }{24, }> <closed: {5, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {4, }  generators: > <closed: {21, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {23, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {11, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {5, }  generators: > <closed: {11, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {5, }  generators: > <closed: {19, }  generators: > <closed: {3, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {7, }  generators: > <closed: {15, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {7, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {29, }  generators: > <closed: {20, 6, }  generators: {20, }{6, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 29, }  generators: {29, }{27, }> <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {28, 12, }  generators: {12, }{28, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {12, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {12, }  generators: > <closed: {5, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {28, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {4, }  generators: > <closed: {29, 28, }  generators: {29, }{28, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {15, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {27, }  generators: > <closed: {27, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {27, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {27, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {27, }  generators: > <closed: {27, 17, }  generators: {27, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {5, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {5, }  generators: > <closed: {19, }  generators: > <closed: {27, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {5, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {24, }  generators: > <closed: {20, }  generators: > <closed: {27, 17, }  generators: {27, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {8, }  generators: > <closed: {27, }  generators: > <closed: {23, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {8, }  generators: > <closed: {28, }  generators: > <closed: {23, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {8, }  generators: > <closed: {21, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {26, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {29, }  generators: > <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {4, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {4, }  generators: > <closed: {21, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {4, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {27, }  generators: > <closed: {8, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {27, }  generators: > <closed: {23, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {28, }  generators: > <closed: {8, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {28, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {28, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {28, }  generators: > <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {23, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {11, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {4, 5, }  generators: {4, }{5, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {9, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {9, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {18, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {27, 17, }  generators: {27, }{17, }> <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, }  generators: > <closed: {27, 11, }  generators: {11, }{27, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {22, }  generators: > <closed: {23, 5, }  generators: {23, }{5, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {3, }  generators: > <closed: {12, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {8, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {28, }  generators: > <closed: {27, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {28, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {16, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {14, }  generators: > <closed: {8, 28, }  generators: {8, }{28, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {12, }  generators: > <closed: {15, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {12, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {12, }  generators: > <closed: {9, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {12, }  generators: > <closed: {17, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {8, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {23, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {11, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {16, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {23, 5, }  generators: {23, }{5, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {11, 9, }  generators: {11, }{9, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {23, }  generators: > <closed: {14, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {23, }  generators: > <closed: {14, 9, }  generators: {14, }{9, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {23, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {21, }  generators: > <closed: {4, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {21, }  generators: > <closed: {14, }  generators: > <closed: {2, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {21, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {11, }  generators: > <closed: {4, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {11, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {11, }  generators: > <closed: {6, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {11, }  generators: > <closed: {29, 2, }  generators: {29, }{2, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {16, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {16, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {16, }  generators: > <closed: {15, 19, }  generators: {15, }{19, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {23, 16, }  generators: {23, }{16, }> <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {8, 28, }  generators: {8, }{28, }> <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {8, 28, }  generators: {8, }{28, }> <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {5, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {5, }  generators: > <closed: {11, }  generators: > <closed: {3, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {5, }  generators: > <closed: {23, 5, }  generators: {23, }{5, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {5, }  generators: > <closed: {19, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, 5, }  generators: {28, }{5, }> <closed: {15, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {28, 5, }  generators: {28, }{5, }> <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {13, }  generators: > <closed: {26, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {13, }  generators: > <closed: {26, }  generators: > <closed: {2, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {13, }  generators: > <closed: {21, }  generators: > <closed: {12, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {13, }  generators: > <closed: {14, 9, }  generators: {14, }{9, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {13, }  generators: > <closed: {9, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {19, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {19, }  generators: > <closed: {5, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {19, }  generators: > <closed: {5, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {19, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {21, 9, }  generators: {21, }{9, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {9, }  generators: > <closed: {4, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {9, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {9, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {23, 11, }  generators: {23, }{11, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, 11, }  generators: {11, }{26, }> SUP_IN_POS:6 SUP_IN_NEG:0
+*  <closed: {17, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {17, }  generators: > <closed: {4, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {7, }  generators: > <closed: {19, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {7, }  generators: > <closed: {0, }  generators: > <closed: {20, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {15, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {15, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {26, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {8, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {27, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {3, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {23, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {26, }  generators: > <closed: {2, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {4, }  generators: > <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {14, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {12, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {12, }  generators: > <closed: {20, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {21, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {5, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {5, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {19, }  generators: > <closed: {15, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {19, }  generators: > <closed: {3, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {18, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {15, 17, }  generators: {15, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {3, 20, }  generators: {3, }{20, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, }  generators: > <closed: {29, 2, }  generators: {29, }{2, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {29, }  generators: > <closed: {11, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {27, }  generators: > <closed: {27, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {27, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {27, }  generators: > <closed: {17, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {27, }  generators: > <closed: {27, 6, }  generators: {6, }{27, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {7, }  generators: > <closed: {15, }  generators: > <closed: {19, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {20, }  generators: > <closed: {27, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {1, }  generators: > <closed: {12, 21, }  generators: {12, }{21, }> SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {18, }  generators: > <closed: {29, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {18, }  generators: > <closed: {28, }  generators: > <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {18, }  generators: > <closed: {21, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {18, }  generators: > <closed: {21, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {18, }  generators: > <closed: {5, }  generators: > <closed: {15, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 17, }  generators: {27, }{17, }> <closed: {4, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 17, }  generators: {27, }{17, }> <closed: {28, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 17, }  generators: {27, }{17, }> <closed: {9, }  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {28, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {11, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {11, 17, }  generators: {11, }{17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {17, }  generators: > <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {17, }  generators: > <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {27, 17, }  generators: {27, }{17, }> <closed: {29, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {27, 6, }  generators: {6, }{27, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {20, }  generators: > <closed: {27, 11, }  generators: {11, }{27, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {6, }  generators: > <closed: {12, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 6, }  generators: {6, }{27, }> <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 11, }  generators: {11, }{27, }> <closed: {9, }  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {27, 11, 17, }  generators: {27, 11, }{11, 17, }{27, 17, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {23, 10, }  generators: {23, }{10, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {11, 2, }  generators: {11, }{2, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {0, 25, }  generators: {0, }{25, }> SUP_IN_POS:4 SUP_IN_NEG:0
+*  <closed: {26, 25, }  generators: {25, }{26, }> SUP_IN_POS:4 SUP_IN_NEG:0

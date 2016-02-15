@@ -1,0 +1,14 @@
+Method: TopK CSP-A
+Parameters: 
+ gap: [0, 6]
+ K: 100
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Trycount: 0
+Time cost: 216

@@ -1,0 +1,7 @@
+Naive alpha 32 beta 0 maxGap 3 minGap 1 .synpossyn_pos_30_4_10_80_.txt .synnegsyn_neg_30_4_10_80_.txt
+Time Cost of Build Index: 16
+Time Cost of Indexer Construction: 3402 ms.
+Menory: 60602264
+Total Time cost: 3480 ms.
+--- Results: ----------------------------------------------
+Pos ******************* 0

@@ -1,0 +1,26 @@
+iDSP-Miner alpha 40 beta 0 maxGap 5 minGap 3 .dblp3DM100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 156
+Time cost of updateAllFollowSet: 1616 ms
+Time cost of remove Impossible: 52 ms
+Time Cost of Build Draft Index: 101
+Time cost of updateAllFollowSet: 696 ms
+Alphabet: 2647
+Size of Start-elements:37
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2648 ms.
+Time Cost of Generate Pos:35
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 35 ms.
+Total Time cost: 2683 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 7
+*  <closed: {KDD, Data Min. Knowl. Discov., }  generators: {KDD, }{Data Min. Knowl. Discov., }> SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:56 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0

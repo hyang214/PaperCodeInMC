@@ -1,0 +1,22 @@
+iDSP-Miner alpha 14 beta 0 maxGap 3 minGap 0 .gamelogdata6pos2.txt .gamelogdata6neg2.txt
+Time Cost of Build Draft Index: 1
+Time cost of updateAllFollowSet: 0 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 0
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 39
+Size of Start-elements:14
+Avg size of elements:1.0
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1 ms.
+Time Cost of Generate Pos:204
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 204 ms.
+Total Time cost: 205 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 2
+ <closed: {54}  generators: > SUP_IN_POS:14 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > <closed: {}  generators: > SUP_IN_POS:15 SUP_IN_NEG:0

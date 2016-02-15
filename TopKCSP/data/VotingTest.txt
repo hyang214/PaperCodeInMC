@@ -1,0 +1,10 @@
+A,O,H
+A,H,O
+A,H,O
+A,H,O
+O,H,A
+O,H,A
+O,H,A
+H,A,O
+H,A,O
+H,A,O

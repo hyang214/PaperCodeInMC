@@ -1,0 +1,60 @@
+iDSP-Miner alpha 45 beta 20 maxGap 5 minGap 0 .dblp4DM.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 126
+Time cost of updateAllFollowSet: 1326 ms
+Time cost of remove Impossible: 47 ms
+Time Cost of Build Draft Index: 109
+Time cost of updateAllFollowSet: 515 ms
+Alphabet: 2915
+Size of Start-elements:26
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2123 ms.
+Time Cost of Generate Pos:15
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 15 ms.
+Total Time cost: 2138 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 18
+*  contrast: 65  [{}, {Data Min. Knowl. Discov.}]   Pos: 75 Neg: 10
+      Type: 1
+*  contrast: 61  [{}, {KDD, ICDM}]   Pos: 62 Neg: 1
+      Type: 3
+*  contrast: 60  [{}, {PAKDD}]   Pos: 65 Neg: 5
+      Type: 1
+*  contrast: 57  [{}, {ICDM Workshops}]   Pos: 60 Neg: 3
+      Type: 1
+*  contrast: 56  [{}, {ICDM, SDM}]   Pos: 56 Neg: 0
+      Type: 3
+*  contrast: 54  [{}, {KDD, SDM}]   Pos: 54 Neg: 0
+      Type: 3
+*  contrast: 50  [{}, {ICML}]   Pos: 51 Neg: 1
+      Type: 1
+*  contrast: 50  [{}, {PKDD}]   Pos: 58 Neg: 8
+      Type: 1
+*  contrast: 48  [{{CIKM}, }, {CIKM, KDD}]   Pos: 51 Neg: 3
+      Type: 2
+*  contrast: 47  [{}, {KDD, SIGKDD Explorations}]   Pos: 48 Neg: 1
+      Type: 3
+*  contrast: 45  [{{CIKM}, }, {CIKM, ICDM}]   Pos: 46 Neg: 1
+      Type: 2
+*  contrast: 44  [{}, {IJCAI}]   Pos: 53 Neg: 9
+      Type: 1
+*  contrast: 44  [{}, {AAAI}]   Pos: 49 Neg: 5
+      Type: 1
+*  contrast: 44  [{}, {Knowl. Inf. Syst., ICDM}]   Pos: 45 Neg: 1
+      Type: 3
+*  contrast: 44  [{{IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., ICDM}]   Pos: 47 Neg: 3
+      Type: 2
+*  contrast: 43  [{}, {TKDD}]   Pos: 45 Neg: 2
+      Type: 1
+*  contrast: 33  [{}, {CIKM}]  [{}, {CoRR}]   Pos: 49 Neg: 16
+      Type: 1
+*  contrast: 27  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {CIKM}]   Pos: 47 Neg: 20
+      Type: 1
+Avg size:1.2424242424242424
+Avg length:1.064516129032258
+Max size:2
+Max length:2
+Naive Size: 31

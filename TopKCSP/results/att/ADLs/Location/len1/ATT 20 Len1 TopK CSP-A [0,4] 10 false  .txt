@@ -1,0 +1,68 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 4]
+ K: 10
+ pos: ./data/ADLs/Location/A_s.txt
+ neg: ./data/ADLs/Location/B_s.txt
+run ***************************
+Trycount: 650076
+Thread cost: 562 ms.
+Time cost: 568
+Trycount: 650076
+Thread cost: 546 ms.
+Time cost: 547
+Trycount: 650076
+Thread cost: 366 ms.
+Time cost: 367
+Trycount: 650076
+Thread cost: 327 ms.
+Time cost: 327
+Trycount: 650076
+Thread cost: 283 ms.
+Time cost: 283
+Trycount: 650076
+Thread cost: 304 ms.
+Time cost: 304
+Trycount: 650076
+Thread cost: 280 ms.
+Time cost: 281
+Trycount: 650076
+Thread cost: 301 ms.
+Time cost: 302
+Trycount: 650076
+Thread cost: 294 ms.
+Time cost: 294
+Trycount: 650076
+Thread cost: 296 ms.
+Time cost: 297
+Trycount: 650076
+Thread cost: 293 ms.
+Time cost: 294
+Trycount: 650076
+Thread cost: 278 ms.
+Time cost: 278
+Trycount: 650076
+Thread cost: 283 ms.
+Time cost: 284
+Trycount: 650076
+Thread cost: 282 ms.
+Time cost: 282
+Trycount: 650076
+Thread cost: 281 ms.
+Time cost: 282
+Trycount: 650076
+Thread cost: 279 ms.
+Time cost: 280
+Trycount: 650076
+Thread cost: 285 ms.
+Time cost: 285
+Trycount: 650076
+Thread cost: 279 ms.
+Time cost: 280
+Trycount: 650076
+Thread cost: 279 ms.
+Time cost: 280
+Trycount: 650076
+Thread cost: 278 ms.
+Time cost: 279
+ATT: 0.32330000000000003 s

@@ -1,0 +1,68 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 15
+ pos: ./data/ADLs/Activity/A.txt
+ neg: ./data/ADLs/Activity/B.txt
+run ***************************
+Trycount: 21132
+Thread cost: 104 ms.
+Time cost: 108
+Trycount: 21132
+Thread cost: 47 ms.
+Time cost: 48
+Trycount: 21132
+Thread cost: 37 ms.
+Time cost: 37
+Trycount: 21132
+Thread cost: 24 ms.
+Time cost: 24
+Trycount: 21132
+Thread cost: 26 ms.
+Time cost: 27
+Trycount: 21132
+Thread cost: 30 ms.
+Time cost: 31
+Trycount: 21132
+Thread cost: 21 ms.
+Time cost: 22
+Trycount: 21132
+Thread cost: 17 ms.
+Time cost: 17
+Trycount: 21132
+Thread cost: 20 ms.
+Time cost: 20
+Trycount: 21132
+Thread cost: 19 ms.
+Time cost: 19
+Trycount: 21132
+Thread cost: 32 ms.
+Time cost: 33
+Trycount: 21132
+Thread cost: 14 ms.
+Time cost: 15
+Trycount: 21132
+Thread cost: 13 ms.
+Time cost: 13
+Trycount: 21132
+Thread cost: 13 ms.
+Time cost: 13
+Trycount: 21132
+Thread cost: 12 ms.
+Time cost: 13
+Trycount: 21132
+Thread cost: 17 ms.
+Time cost: 17
+Trycount: 21132
+Thread cost: 23 ms.
+Time cost: 23
+Trycount: 21132
+Thread cost: 12 ms.
+Time cost: 12
+Trycount: 21132
+Thread cost: 15 ms.
+Time cost: 15
+Trycount: 21132
+Thread cost: 40 ms.
+Time cost: 40
+ATT: 0.03025 s

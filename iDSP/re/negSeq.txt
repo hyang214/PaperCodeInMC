@@ -1,0 +1,4 @@
+A,B,C;L;D,E;O;G
+A,B,C;L;D;O;R
+B;L;A,B;D,E;G
+A,C;A;D;O;D

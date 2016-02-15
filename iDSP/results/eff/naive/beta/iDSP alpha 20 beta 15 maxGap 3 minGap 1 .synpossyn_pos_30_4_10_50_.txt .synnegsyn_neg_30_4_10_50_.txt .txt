@@ -1,0 +1,19 @@
+Naive alpha 20 beta 15 maxGap 3 minGap 1 .synpossyn_pos_30_4_10_50_.txt .synnegsyn_neg_30_4_10_50_.txt
+Time Cost of Build Index: 32
+Time Cost of Indexer Construction: 1264 ms.
+Menory: 15733576
+Total Time cost: 1295 ms.
+--- Results: ----------------------------------------------
+Pos ******************* 12
+*  <closed: {23, }  generators: > <closed: {21, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:15
+*  <closed: {17, }  generators: > <closed: {5, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:15
+*  <closed: {17, }  generators: > <closed: {20, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:14
+*  <closed: {17, }  generators: > <closed: {11, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:15
+*  <closed: {17, }  generators: > <closed: {4, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:12
+*  <closed: {17, }  generators: > <closed: {13, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:11
+*  <closed: {20, }  generators: > <closed: {4, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:15
+*  <closed: {16, }  generators: > <closed: {1, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:15
+*  <closed: {16, }  generators: > <closed: {10, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:15
+*  <closed: {16, }  generators: > <closed: {0, }  generators: > SUP_IN_POS:23 SUP_IN_NEG:15
+*  <closed: {13, }  generators: > <closed: {17, }  generators: > SUP_IN_POS:21 SUP_IN_NEG:14
+*  <closed: {0, }  generators: > <closed: {1, }  generators: > SUP_IN_POS:20 SUP_IN_NEG:13

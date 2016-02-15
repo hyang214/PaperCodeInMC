@@ -1,0 +1,34 @@
+iDSP-Miner alpha 45 beta 0 maxGap 3 minGap 1 .dblp3DB100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 121
+Time cost of updateAllFollowSet: 308 ms
+Time cost of remove Impossible: 17 ms
+Time Cost of Build Draft Index: 119
+Time cost of updateAllFollowSet: 840 ms
+Alphabet: 2724
+Size of Start-elements:19
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1414 ms.
+Time Cost of Generate Pos:12
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 12 ms.
+Total Time cost: 1426 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 15
+*  <closed: {VLDB, SIGMOD Conference, }  generators: {VLDB, }{SIGMOD Conference, }> SUP_IN_POS:56 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:54 SUP_IN_NEG:0
+*  <closed: {ACM Trans. Database Syst., }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:54 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {ACM Trans. Database Syst., }  generators: > SUP_IN_POS:58 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:60 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:73 SUP_IN_NEG:0
+*  <closed: {SIGMOD Record, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:56 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {SIGMOD Record, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:0
+*  <closed: {IEEE Data Eng. Bull., }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:51 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:45 SUP_IN_NEG:0
+*  <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {SIGMOD Conference, }  generators: > SUP_IN_POS:52 SUP_IN_NEG:0
+*  <closed: {VLDB, }  generators: > <closed: {VLDB, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDE, }  generators: > <closed: {VLDB, }  generators: > SUP_IN_POS:45 SUP_IN_NEG:0

@@ -1,0 +1,47 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/genes/eColi/eColi_A.txt
+ neg: ./data/genes/eColi/eColi_B.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread cost: 0 ms.
+Thread end: 4
+Thread cost: 285 ms.
+Thread end: 3
+Thread cost: 288 ms.
+Thread end: 1
+Thread cost: 314 ms.
+Thread end: 0
+Thread cost: 328 ms.
+Thread end: 2
+Trycount: 0
+Time cost: 341
+Value: [t t t a a t t ]
+ CRatio: 0.41509433962264153 posSup: 0.5660377358490566 negSup: 0.1509433962264151
+Value: [a t t t t t c a ]
+ CRatio: 0.41509433962264153 posSup: 0.4528301886792453 negSup: 0.03773584905660377
+Value: [a c t t t a c a ]
+ CRatio: 0.41509433962264153 posSup: 0.5471698113207547 negSup: 0.1320754716981132
+Value: [t a t t t g a a ]
+ CRatio: 0.41509433962264153 posSup: 0.5094339622641509 negSup: 0.09433962264150944
+Value: [c a t t t g a a ]
+ CRatio: 0.41509433962264153 posSup: 0.4339622641509434 negSup: 0.018867924528301886
+Value: [a t t t t t c ]
+ CRatio: 0.43396226415094336 posSup: 0.6226415094339622 negSup: 0.18867924528301888
+Value: [t t t a t a a c ]
+ CRatio: 0.4339622641509434 posSup: 0.49056603773584906 negSup: 0.05660377358490566
+Value: [g t a a t t a c ]
+ CRatio: 0.4339622641509434 posSup: 0.5471698113207547 negSup: 0.11320754716981132
+Value: [c t t t a c a ]
+ CRatio: 0.4716981132075472 posSup: 0.6415094339622641 negSup: 0.16981132075471697
+Value: [a t t t g a a ]
+ CRatio: 0.5094339622641509 posSup: 0.6226415094339622 negSup: 0.11320754716981132
+min: 0.41509433962264153
+max: 0.5094339622641509
+avg: 0.43584905660377365

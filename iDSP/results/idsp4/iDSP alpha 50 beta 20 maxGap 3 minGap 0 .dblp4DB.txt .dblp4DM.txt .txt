@@ -1,0 +1,78 @@
+iDSP-Miner alpha 50 beta 20 maxGap 3 minGap 0 .dblp4DB.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 112
+Time cost of updateAllFollowSet: 369 ms
+Time cost of remove Impossible: 17 ms
+Time Cost of Build Draft Index: 148
+Time cost of updateAllFollowSet: 2658 ms
+Alphabet: 2915
+Size of Start-elements:15
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3321 ms.
+Time Cost of Generate Pos:10
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 10 ms.
+Total Time cost: 3331 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 29
+*  contrast: 63  [}, {SIGMOD Conference}]  [}, {VLDB}]   Pos: 79 Neg: 16
+      Type: 1
+*  contrast: 57  [}, {IEEE Data Eng. Bull.}]   Pos: 75 Neg: 18
+      Type: 1
+*  contrast: 53  [}, {VLDB}]  [}, {SIGMOD Record}]   Pos: 65 Neg: 12
+      Type: 1
+*  contrast: 50  [}, {SIGMOD Record}]  [}, {SIGMOD Record}]   Pos: 59 Neg: 9
+      Type: 1
+*  contrast: 50  [}, {SIGMOD Record}]  [}, {VLDB}]   Pos: 60 Neg: 10
+      Type: 1
+*  contrast: 49  [}, {ACM Trans. Database Syst.}]  [}, {VLDB}]   Pos: 59 Neg: 10
+      Type: 1
+*  contrast: 49  [}, {SIGMOD Conference}]  [}, {SIGMOD Record}]   Pos: 62 Neg: 13
+      Type: 1
+*  contrast: 48  [}, {ICDE}]  [}, {SIGMOD Record}]   Pos: 60 Neg: 12
+      Type: 1
+*  contrast: 48  [}, {VLDB}]  [}, {ACM Trans. Database Syst.}]   Pos: 62 Neg: 14
+      Type: 1
+*  contrast: 48  [}, {VLDB}]  [}, {VLDB}]  [}, {SIGMOD Conference}]   Pos: 65 Neg: 17
+      Type: 1
+*  contrast: 47  [}, {VLDB}]  [}, {SIGMOD Conference}]  [}, {SIGMOD Conference}]   Pos: 64 Neg: 17
+      Type: 1
+*  contrast: 46  [}, {SIGMOD Conference}]  [}, {ACM Trans. Database Syst.}]   Pos: 58 Neg: 12
+      Type: 1
+*  contrast: 45  [}, {ACM Trans. Database Syst.}]  [}, {SIGMOD Conference}]   Pos: 58 Neg: 13
+      Type: 1
+*  contrast: 45  [}, {VLDB}]  [}, {VLDB}]  [}, {VLDB}]   Pos: 59 Neg: 14
+      Type: 1
+*  contrast: 44  [}, {SIGMOD Record}]  [}, {SIGMOD Conference}]   Pos: 57 Neg: 13
+      Type: 1
+*  contrast: 43  [{{SIGMOD Conference}, {VLDB},}, {VLDB, SIGMOD Conference}]   Pos: 56 Neg: 13
+      Type: 1
+*  contrast: 42  [}, {SIGMOD Conference}]  [}, {SIGMOD Conference}]  [}, {SIGMOD Conference}]   Pos: 58 Neg: 16
+      Type: 1
+*  contrast: 41  [}, {IEEE Trans. Software Eng.}]   Pos: 50 Neg: 9
+      Type: 1
+*  contrast: 40  [}, {SIGMOD Conference}]  [}, {ICDE}]  [}, {VLDB}]   Pos: 52 Neg: 12
+      Type: 1
+*  contrast: 38  [}, {SIGMOD Conference}]  [}, {SIGMOD Conference}]  [}, {ICDE}]   Pos: 56 Neg: 18
+      Type: 1
+*  contrast: 37  [}, {VLDB}]  [}, {VLDB J.}]   Pos: 51 Neg: 14
+      Type: 1
+*  contrast: 37  [}, {SIGMOD Record}]  [}, {ICDE}]   Pos: 51 Neg: 14
+      Type: 1
+*  contrast: 37  [}, {ICDE}]  [}, {VLDB}]  [}, {SIGMOD Conference}]   Pos: 52 Neg: 15
+      Type: 1
+*  contrast: 35  [}, {VLDB}]  [}, {ICDE}]  [}, {VLDB}]   Pos: 50 Neg: 15
+      Type: 1
+*  contrast: 34  [}, {SIGMOD Conference}]  [}, {ICDE}]  [}, {SIGMOD Conference}]   Pos: 50 Neg: 16
+      Type: 1
+*  contrast: 33  [{{VLDB}, {ICDE},}, {ICDE, VLDB}]   Pos: 50 Neg: 17
+      Type: 1
+*  contrast: 32  [}, {ICDE}]  [}, {VLDB}]  [}, {ICDE}]   Pos: 51 Neg: 19
+      Type: 1
+*  contrast: 32  [}, {VLDB}]  [}, {SIGMOD Conference}]  [}, {ICDE}]   Pos: 52 Neg: 20
+      Type: 1
+*  contrast: 30  [}, {VLDB}]  [}, {VLDB}]  [}, {ICDE}]   Pos: 50 Neg: 20
+      Type: 1
+Naive Size:29

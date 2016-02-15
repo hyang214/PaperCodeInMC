@@ -1,0 +1,56 @@
+iDSP-Miner alpha 45 beta 20 maxGap 5 minGap 0 .dblp4IR.txt .dblp4DM.txt
+Time Cost of Build Draft Index: 87
+Time cost of updateAllFollowSet: 408 ms
+Time cost of remove Impossible: 12 ms
+Time Cost of Build Draft Index: 175
+Time cost of updateAllFollowSet: 2193 ms
+Alphabet: 2575
+Size of Start-elements:16
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2892 ms.
+Time Cost of Generate Pos:5
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 5 ms.
+Total Time cost: 2897 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 18
+*  contrast: 60  [{{SIGIR},}, {TREC, SIGIR}]   Pos: 62 Neg: 2
+      Type: 2
+*  contrast: 56  [{{SIGIR},}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 1
+      Type: 2
+*  contrast: 54  [}, {JASIST}]   Pos: 61 Neg: 7
+      Type: 1
+*  contrast: 53  [{{SIGIR},}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 3
+      Type: 2
+*  contrast: 53  [}, {SIGIR}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 64 Neg: 11
+      Type: 1
+*  contrast: 48  [{{SIGIR},}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 3
+      Type: 2
+*  contrast: 47  [}, {SIGIR}]  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 60 Neg: 13
+      Type: 2
+*  contrast: 47  [{{CIKM},}, {SIGIR, CIKM}]  [}, {SIGIR}]   Pos: 58 Neg: 11
+      Type: 2
+*  contrast: 46  [{{SIGIR},}, {SIGIR, ECIR}]   Pos: 49 Neg: 3
+      Type: 2
+*  contrast: 46  [}, {CIKM}]  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 59 Neg: 13
+      Type: 1
+*  contrast: 40  [}, {SIGIR, CIKM}]  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 49 Neg: 9
+      Type: 3
+*  contrast: 40  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]  [}, {SIGIR, CIKM}]   Pos: 49 Neg: 9
+      Type: 3
+*  contrast: 40  [}, {SIGIR}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 57 Neg: 17
+      Type: 1
+*  contrast: 38  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 58 Neg: 20
+      Type: 1
+*  contrast: 37  [}, {ACM Trans. Inf. Syst.}]   Pos: 56 Neg: 19
+      Type: 1
+*  contrast: 33  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]   Pos: 48 Neg: 15
+      Type: 1
+*  contrast: 31  [}, {SIGIR}]  [}, {CoRR}]   Pos: 47 Neg: 16
+      Type: 1
+*  contrast: 31  [}, {CIKM}]  [}, {CIKM}]  [}, {SIGIR}]  [}, {CIKM}]   Pos: 48 Neg: 17
+      Type: 1
+Naive Size: 29

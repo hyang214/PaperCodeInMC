@@ -1,0 +1,9 @@
+Method: TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/bibleX/old X25.txt
+ neg: ./data/bible/bibleX/new X25.txt
+run ***************************
+Generate candidate elements
+Generate candidate patterns

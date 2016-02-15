@@ -1,0 +1,20 @@
+iDSP-Miner alpha 30 beta 40 maxGap 5 minGap 0 .dblp4DM.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 140
+Time cost of updateAllFollowSet: 1413 ms
+Time cost of remove Impossible: 49 ms
+Time Cost of Build Draft Index: 120
+Time cost of updateAllFollowSet: 502 ms
+Alphabet: 2915
+Size of Start-elements:74
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2262 ms.
+Time Cost of Generate Pos:21
+Time Cost of Minimum:3
+Time Cost of Merging Patterns:3
+Try : 0
+Time of generate patterns: 28 ms.
+Total Time cost: 2290 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 57
+Naive Size: 123

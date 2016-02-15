@@ -1,0 +1,68 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/genes/eColiX/eColi_A X15.txt
+ neg: ./data/genes/eColiX/eColi_B X15.txt
+run ***************************
+Trycount: 44552
+Thread cost: 4080 ms.
+Time cost: 4118
+Trycount: 44552
+Thread cost: 3736 ms.
+Time cost: 3750
+Trycount: 44552
+Thread cost: 3715 ms.
+Time cost: 3730
+Trycount: 44552
+Thread cost: 3733 ms.
+Time cost: 3739
+Trycount: 44552
+Thread cost: 3743 ms.
+Time cost: 3750
+Trycount: 44552
+Thread cost: 3728 ms.
+Time cost: 3733
+Trycount: 44552
+Thread cost: 3753 ms.
+Time cost: 3759
+Trycount: 44552
+Thread cost: 3758 ms.
+Time cost: 3768
+Trycount: 44552
+Thread cost: 3732 ms.
+Time cost: 3738
+Trycount: 44552
+Thread cost: 3736 ms.
+Time cost: 3742
+Trycount: 44552
+Thread cost: 3738 ms.
+Time cost: 3744
+Trycount: 44552
+Thread cost: 3744 ms.
+Time cost: 3750
+Trycount: 44552
+Thread cost: 3772 ms.
+Time cost: 3778
+Trycount: 44552
+Thread cost: 3754 ms.
+Time cost: 3760
+Trycount: 44552
+Thread cost: 3760 ms.
+Time cost: 3766
+Trycount: 44552
+Thread cost: 3745 ms.
+Time cost: 3751
+Trycount: 44552
+Thread cost: 3746 ms.
+Time cost: 3752
+Trycount: 44552
+Thread cost: 3754 ms.
+Time cost: 3760
+Trycount: 44552
+Thread cost: 3732 ms.
+Time cost: 3738
+Trycount: 44552
+Thread cost: 3737 ms.
+Time cost: 3743
+ATT: 3.77475 s

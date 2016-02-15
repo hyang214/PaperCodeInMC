@@ -1,0 +1,182 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/bibleX/old X10.txt
+ neg: ./data/bible/bibleX/new X10.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread start: 5
+Thread start: 6
+Thread start: 7
+Thread start: 8
+Thread start: 9
+Thread start: 10
+Thread start: 11
+Thread start: 12
+Thread start: 13
+Thread start: 14
+Thread start: 15
+Thread start: 16
+Thread start: 17
+Thread start: 18
+Thread start: 19
+Thread start: 20
+Thread start: 21
+Thread start: 22
+Thread start: 23
+Thread start: 24
+Thread start: 25
+Thread start: 26
+Thread start: 27
+Thread start: 28
+Thread start: 29
+Thread start: 30
+Thread start: 31
+Thread start: 32
+Thread start: 33
+Thread start: 34
+Thread start: 35
+Thread start: 36
+Thread start: 37
+Thread start: 38
+Thread start: 39
+Thread start: 40
+Thread start: 41
+Thread start: 42
+Thread start: 43
+Thread start: 44
+Thread start: 45
+Thread start: 46
+Thread start: 47
+Thread start: 48
+Thread start: 49
+Thread cost: 66252 ms.
+Thread end: 45
+Thread cost: 65862 ms.
+Thread end: 42
+Thread cost: 67630 ms.
+Thread end: 47
+Thread cost: 70328 ms.
+Thread end: 46
+Thread cost: 71362 ms.
+Thread end: 37
+Thread cost: 73093 ms.
+Thread end: 49
+Thread cost: 201667 ms.
+Thread end: 34
+Thread cost: 223163 ms.
+Thread end: 28
+Thread cost: 252802 ms.
+Thread end: 18
+Thread cost: 260428 ms.
+Thread end: 38
+Thread cost: 271289 ms.
+Thread end: 41
+Thread cost: 272541 ms.
+Thread end: 30
+Thread cost: 292441 ms.
+Thread end: 39
+Thread cost: 298761 ms.
+Thread end: 43
+Thread cost: 304773 ms.
+Thread end: 26
+Thread cost: 308254 ms.
+Thread end: 48
+Thread cost: 342747 ms.
+Thread end: 36
+Thread cost: 345573 ms.
+Thread end: 35
+Thread cost: 365779 ms.
+Thread end: 22
+Thread cost: 366640 ms.
+Thread end: 44
+Thread cost: 376361 ms.
+Thread end: 33
+Thread cost: 379759 ms.
+Thread end: 31
+Thread cost: 388033 ms.
+Thread end: 32
+Thread cost: 393521 ms.
+Thread end: 40
+Thread cost: 395845 ms.
+Thread end: 25
+Thread cost: 399027 ms.
+Thread end: 27
+Thread cost: 414693 ms.
+Thread end: 14
+Thread cost: 427228 ms.
+Thread end: 2
+Thread cost: 454425 ms.
+Thread end: 21
+Thread cost: 460919 ms.
+Thread end: 29
+Thread cost: 462517 ms.
+Thread end: 6
+Thread cost: 469013 ms.
+Thread end: 23
+Thread cost: 474677 ms.
+Thread end: 10
+Thread cost: 476227 ms.
+Thread end: 20
+Thread cost: 482665 ms.
+Thread end: 12
+Thread cost: 483862 ms.
+Thread end: 19
+Thread cost: 491911 ms.
+Thread end: 15
+Thread cost: 495575 ms.
+Thread end: 16
+Thread cost: 497836 ms.
+Thread end: 7
+Thread cost: 524976 ms.
+Thread end: 4
+Thread cost: 531326 ms.
+Thread end: 17
+Thread cost: 535214 ms.
+Thread end: 24
+Thread cost: 544484 ms.
+Thread end: 11
+Thread cost: 547500 ms.
+Thread end: 9
+Thread cost: 548711 ms.
+Thread end: 5
+Thread cost: 550017 ms.
+Thread end: 8
+Thread cost: 580666 ms.
+Thread end: 13
+Thread cost: 592240 ms.
+Thread end: 3
+Thread cost: 674082 ms.
+Thread end: 0
+Thread cost: 675997 ms.
+Thread end: 1
+Trycount: 0
+Time cost: 680640
+Value: [lord said ]
+ CRatio: 0.03207004812790446 posSup: 0.03874427051803165 negSup: 0.006674222390127188
+Value: [o ]
+ CRatio: 0.03450295122236953 posSup: 0.04155495978552279 negSup: 0.007052008563153255
+Value: [people ]
+ CRatio: 0.036165073161343424 posSup: 0.08401798841131194 negSup: 0.04785291524996852
+Value: [sons ]
+ CRatio: 0.03671964745010452 posSup: 0.04414944218628384 negSup: 0.007429794736179322
+Value: [lord god ]
+ CRatio: 0.03844849102962856 posSup: 0.042981925105941364 negSup: 0.004533434076312807
+Value: [children ]
+ CRatio: 0.04382505292888943 posSup: 0.06032171581769437 negSup: 0.016496662888804938
+Value: [land ]
+ CRatio: 0.06614207763750352 posSup: 0.07848309262302171 negSup: 0.012341014985518197
+Value: [king ]
+ CRatio: 0.06838073488509802 posSup: 0.0789587477298279 negSup: 0.010578012844729883
+Value: [israel ]
+ CRatio: 0.08581229575992878 posSup: 0.09513102136123844 negSup: 0.009318725601309658
+Value: [lord ]
+ CRatio: 0.17711200402196503 posSup: 0.2544322407679668 negSup: 0.07732023674600176
+min: 0.03207004812790446
+max: 0.17711200402196503
+avg: 0.06191783762247353

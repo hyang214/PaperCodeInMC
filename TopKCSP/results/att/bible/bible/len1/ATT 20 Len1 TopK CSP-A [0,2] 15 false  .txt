@@ -1,0 +1,68 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 15
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Trycount: 481040
+Thread cost: 60509 ms.
+Time cost: 60635
+Trycount: 481040
+Thread cost: 59492 ms.
+Time cost: 59565
+Trycount: 481040
+Thread cost: 59479 ms.
+Time cost: 59541
+Trycount: 481040
+Thread cost: 59817 ms.
+Time cost: 59933
+Trycount: 481040
+Thread cost: 58896 ms.
+Time cost: 58959
+Trycount: 481040
+Thread cost: 58894 ms.
+Time cost: 58959
+Trycount: 481040
+Thread cost: 58912 ms.
+Time cost: 58975
+Trycount: 481040
+Thread cost: 58905 ms.
+Time cost: 58969
+Trycount: 481040
+Thread cost: 59042 ms.
+Time cost: 59107
+Trycount: 481040
+Thread cost: 58959 ms.
+Time cost: 59022
+Trycount: 481040
+Thread cost: 58906 ms.
+Time cost: 58969
+Trycount: 481040
+Thread cost: 59173 ms.
+Time cost: 59237
+Trycount: 481040
+Thread cost: 59688 ms.
+Time cost: 59759
+Trycount: 481040
+Thread cost: 58895 ms.
+Time cost: 58958
+Trycount: 481040
+Thread cost: 59007 ms.
+Time cost: 59069
+Trycount: 481040
+Thread cost: 59140 ms.
+Time cost: 59205
+Trycount: 481040
+Thread cost: 58997 ms.
+Time cost: 59060
+Trycount: 481040
+Thread cost: 59165 ms.
+Time cost: 59227
+Trycount: 481040
+Thread cost: 59481 ms.
+Time cost: 59546
+Trycount: 481040
+Thread cost: 59360 ms.
+Time cost: 59449
+ATT: 59.36195 s

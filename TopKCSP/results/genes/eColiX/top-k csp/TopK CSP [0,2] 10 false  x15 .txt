@@ -1,0 +1,33 @@
+Method: TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/genes/eColiX/eColi_A X15.txt
+ neg: ./data/genes/eColiX/eColi_B X15.txt
+run ***************************
+Trycount: 44552
+Thread cost: 4159 ms.
+Time cost: 4221
+Value: [c t t t a a a ]
+ CRatio: 0.41400580551523947 posSup: 0.4716981132075472 negSup: 0.057692307692307696
+Value: [a t t t g a a t ]
+ CRatio: 0.41400580551523947 posSup: 0.4716981132075472 negSup: 0.057692307692307696
+Value: [a t t t t t c a ]
+ CRatio: 0.41436865021770686 posSup: 0.4528301886792453 negSup: 0.038461538461538464
+Value: [a t t t t t c ]
+ CRatio: 0.43033381712626995 posSup: 0.6226415094339622 negSup: 0.19230769230769232
+Value: [g t a a t t a c ]
+ CRatio: 0.4317851959361393 posSup: 0.5471698113207547 negSup: 0.11538461538461539
+Value: [a c t t t a c a ]
+ CRatio: 0.4317851959361393 posSup: 0.5471698113207547 negSup: 0.11538461538461539
+Value: [c a t t t g a a ]
+ CRatio: 0.4339622641509434 posSup: 0.4339622641509434 negSup: 0.0
+Value: [t t t a t a a c ]
+ CRatio: 0.4521044992743106 posSup: 0.49056603773584906 negSup: 0.038461538461538464
+Value: [c t t t a c a ]
+ CRatio: 0.48766328011611026 posSup: 0.6415094339622641 negSup: 0.15384615384615385
+Value: [a t t t g a a ]
+ CRatio: 0.5264876632801161 posSup: 0.6226415094339622 negSup: 0.09615384615384616
+min: 0.41400580551523947
+max: 0.5264876632801161
+avg: 0.4436502177068215

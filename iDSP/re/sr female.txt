@@ -1,0 +1,4 @@
+bread,milk;milk,towel;coffee,beef,cola;lipstick;
+bread,perfume;book;coffee,beef,cola;lipstick;milk;
+towel,bread,perfume,beef,book;coffee,beef,cola;book;milk;
+bread,perfume;coffee,beef,cola;lipstick,slaver;milk;

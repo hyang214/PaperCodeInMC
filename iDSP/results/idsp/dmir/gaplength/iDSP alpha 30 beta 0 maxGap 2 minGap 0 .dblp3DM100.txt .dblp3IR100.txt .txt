@@ -1,0 +1,507 @@
+iDSP-Miner alpha 30 beta 0 maxGap 2 minGap 0 .dblp3DM100.txt .dblp3IR100.txt
+Time Cost of Build Draft Index: 167
+Time cost of updateAllFollowSet: 1470 ms
+Time cost of remove Impossible: 52 ms
+Time Cost of Build Draft Index: 119
+Time cost of updateAllFollowSet: 760 ms
+Alphabet: 2647
+Size of Start-elements:76
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2637 ms.
+Time Cost of Generate Pos:1969
+Time Cost of Minimum:41
+Time Cost of Merging Patterns:18
+Try : 0
+Time of generate patterns: 2029 ms.
+Total Time cost: 4666 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 488
+*  <closed: {KDD, Data Min. Knowl. Discov., }  generators: {KDD, }{Data Min. Knowl. Discov., }> SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {DMKD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., IEEE Trans. Knowl. Data Eng., }  generators: {Knowl. Inf. Syst., }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM Workshops, }  generators: {KDD, }{ICDM Workshops, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, PKDD, }  generators: {KDD, }{PKDD, }> SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {PAKDD (2), }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {Knowl. Inf. Syst., ICDM, }  generators: {Knowl. Inf. Syst., }{ICDM, }> SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, SDM, }  generators: {ICDM, SDM, }{KDD, ICDM, }{KDD, SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {SIGKDD Explorations, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {PAKDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., SDM, }  generators: {SDM, }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {CoRR, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {PKDD, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {PAKDD, ICDM, }  generators: {ICDM, }{PAKDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., ICDM, }  generators: {Knowl. Inf. Syst., }{ICDM, }> <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, Knowl. Inf. Syst., }  generators: {Knowl. Inf. Syst., }{KDD, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, SDM, }  generators: {ICDM, SDM, }{KDD, ICDM, }{KDD, SDM, }> <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SIGMOD Conference, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {TKDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, Knowl. Inf. Syst., }  generators: {KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {Knowl. Inf. Syst., ICDM, }  generators: {ICDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, Knowl. Inf. Syst., }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {TKDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {PAKDD, ICDM, }  generators: {ICDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {PKDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM Workshops, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, Knowl. Inf. Syst., }  generators: {Knowl. Inf. Syst., }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {CIKM, ICDM, }  generators: {CIKM, }{ICDM, }> <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, SDM, }  generators: {CIKM, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., SDM, }  generators: {SDM, }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {PAKDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {CoRR, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDE, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {CoRR, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM Workshops, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SIGKDD Explorations, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGKDD Explorations, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGKDD Explorations, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, Knowl. Inf. Syst., }  generators: {KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, SDM, }  generators: {SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {CIKM, KDD, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {CIKM, SDM, }  generators: {CIKM, }> <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, SDM, }  generators: {SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, IEEE Trans. Knowl. Data Eng., }  generators: {IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {SDM, }> <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:39 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {PAKDD, ICDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:44 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SIGKDD Explorations, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, IEEE Trans. Knowl. Data Eng., }  generators: {KDD, }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SIGKDD Explorations, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, IEEE Trans. Knowl. Data Eng., }  generators: {KDD, }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SIGKDD Explorations, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {SDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, ICDM, }  generators: {CIKM, }> <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, ICDM, }  generators: {CIKM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {SDM, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {SDM, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, ICDM, }  generators: {CIKM, }> <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, SDM, }  generators: {SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: {SDM, }> <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {PAKDD, ICDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {PAKDD, ICDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {TKDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:37 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {ICDM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {Data Min. Knowl. Discov., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CoRR, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {PAKDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:38 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, SDM, }  generators: {CIKM, }{SDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, SDM, }  generators: {SDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, ICDM, }  generators: {ICDM, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:35 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }{KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:36 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:34 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {SDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:33 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {KDD, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, ICDM, }  generators: {ICDM, }> <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, SDM, }  generators: {KDD, }{SDM, }> <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:32 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > SUP_IN_POS:31 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {SDM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {ICDM, }  generators: > <closed: {ICDM, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:30 SUP_IN_NEG:0

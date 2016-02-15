@@ -1,0 +1,48 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Trycount: 0
+Time cost: 21896
+Trycount: 0
+Time cost: 19659
+Trycount: 0
+Time cost: 22246
+Trycount: 0
+Time cost: 21406
+Trycount: 0
+Time cost: 21481
+Trycount: 0
+Time cost: 20786
+Trycount: 0
+Time cost: 20321
+Trycount: 0
+Time cost: 20807
+Trycount: 0
+Time cost: 21160
+Trycount: 0
+Time cost: 21814
+Trycount: 0
+Time cost: 20928
+Trycount: 0
+Time cost: 21683
+Trycount: 0
+Time cost: 19152
+Trycount: 0
+Time cost: 20097
+Trycount: 0
+Time cost: 21243
+Trycount: 0
+Time cost: 19819
+Trycount: 0
+Time cost: 19662
+Trycount: 0
+Time cost: 19495
+Trycount: 0
+Time cost: 19501
+Trycount: 0
+Time cost: 19411
+ATT: 20.68285 s

@@ -1,0 +1,19 @@
+iDSP-Miner alpha 20 beta 0 maxGap 3 minGap 1 .synpossyn_pos_110_4_10_50_.txt .synnegsyn_neg_110_4_10_50_.txt
+Time Cost of Build Draft Index: 15
+Time cost of updateAllFollowSet: 0 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 17
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 110
+Size of Start-elements:40
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 32 ms.
+Time Cost of Generate Pos:0
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 0 ms.
+Total Time cost: 32 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 0

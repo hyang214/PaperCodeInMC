@@ -1,0 +1,68 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 10
+ pos: ./data/ADLs/LocationX/A_s X10.txt
+ neg: ./data/ADLs/LocationX/B_s X10.txt
+run ***************************
+Trycount: 1910424
+Thread cost: 3053 ms.
+Time cost: 3071
+Trycount: 1910424
+Thread cost: 2281 ms.
+Time cost: 2290
+Trycount: 1910424
+Thread cost: 2100 ms.
+Time cost: 2104
+Trycount: 1910424
+Thread cost: 2103 ms.
+Time cost: 2106
+Trycount: 1910424
+Thread cost: 2097 ms.
+Time cost: 2102
+Trycount: 1910424
+Thread cost: 2108 ms.
+Time cost: 2110
+Trycount: 1910424
+Thread cost: 2112 ms.
+Time cost: 2114
+Trycount: 1910424
+Thread cost: 2115 ms.
+Time cost: 2116
+Trycount: 1910424
+Thread cost: 2117 ms.
+Time cost: 2118
+Trycount: 1910424
+Thread cost: 2105 ms.
+Time cost: 2107
+Trycount: 1910424
+Thread cost: 2135 ms.
+Time cost: 2136
+Trycount: 1910424
+Thread cost: 2109 ms.
+Time cost: 2110
+Trycount: 1910424
+Thread cost: 2119 ms.
+Time cost: 2121
+Trycount: 1910424
+Thread cost: 2107 ms.
+Time cost: 2108
+Trycount: 1910424
+Thread cost: 2114 ms.
+Time cost: 2116
+Trycount: 1910424
+Thread cost: 2109 ms.
+Time cost: 2110
+Trycount: 1910424
+Thread cost: 2110 ms.
+Time cost: 2112
+Trycount: 1910424
+Thread cost: 2113 ms.
+Time cost: 2114
+Trycount: 1910424
+Thread cost: 2100 ms.
+Time cost: 2101
+Trycount: 1910424
+Thread cost: 2108 ms.
+Time cost: 2109
+ATT: 2.1789 s

@@ -1,0 +1,28 @@
+iDSP-Miner alpha 40 beta 0 maxGap 7 minGap 5 .dblp3IR100.txt .dblp3DM100.txt
+Time Cost of Build Draft Index: 84
+Time cost of updateAllFollowSet: 441 ms
+Time cost of remove Impossible: 17 ms
+Time Cost of Build Draft Index: 164
+Time cost of updateAllFollowSet: 2509 ms
+Alphabet: 2647
+Size of Start-elements:22
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3271 ms.
+Time Cost of Generate Pos:11
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 11 ms.
+Total Time cost: 3282 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 9
+*  <closed: {TREC, Inf. Process. Manage., }  generators: {Inf. Process. Manage., }{TREC, }> SUP_IN_POS:40 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {Inf. Process. Manage., }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {Inf. Retr., }  generators: > SUP_IN_POS:43 SUP_IN_NEG:0
+*  <closed: {Inf. Process. Manage., }  generators: > <closed: {Inf. Process. Manage., }  generators: > SUP_IN_POS:44 SUP_IN_NEG:0
+*  <closed: {ECIR, }  generators: > <closed: {SIGIR, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {TREC, }  generators: > <closed: {TREC, SIGIR, }  generators: {SIGIR, }> SUP_IN_POS:42 SUP_IN_NEG:0
+*  <closed: {SIGIR, }  generators: > <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> SUP_IN_POS:46 SUP_IN_NEG:0
+*  <closed: {SIGIR, SIGIR Forum, }  generators: {SIGIR, }> <closed: {SIGIR, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:0

@@ -1,0 +1,23 @@
+Method: Len1 TopK CSP-A
+Parameters: 
+ gap: [0, 2]
+ K: 5
+ pos: ./data/bible/old v3.txt
+ neg: ./data/bible/new v3.txt
+run ***************************
+Trycount: 180390
+Thread cost: 41231 ms.
+Time cost: 41355
+Trycount: 180390
+Thread cost: 39908 ms.
+Time cost: 39983
+Trycount: 180390
+Thread cost: 39827 ms.
+Time cost: 39892
+Trycount: 180390
+Thread cost: 39815 ms.
+Time cost: 39883
+Trycount: 180390
+Thread cost: 40399 ms.
+Time cost: 40524
+ATT: 40.413 s

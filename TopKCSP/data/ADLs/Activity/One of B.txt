@@ -1,0 +1,1 @@
+Leaving,Grooming,Toileting,Sleeping,Toileting,Sleeping,Toileting,Breakfast,Toileting,Grooming,Grooming,Snack,Leaving,Lunch,Snack,Spare_Time/TV,Toileting,Toileting,Spare_Time/TV,Spare_Time/TV,Grooming,Spare_Time/TV,

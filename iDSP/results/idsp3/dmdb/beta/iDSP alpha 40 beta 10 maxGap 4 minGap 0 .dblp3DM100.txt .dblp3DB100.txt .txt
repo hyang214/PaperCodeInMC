@@ -1,0 +1,64 @@
+iDSP-Miner alpha 40 beta 10 maxGap 4 minGap 0 .dblp3DM100.txt .dblp3DB100.txt
+Time Cost of Build Draft Index: 149
+Time cost of updateAllFollowSet: 1824 ms
+Time cost of remove Impossible: 58 ms
+Time Cost of Build Draft Index: 123
+Time cost of updateAllFollowSet: 614 ms
+Alphabet: 2974
+Size of Start-elements:37
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2779 ms.
+Time Cost of Generate Pos:13
+Time Cost of Minimum:2
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 15 ms.
+Total Time cost: 2794 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 45
+*  <closed: {ICDE, KDD, }  generators: {ICDE, }{KDD, }> SUP_IN_POS:40 SUP_IN_NEG:7
+*  <closed: {KDD, IEEE Trans. Knowl. Data Eng., }  generators: {KDD, }{IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:45 SUP_IN_NEG:4
+*  <closed: {ICML, }  generators: > SUP_IN_POS:52 SUP_IN_NEG:1
+*  <closed: {CIKM, KDD, }  generators: {CIKM, }{KDD, }> SUP_IN_POS:51 SUP_IN_NEG:3
+*  <closed: {ICDM Workshops, }  generators: > SUP_IN_POS:60 SUP_IN_NEG:3
+*  <closed: {PKDD, }  generators: > SUP_IN_POS:58 SUP_IN_NEG:8
+*  <closed: {IJCAI, }  generators: > SUP_IN_POS:53 SUP_IN_NEG:9
+*  <closed: {AAAI, }  generators: > SUP_IN_POS:51 SUP_IN_NEG:5
+*  <closed: {KDD, CoRR, }  generators: {KDD, }{CoRR, }> SUP_IN_POS:46 SUP_IN_NEG:4
+*  <closed: {TKDD, }  generators: > SUP_IN_POS:47 SUP_IN_NEG:2
+*  <closed: {KDD, Knowl. Inf. Syst., }  generators: {Knowl. Inf. Syst., }{KDD, }> SUP_IN_POS:40 SUP_IN_NEG:1
+*  <closed: {KDD, Data Min. Knowl. Discov., }  generators: {KDD, }> SUP_IN_POS:41 SUP_IN_NEG:0
+*  <closed: {CIKM, ICDM, }  generators: {CIKM, }> SUP_IN_POS:46 SUP_IN_NEG:1
+*  <closed: {KDD, SDM, }  generators: {KDD, }> SUP_IN_POS:55 SUP_IN_NEG:0
+*  <closed: {ICDM, SDM, }  generators: > SUP_IN_POS:56 SUP_IN_NEG:0
+*  <closed: {CIKM, SDM, }  generators: {CIKM, }> SUP_IN_POS:41 SUP_IN_NEG:1
+*  <closed: {IEEE Trans. Knowl. Data Eng., SDM, }  generators: {IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:41 SUP_IN_NEG:3
+*  <closed: {SDM, CoRR, }  generators: {CoRR, }> SUP_IN_POS:41 SUP_IN_NEG:2
+*  <closed: {PAKDD, ICDM, }  generators: > SUP_IN_POS:42 SUP_IN_NEG:3
+*  <closed: {IEEE Trans. Knowl. Data Eng., ICDM, }  generators: {IEEE Trans. Knowl. Data Eng., }> SUP_IN_POS:47 SUP_IN_NEG:3
+*  <closed: {Knowl. Inf. Syst., ICDM, }  generators: {Knowl. Inf. Syst., }> SUP_IN_POS:45 SUP_IN_NEG:1
+*  <closed: {KDD, ICDM, }  generators: {KDD, }> SUP_IN_POS:62 SUP_IN_NEG:1
+*  <closed: {KDD, SIGKDD Explorations, }  generators: {KDD, }> SUP_IN_POS:49 SUP_IN_NEG:1
+*  <closed: {CIKM, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:41 SUP_IN_NEG:6
+*  <closed: {CIKM, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:66 SUP_IN_NEG:9
+*  <closed: {KDD, }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:67 SUP_IN_NEG:5
+*  <closed: {KDD, }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:62 SUP_IN_NEG:4
+*  <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:83 SUP_IN_NEG:5
+*  <closed: {KDD, }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:62 SUP_IN_NEG:9
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:40 SUP_IN_NEG:2
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:3
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:52 SUP_IN_NEG:1
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:45 SUP_IN_NEG:3
+*  <closed: {Knowl. Inf. Syst., }  generators: > <closed: {CoRR, }  generators: > SUP_IN_POS:43 SUP_IN_NEG:5
+*  <closed: {CoRR, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:53 SUP_IN_NEG:6
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {Knowl. Inf. Syst., }  generators: > SUP_IN_POS:48 SUP_IN_NEG:8
+*  <closed: {CIKM, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:4
+*  <closed: {KDD, }  generators: > <closed: {ICDE, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:4
+*  <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {CIKM, }  generators: > SUP_IN_POS:41 SUP_IN_NEG:4
+*  <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:51 SUP_IN_NEG:3
+*  <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:48 SUP_IN_NEG:3
+*  <closed: {ICDE, }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:40 SUP_IN_NEG:5
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:48 SUP_IN_NEG:3
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > SUP_IN_POS:43 SUP_IN_NEG:7
+*  <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {IEEE Trans. Knowl. Data Eng., }  generators: > <closed: {KDD, }  generators: > SUP_IN_POS:44 SUP_IN_NEG:5

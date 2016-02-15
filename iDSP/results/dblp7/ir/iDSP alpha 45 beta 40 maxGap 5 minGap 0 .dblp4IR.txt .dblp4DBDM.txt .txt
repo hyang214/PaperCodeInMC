@@ -1,0 +1,48 @@
+iDSP-Miner alpha 45 beta 40 maxGap 5 minGap 0 .dblp4IR.txt .dblp4DBDM.txt
+Time Cost of Build Draft Index: 89
+Time cost of updateAllFollowSet: 434 ms
+Time cost of remove Impossible: 12 ms
+Time Cost of Build Draft Index: 485
+Time cost of updateAllFollowSet: 5099 ms
+Alphabet: 3329
+Size of Start-elements:16
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 6157 ms.
+Time Cost of Generate Pos:2
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 3 ms.
+Total Time cost: 6160 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 14
+*  contrast: 64  [}, {SIGIR}]  [}, {SIGIR}]   Pos: 84 Neg: 20
+      Type: 1
+*  contrast: 59  [{{SIGIR},}, {TREC, SIGIR}]   Pos: 62 Neg: 3
+      Type: 2
+*  contrast: 55  [{{SIGIR},}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 2
+      Type: 2
+*  contrast: 52  [{{SIGIR},}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 4
+      Type: 2
+*  contrast: 49  [}, {JASIST}]   Pos: 61 Neg: 12
+      Type: 1
+*  contrast: 47  [{{SIGIR},}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 4
+      Type: 2
+*  contrast: 46  [}, {SIGIR}]  [}, {ACM Trans. Inf. Syst.}]   Pos: 53 Neg: 7
+      Type: 1
+*  contrast: 45  [{{SIGIR},}, {SIGIR, ECIR}]   Pos: 49 Neg: 4
+      Type: 2
+*  contrast: 43  [}, {SIGIR}]  [}, {CIKM}]   Pos: 67 Neg: 24
+      Type: 1
+*  contrast: 43  [}, {ACM Trans. Inf. Syst.}]  [}, {SIGIR}]   Pos: 48 Neg: 5
+      Type: 1
+*  contrast: 38  [}, {CIKM}]  [}, {SIGIR}]   Pos: 64 Neg: 26
+      Type: 1
+*  contrast: 35  [{{CIKM}, {SIGIR},}, {SIGIR, CIKM}]   Pos: 60 Neg: 25
+      Type: 1
+*  contrast: 27  [}, {SIGIR}]  [}, {CoRR}]   Pos: 47 Neg: 20
+      Type: 1
+*  contrast: 8  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 46 Neg: 38
+      Type: 1
+Naive Size: 19

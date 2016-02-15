@@ -1,0 +1,47 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 1]
+ K: 10
+ pos: ./data/ADLs/Activity/A.txt
+ neg: ./data/ADLs/Activity/B.txt
+run ***************************
+Thread start: 0
+Thread start: 1
+Thread start: 2
+Thread start: 3
+Thread start: 4
+Thread cost: 34 ms.
+Thread end: 3
+Thread cost: 37 ms.
+Thread end: 0
+Thread cost: 38 ms.
+Thread end: 2
+Thread cost: 39 ms.
+Thread end: 1
+Thread cost: 38 ms.
+Thread end: 4
+Trycount: 0
+Time cost: 48
+Value: [Grooming Showering Breakfast ]
+ CRatio: 0.7857142857142857 posSup: 0.7857142857142857 negSup: 0.0
+Value: [Sleeping Toileting Showering ]
+ CRatio: 0.7857142857142858 posSup: 0.9285714285714286 negSup: 0.14285714285714285
+Value: [Toileting Showering ]
+ CRatio: 0.7857142857142858 posSup: 0.9285714285714286 negSup: 0.14285714285714285
+Value: [Spare_Time/TV Sleeping Toileting Showering ]
+ CRatio: 0.8095238095238095 posSup: 0.8571428571428571 negSup: 0.047619047619047616
+Value: [Sleeping Toileting Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Sleeping Toileting Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Toileting Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Toileting Showering Breakfast ]
+ CRatio: 0.8571428571428571 posSup: 0.8571428571428571 negSup: 0.0
+Value: [Showering Breakfast Spare_Time/TV ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+Value: [Showering Breakfast ]
+ CRatio: 0.9285714285714286 posSup: 0.9285714285714286 negSup: 0.0
+min: 0.7857142857142857
+max: 0.9285714285714286
+avg: 0.8452380952380951

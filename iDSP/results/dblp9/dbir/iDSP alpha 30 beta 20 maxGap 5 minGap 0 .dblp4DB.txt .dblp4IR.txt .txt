@@ -1,0 +1,84 @@
+iDSP-Miner alpha 30 beta 20 maxGap 5 minGap 0 .dblp4DB.txt .dblp4IR.txt
+Time Cost of Build Draft Index: 111
+Time cost of updateAllFollowSet: 327 ms
+Time cost of remove Impossible: 16 ms
+Time Cost of Build Draft Index: 93
+Time cost of updateAllFollowSet: 749 ms
+Alphabet: 2673
+Size of Start-elements:41
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1296 ms.
+Time Cost of Generate Pos:0
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:0
+Try : 0
+Time of generate patterns: 0 ms.
+Total Time cost: 1296 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 30
+*  contrast: 56  [{}, {EDBT}]   Pos: 63 Neg: 7
+      Type: 1
+*  contrast: 56  [{}, {VLDB, SIGMOD Conference}]   Pos: 56 Neg: 0
+      Type: 3
+*  contrast: 47  [{}, {IEEE Trans. Software Eng.}]   Pos: 50 Neg: 3
+      Type: 1
+*  contrast: 47  [{}, {ICDE, VLDB}]   Pos: 50 Neg: 3
+      Type: 3
+*  contrast: 46  [{}, {ER}]   Pos: 48 Neg: 2
+      Type: 1
+*  contrast: 46  [{}, {ICDE, SIGMOD Conference}]   Pos: 47 Neg: 1
+      Type: 3
+*  contrast: 44  [{}, {VLDB, SIGMOD Record}]   Pos: 45 Neg: 1
+      Type: 3
+*  contrast: 44  [{}, {SIGMOD Record, SIGMOD Conference}]   Pos: 44 Neg: 0
+      Type: 3
+*  contrast: 43  [{}, {SIGMOD Conference, IEEE Data Eng. Bull.}]   Pos: 43 Neg: 0
+      Type: 3
+*  contrast: 41  [{}, {ACM Trans. Database Syst., SIGMOD Conference}]   Pos: 42 Neg: 1
+      Type: 3
+*  contrast: 41  [{}, {ACM Trans. Database Syst., VLDB}]   Pos: 41 Neg: 0
+      Type: 3
+*  contrast: 40  [{}, {PODS}]   Pos: 40 Neg: 0
+      Type: 1
+*  contrast: 40  [{}, {VLDB, IEEE Data Eng. Bull.}]   Pos: 40 Neg: 0
+      Type: 3
+*  contrast: 38  [{}, {IEEE Database Eng. Bull.}]   Pos: 38 Neg: 0
+      Type: 1
+*  contrast: 37  [{}, {ACM Comput. Surv.}]   Pos: 49 Neg: 12
+      Type: 1
+*  contrast: 36  [{}, {ICDE, SIGMOD Record}]   Pos: 37 Neg: 1
+      Type: 3
+*  contrast: 35  [{}, {PVLDB}]   Pos: 41 Neg: 6
+      Type: 1
+*  contrast: 35  [{}, {SIGMOD Record, IEEE Data Eng. Bull.}]   Pos: 35 Neg: 0
+      Type: 3
+*  contrast: 33  [{}, {ICDE, IEEE Data Eng. Bull.}]   Pos: 34 Neg: 1
+      Type: 3
+*  contrast: 31  [{}, {DBPL}]   Pos: 31 Neg: 0
+      Type: 1
+*  contrast: 31  [{{IEEE Trans. Knowl. Data Eng.}, }, {IEEE Trans. Knowl. Data Eng., SIGMOD Conference}]   Pos: 32 Neg: 1
+      Type: 2
+*  contrast: 30  [{}, {Distributed and Parallel Databases}]   Pos: 30 Neg: 0
+      Type: 1
+*  contrast: 30  [{}, {DOOD}]   Pos: 30 Neg: 0
+      Type: 1
+*  contrast: 29  [{}, {ICDE, VLDB J.}]   Pos: 30 Neg: 1
+      Type: 3
+*  contrast: 28  [{}, {Inf. Syst., SIGMOD Conference}]   Pos: 30 Neg: 2
+      Type: 3
+*  contrast: 26  [{}, {SSDBM}]   Pos: 30 Neg: 4
+      Type: 1
+*  contrast: 24  [{}, {Commun. ACM}]  [{}, {Commun. ACM}]   Pos: 32 Neg: 8
+      Type: 1
+*  contrast: 22  [{}, {IEEE Trans. Knowl. Data Eng.}]  [{}, {IEEE Trans. Knowl. Data Eng.}]   Pos: 34 Neg: 12
+      Type: 1
+*  contrast: 17  [{}, {IEEE Computer}]   Pos: 35 Neg: 18
+      Type: 1
+*  contrast: 17  [{}, {J. Intell. Inf. Syst.}]   Pos: 30 Neg: 13
+      Type: 1
+Avg size:1.2459016393442623
+Avg length:1.0338983050847457
+Max size:2
+Max length:2
+Naive Size: 59

@@ -1,0 +1,101 @@
+iDSP-Miner alpha 4 beta 0 maxGap 3 minGap 0 .gamelogdata6pos3.txt .gamelogdata6neg3.txt
+Time Cost of Build Draft Index: 2
+Time cost of updateAllFollowSet: 0 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 1
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 38
+Size of Start-elements:36
+Avg size of elements:1.3333333333333333
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 3 ms.
+Time Cost of Generate Pos:44
+Time Cost of Minimum:35
+Time Cost of Merging Patterns:3
+Try : 0
+Time of generate patterns: 82 ms.
+Total Time cost: 85 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 81
+ <closed: {40}  generators: > SUP_IN_POS:12 SUP_IN_NEG:0
+ <closed: {6}  generators: > SUP_IN_POS:10 SUP_IN_NEG:0
+ <closed: {4}  generators: > SUP_IN_POS:13 SUP_IN_NEG:0
+ <closed: {54}  generators: > SUP_IN_POS:14 SUP_IN_NEG:0
+ <closed: {48}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {12}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {11}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {2}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {49, 63}  generators: {49}{63}> SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25, 49}  generators: {49}{25}> SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {57, 51, 50, 49}  generators: {57, 51}{50, 49}> SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {57, 51, 25, 50}  generators: {57, 51}{25}{50}> SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {5}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {28}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {49}  generators: > <closed: {65}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {26}  generators: > <closed: {65}  generators: > SUP_IN_POS:9 SUP_IN_NEG:0
+ <closed: {27}  generators: > <closed: {65}  generators: > SUP_IN_POS:10 SUP_IN_NEG:0
+ <closed: {27}  generators: > <closed: {36}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {5}  generators: > <closed: {28}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {26}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {65}  generators: > SUP_IN_POS:11 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {5}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {3}  generators: > SUP_IN_POS:9 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {36}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {65}  generators: > <closed: {20}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {3}  generators: > <closed: {20}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {3}  generators: > <closed: {45}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {45}  generators: > <closed: {22}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {68}  generators: > <closed: {27}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {68}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {68}  generators: > <closed: {45}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {36}  generators: > <closed: {3}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {57, 51}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {63}  generators: > <closed: {5}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {63}  generators: > <closed: {5}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {49}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {49}  generators: > <closed: {25}  generators: > <closed: {28}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {26}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {26}  generators: > <closed: {5}  generators: > <closed: {36}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {26}  generators: > <closed: {5}  generators: > <closed: {45}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {26}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {27}  generators: > <closed: {3}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {68}  generators: > <closed: {5}  generators: > <closed: {3}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {68}  generators: > <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {57, 51}  generators: > <closed: {27}  generators: > <closed: {3}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {57, 51}  generators: > <closed: {63}  generators: > <closed: {5}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {49}  generators: > <closed: {63}  generators: > <closed: {68}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {68}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {27}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {63}  generators: > <closed: {68}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {63}  generators: > <closed: {27}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {63}  generators: > <closed: {28}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {3}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {63}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {50, 49}  generators: {49}{50}> <closed: {27}  generators: > <closed: {5}  generators: > <closed: {3}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50, 49}  generators: {49}{50}> <closed: {27}  generators: > <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {57, 51}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {3}  generators: > SUP_IN_POS:7 SUP_IN_NEG:0
+ <closed: {57, 51}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {3}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {68}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > <closed: {68}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {45}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {68}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > <closed: {68}  generators: > SUP_IN_POS:6 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {63}  generators: > <closed: {28}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {45}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {25}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {5}  generators: > <closed: {45}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {65}  generators: > SUP_IN_POS:5 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0
+ <closed: {50}  generators: > <closed: {49}  generators: > <closed: {26}  generators: > <closed: {27}  generators: > <closed: {28}  generators: > <closed: {5}  generators: > <closed: {65}  generators: > SUP_IN_POS:4 SUP_IN_NEG:0

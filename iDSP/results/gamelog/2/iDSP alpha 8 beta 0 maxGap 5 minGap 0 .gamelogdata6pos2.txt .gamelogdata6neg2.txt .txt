@@ -1,0 +1,12 @@
+iDSP-Miner alpha 8 beta 0 maxGap 5 minGap 0 .gamelogdata6pos2.txt .gamelogdata6neg2.txt
+Time Cost of Build Draft Index: 2
+Time cost of updateAllFollowSet: 0 ms
+Time cost of remove Impossible: 0 ms
+Time Cost of Build Draft Index: 0
+Time cost of updateAllFollowSet: 0 ms
+Alphabet: 39
+Size of Start-elements:25
+Avg size of elements:1.12
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 2 ms.

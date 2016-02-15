@@ -1,0 +1,36 @@
+iDSP-Miner alpha 50 beta 20 maxGap 8 minGap 0 .dblp4IR.txt .dblp4DB.txt
+Time Cost of Build Draft Index: 94
+Time cost of updateAllFollowSet: 351 ms
+Time cost of remove Impossible: 11 ms
+Time Cost of Build Draft Index: 122
+Time cost of updateAllFollowSet: 605 ms
+Alphabet: 2673
+Size of Start-elements:15
+Size of Follow-elements:0
+AVG size of follow-set:0.0
+Time Cost of Indexer Construction: 1188 ms.
+Time Cost of Generate Pos:1
+Time Cost of Minimum:0
+Time Cost of Merging Patterns:1
+Try : 0
+Time of generate patterns: 2 ms.
+Total Time cost: 1190 ms.
+--- Results: ----------------------------------------------
+Patterns Size: 8
+*  contrast: 61  [}, {TREC, SIGIR}]   Pos: 62 Neg: 1
+      Type: 3
+*  contrast: 58  [}, {ECIR}]   Pos: 59 Neg: 1
+      Type: 1
+*  contrast: 58  [{{CIKM},}, {SIGIR, CIKM}]   Pos: 60 Neg: 2
+      Type: 2
+*  contrast: 56  [}, {JASIST}]   Pos: 61 Neg: 5
+      Type: 1
+*  contrast: 56  [}, {SIGIR, SIGIR Forum}]   Pos: 57 Neg: 1
+      Type: 3
+*  contrast: 55  [}, {SIGIR, Inf. Process. Manage.}]   Pos: 56 Neg: 1
+      Type: 3
+*  contrast: 50  [}, {SIGIR, Inf. Retr.}]   Pos: 51 Neg: 1
+      Type: 3
+*  contrast: 38  [}, {CIKM}]  [}, {CIKM}]  [}, {CIKM}]   Pos: 53 Neg: 15
+      Type: 1
+Naive Size:17

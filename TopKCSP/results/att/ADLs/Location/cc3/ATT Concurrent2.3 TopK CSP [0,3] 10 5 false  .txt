@@ -1,0 +1,48 @@
+Method: Concurrent TopK CSP
+Parameters: 
+ gap: [0, 3]
+ K: 10
+ pos: ./data/ADLs/Location/A_s.txt
+ neg: ./data/ADLs/Location/B_s.txt
+run ***************************
+Trycount: 0
+Time cost: 53
+Trycount: 0
+Time cost: 18
+Trycount: 0
+Time cost: 22
+Trycount: 0
+Time cost: 20
+Trycount: 0
+Time cost: 6
+Trycount: 0
+Time cost: 8
+Trycount: 0
+Time cost: 7
+Trycount: 0
+Time cost: 6
+Trycount: 0
+Time cost: 4
+Trycount: 0
+Time cost: 3
+Trycount: 0
+Time cost: 11
+Trycount: 0
+Time cost: 3
+Trycount: 0
+Time cost: 3
+Trycount: 0
+Time cost: 4
+Trycount: 0
+Time cost: 4
+Trycount: 0
+Time cost: 4
+Trycount: 0
+Time cost: 3
+Trycount: 0
+Time cost: 3
+Trycount: 0
+Time cost: 4
+Trycount: 0
+Time cost: 10
+ATT: 0.014150000000000001 s
