@@ -38,9 +38,9 @@ public class CloneHelper {
 	 * @param valueList
 	 * @return the clone
 	 */
-	public static ArrayList<Value> valueListCopy(ArrayList<Value> valueList) {
-		ArrayList<Value> list = new ArrayList<>();
-		for(Value c : valueList){
+	public static <T> ArrayList<T> valueListCopy(ArrayList<T> valueList) {
+		ArrayList<T> list = new ArrayList<>();
+		for(T c : valueList){
 			list.add(c);
 		}
 		return list;

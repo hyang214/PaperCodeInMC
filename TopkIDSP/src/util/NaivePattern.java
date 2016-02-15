@@ -19,7 +19,7 @@ public class NaivePattern {
 	 * occurrences: the sequence Ids and position Ids of the latest element of this pattern
 	 * length: the length of this pattern
 	 */
-	private ArrayList<Value> valueList;
+	private ArrayList<BitSet> valueList;
 	private BitSet posSeqIds;
 	private BitSet negSeqIds;
 	private HashMap<Integer, BitSet> posOccurrences;
@@ -34,7 +34,7 @@ public class NaivePattern {
 	
 	public NaivePattern(Element e){
 		this.valueList = new ArrayList<>();
-		this.valueList.add(e.getValue());
+		this.valueList.add(e.getValue().getClosure());
 		this.posSeqIds = (BitSet)e.getPosSeqIds().clone();
 		this.negSeqIds = (BitSet)e.getNegSeqIds().clone();
 		this.posOccurrences = CloneHelper.occurrenceClone(e.getPosOccurrences());
@@ -64,7 +64,7 @@ public class NaivePattern {
 		updateNegOccurrence(next);
 		
 		/** update pattern **/
-		this.valueList.add(next.getValue());
+		this.valueList.add(next.getValue().getClosure());
 		this.length ++;
 		calculate();
 		
@@ -211,7 +211,7 @@ public class NaivePattern {
 	public String toString(){
 		StringBuffer sb = new StringBuffer();
 		sb.append("	" + getPeerKey().toString() + " ");
-		for(Value v : valueList){
+		for(BitSet v : valueList){
 			sb.append(v.toString());
 		}
 		sb.append("\n");
@@ -222,11 +222,11 @@ public class NaivePattern {
 	/************************************************
 	 * Getter and Setter
 	 ************************************************/
-	public ArrayList<Value> getValueList() {
+	public ArrayList<BitSet> getValueList() {
 		return valueList;
 	}
 
-	public void setValueList(ArrayList<Value> valueList) {
+	public void setValueList(ArrayList<BitSet> valueList) {
 		this.valueList = valueList;
 	}
 	
