@@ -17,7 +17,7 @@ import util.Sequences;
  * author: Hao 
  * date:Dec 1, 2015
  * time:3:53:08 PM
- * purpose:
+ * purpose: the enter of mining top-k itemset-based distinguishing pattern with gap constraint
  */
 public class Main {
 	
@@ -25,7 +25,7 @@ public class Main {
 		/**
 		 * @posFilePath: the path of positive data set
 		 * @negFilePath: the path of negative data set 
-		 * @K: the number of pattern user want
+		 * @K: the number of pattern user need
 		 * @min: the minimum gap between the any continuous elements in one pattern 
 		 * @max: the maximum gap between the any continuous elements in one pattern
 		 */
