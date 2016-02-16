@@ -59,10 +59,12 @@ public enum NaivePatternExtract {
 		Set<BitSet> generators = each.getGenerators();
 		/** if 'element' is not the sub element of any generator in 'generators',
 		 * then it is covered by 'each' **/
+		boolean covered = false;
 		for(BitSet generator : generators){
 			BitSet tmp = (BitSet)generator.clone();
 			tmp.and(element);
-			
+			if(tmp.equals(generator))
+				
 		}
 		
 		return false;
