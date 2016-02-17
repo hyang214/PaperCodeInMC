@@ -6,10 +6,15 @@ import java.io.PrintStream;
 
 import miner.Miner;
 import miner.MinerImpl;
+import pp.PostProcess;
+import pp.PostProcessFactory;
+import pp.impl.KiPP;
 import tools.TimeRecord;
 import tools.Verbase;
+import util.NaivePattern;
 import util.Parameter;
 import util.PeerKey;
+import util.PeerPattern;
 import util.Results;
 import util.Sequences;
 
@@ -39,6 +44,7 @@ public class Main {
 		PrintStream output = System.out;
 		String gceName = "KiGCE";
 		String gcpName = "KiGCP";
+		String ppName = "KiPP";
 		if(args.length == 8){
 			posFilePath = args[0];
 			negFilePath = args[1];
@@ -73,6 +79,11 @@ public class Main {
 		System.out.println(TimeRecord.allRecordToString());
 		/** print results **/
 		printResults();
+		/** post process of result **/
+		@SuppressWarnings("unchecked")
+		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName(ppName);
+		pp.inputResult(Results.peerStore.values());
+		pp.print();
 	}
 
 	private static void printResults() {

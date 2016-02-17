@@ -41,32 +41,43 @@ public enum NaivePatternExtract {
 			/** construct naive patterns **/
 			append(tmp, validSub);
 		}
+		list.addAll(tmp);
 		return list;
 	}
 	
 	/**
 	 * construct naive patterns based on naive pattern in 'tmp' by append element from 'validSub'
 	 */
-	private void append(Set<NaivePattern> tmp, Set<BitSet> validSub) {
-		//TODO construct naive patterns based on naive pattern in tmp by append element from validSub
+	public void append(Set<NaivePattern> tmp, Set<BitSet> validSub) {
+		Set<NaivePattern> newSet = new HashSet<>();
+		/** for each pattern in 'tmp', generate |validSub| new pattern by appending one element from 'validSub' **/
+		for(NaivePattern p : tmp){
+			for(BitSet element : validSub){
+				NaivePattern clone = p.clone();
+				clone.addValue(element);
+				newSet.add(clone);
+			}
+		}
+		tmp.clear();
+		tmp.addAll(newSet);
 	}
 
 	/** 
 	 * 'subElement' is covered by Value 'each' or not 
 	 */
-	private boolean covered(BitSet element, Value each){
+	public boolean covered(BitSet element, Value each){
 		//TODO 'subElement' is covered by Value 'each' or not 
 		Set<BitSet> generators = each.getGenerators();
 		/** if 'element' is not the sub element of any generator in 'generators',
 		 * then it is covered by 'each' **/
-		boolean covered = false;
-		for(BitSet generator : generators){
-			BitSet tmp = (BitSet)generator.clone();
+		boolean notCovered = false;
+		for(BitSet g:generators){
+			BitSet tmp = (BitSet)g.clone();
 			tmp.and(element);
-			if(tmp.equals(generator))
-				
+			if(tmp.equals(element)){
+				notCovered = true;
+			}
 		}
-		
-		return false;
+		return !notCovered;
 	}
 }

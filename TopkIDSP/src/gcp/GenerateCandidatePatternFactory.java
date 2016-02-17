@@ -3,9 +3,10 @@ package gcp;
 import gcp.impl.BaselineGCP;
 import gcp.impl.KiGCP;
 
-public class GenerateCandidatePatternFactory {
-
-	public static GenerateCandidatePattern getByName(String gcpName) {
+public enum GenerateCandidatePatternFactory {
+	INTSANCE;
+	
+	public GenerateCandidatePattern getByName(String gcpName) {
 		if(gcpName.equals("KiGCP")){
 			return new KiGCP();
 		}		

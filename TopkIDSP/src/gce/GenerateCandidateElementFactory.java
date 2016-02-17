@@ -3,9 +3,10 @@ package gce;
 import gce.impl.BaselineGCE;
 import gce.impl.KiGCE;
 
-public class GenerateCandidateElementFactory {
-
-	public static GenerateCandidateElement getByName(String gceName) {
+public enum GenerateCandidateElementFactory {
+	INSTANCE;
+	
+	public GenerateCandidateElement getByName(String gceName) {
 		if(gceName.equals("KiGCE")){
 			return new KiGCE();
 		}

@@ -112,6 +112,16 @@ public class Value {
 		return sb.toString();
 	}
 	
+	public String toBitSetString() {
+		StringBuffer sb = new StringBuffer();
+		sb.append("< Closure: " + closure +" Generators: {");
+		for(BitSet generator : generators){
+			sb.append(generator);
+		}
+		sb.append("}>");
+		return sb.toString();
+	}
+	
 	/************************************************
 	 * Getter and Setter
 	 ************************************************/

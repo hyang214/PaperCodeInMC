@@ -194,6 +194,7 @@ public class NaivePattern {
 		clone.valueList = CloneHelper.valueListCopy(this.valueList);
 		clone.posSeqIds = (BitSet)this.posSeqIds.clone();
 		clone.negSeqIds = (BitSet)this.negSeqIds.clone();
+		//TODO occurrence information may be useless in NaivePatternExtract.java
 		clone.posOccurrences = CloneHelper.occurrenceClone(this.posOccurrences);
 		clone.negOccurrences = CloneHelper.occurrenceClone(this.negOccurrences);
 		clone.length = this.length;
@@ -226,10 +227,20 @@ public class NaivePattern {
 		StringBuffer sb = new StringBuffer();
 		sb.append("	" + getPeerKey().toString() + " ");
 		for(BitSet v : valueList){
-			sb.append(v.toString());
+			sb.append(ItemMap.eDecode(v));
 		}
 		sb.append("\n");
 		return sb.toString();
+	}
+	
+	/************************************************
+	 * used for NaivePatternExtract.java
+	 ************************************************/
+	/**
+	 * add a new element into 'valueList'
+	 */
+	public void addValue(BitSet element){
+		valueList.add(element);
 	}
 	
 	

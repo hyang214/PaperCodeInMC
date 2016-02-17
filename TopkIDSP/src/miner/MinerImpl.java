@@ -27,9 +27,9 @@ public class MinerImpl extends Miner{
 	
 	
 	public MinerImpl(Sequences sequences, String gceName, String gcpName) {
-		this.gce = GenerateCandidateElementFactory.getByName(gceName);
+		this.gce = GenerateCandidateElementFactory.INSTANCE.getByName(gceName);
 		this.gce.setDataset(sequences);
-		this.gcp = GenerateCandidatePatternFactory.getByName(gcpName);
+		this.gcp = GenerateCandidatePatternFactory.INTSANCE.getByName(gcpName);
 	}
 
 	/**
