@@ -91,4 +91,16 @@ public class Results {
 		}
 		finalPatternList.sort(new PatternComparator());
 	}
+	
+	/**
+	 * clear
+	 */
+	public void clear(){
+		peerStore = new HashMap<PeerKey, PeerPattern>();
+		topK = new ArrayList<>();
+		pkc = new PeerKeyComparator();
+		pkThreshold = new PeerKey(0.0, 0.0, 0);
+		finalPatternList = new ArrayList<>();
+	}
 }
+

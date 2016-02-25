@@ -47,7 +47,7 @@ public class Element{
 			posSeqIds.set(seqId, true);
 			
 			/** set the occurrences **/
-			BitSet occurrence = posOccurrences.get(posSeqIds);
+			BitSet occurrence = posOccurrences.get(new Integer(seqId));
 			if(occurrence == null){
 				occurrence = new BitSet();
 			}
@@ -58,7 +58,7 @@ public class Element{
 			negSeqIds.set(seqId, true);
 			
 			/** set the occurrences **/
-			BitSet occurrence = negOccurrences.get(negSeqIds);
+			BitSet occurrence = negOccurrences.get(new Integer(seqId));
 			if(occurrence == null){
 				occurrence = new BitSet();
 			}

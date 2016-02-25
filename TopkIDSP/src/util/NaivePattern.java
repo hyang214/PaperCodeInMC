@@ -62,8 +62,9 @@ public class NaivePattern {
 	 */
 	public boolean addElement(Element next){
 		/** find the common sequence ids **/
-		posSeqIds.and(next.getPosSeqIds());
-		if(maxPossiblePosSupportCheck()){
+		BitSet possible = (BitSet)posSeqIds.clone();
+		possible.and(next.getPosSeqIds());
+		if(!maxPossiblePosSupportCheck(possible)){
 			/** the max possible cRatio is already less the kThreshold, ignore this pattern **/
 			return false;
 		}
@@ -110,7 +111,7 @@ public class NaivePattern {
 					this.posSeqIds.clear(i);
 					this.posOccurrences.remove(new Integer(i));
 					
-					if(maxPossiblePosSupportCheck()){
+					if(maxPossiblePosSupportCheck(posSeqIds)){
 						/** the max possible cRatio is already less the kThreshold, ignore this pattern **/
 						return false;
 					}
@@ -126,7 +127,7 @@ public class NaivePattern {
 				this.posSeqIds.clear(i);
 				this.posOccurrences.remove(new Integer(i));
 				
-				if(maxPossiblePosSupportCheck()){
+				if(maxPossiblePosSupportCheck(posSeqIds)){
 					/** the max possible cRatio is already less the kThreshold, ignore this pattern **/
 					return false;
 				}
@@ -179,8 +180,8 @@ public class NaivePattern {
 	 * @return false: this pattern is impossible, ignore it
 	 * 		   true: go on
 	 */
-	private boolean maxPossiblePosSupportCheck(){
-		double maxPossibleCRatio = (double)posSeqIds.cardinality() / Parameter.posSize;
+	private boolean maxPossiblePosSupportCheck(BitSet possible){
+		double maxPossibleCRatio = (double)possible.cardinality() / Parameter.posSize;
 		if( maxPossibleCRatio < Results.pkThreshold.getcRatio()){
 			/** the max possible cRatio is already less the threshold, ignore this pattern **/
 			return false;
@@ -227,10 +228,24 @@ public class NaivePattern {
 		StringBuffer sb = new StringBuffer();
 		sb.append("	" + getPeerKey().toString() + " ");
 		for(BitSet v : valueList){
-			sb.append(ItemMap.eDecode(v));
+			sb.append("{" + ItemMap.eDecode(v) + "},");
 		}
+		sb.deleteCharAt(sb.length()-1);
 		sb.append("\n");
 		return sb.toString();
+	}
+	
+	public boolean equals(NaivePattern obj) {
+		if(this.valueList.size() != obj.valueList.size()){
+			return false;
+		}else{
+			for(int i = 0 ; i < this.valueList.size() ; i ++){
+				if(!this.valueList.get(i).equals(obj.valueList.get(i))){
+					return false;
+				}
+			}
+			return true;
+		}
 	}
 	
 	/************************************************

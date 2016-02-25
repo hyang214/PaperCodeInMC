@@ -38,20 +38,12 @@ public class MinerImpl extends Miner{
 	public void mine() {
 		
 		/** generate candidate elements **/
-		TimeRecord.allRecordAndReturn("Generate Elements");
 		gce.generateCE();
-		TimeRecord.allRecordAndReturn("Generate Elements");
 		
 		/** generate patterns **/
-		TimeRecord.allRecordAndReturn("Generate Patterns");
 		gcp.setCEList(gce.getCEList());
 		gcp.generateCP();
-		TimeRecord.allRecordAndReturn("Generate Patterns");
 		
-		/** merge results **/
-		TimeRecord.allRecordAndReturn("Merge Patterns");
-		Results.merge();
-		TimeRecord.allRecordAndReturn("Merge Patterns");
 	}
 
 	/************************************************

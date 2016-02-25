@@ -50,8 +50,8 @@ public class KiGCE extends GenerateCandidateElement{
 		/** get the final candidate element list **/
 		ceList = alphabet.getHeuristicList();
 		/** testing and validation **/
-		Verbase.verbaseAtLevel(1, ItemMap.staticToString());
-		Verbase.verbaseAtLevel(1, alphabet.toString());
+//		Verbase.verbaseAtLevel(1, ItemMap.staticToString());
+//		Verbase.verbaseAtLevel(1, alphabet.toString());
 		/** clear useless object **/
 		clearUO();
 	}

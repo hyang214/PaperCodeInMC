@@ -13,18 +13,18 @@ public class PeerKeyComparator implements Comparator<PeerKey>{
 	@Override
 	public int compare(PeerKey target, PeerKey threshold) {
 		if(target.getcRatio() > threshold.getcRatio()){
-			return 1;
+			return 3;
 		}else if(target.getcRatio() < threshold.getcRatio()){
-			return -1;
+			return -3;
 		}else{
-			if(target.getLength() > threshold.getLength()){
-				return 1;
-			}else if(target.getLength() < threshold.getLength()){
-				return -1;
+			if(target.getPosSup() > threshold.getPosSup()){
+				return 2;
+			}else if(target.getPosSup() < threshold.getPosSup()){
+				return -2;
 			}else{
-				if(target.getPosSup() > threshold.getPosSup()){
+				if(target.getLength() > threshold.getLength()){
 					return 1;
-				}else if(target.getPosSup() < threshold.getPosSup()){
+				}else if(target.getLength() < threshold.getLength()){
 					return -1;
 				}else{
 					return 0;

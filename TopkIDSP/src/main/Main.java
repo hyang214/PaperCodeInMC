@@ -8,7 +8,6 @@ import miner.Miner;
 import miner.MinerImpl;
 import pp.PostProcess;
 import pp.PostProcessFactory;
-import pp.impl.KiPP;
 import tools.TimeRecord;
 import tools.Verbase;
 import util.NaivePattern;

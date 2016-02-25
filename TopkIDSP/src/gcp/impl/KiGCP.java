@@ -1,11 +1,12 @@
 package gcp.impl;
 
+import gcp.GenerateCandidatePattern;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import gcp.GenerateCandidatePattern;
 import util.Element;
 import util.Pattern;
 import util.PeerKeyComparator;
@@ -21,9 +22,11 @@ public class KiGCP extends GenerateCandidatePattern{
 	
 	private List<Element> ceList;
 	private PeerKeyComparator pkc;
+	private Set<Element> forbidden;
 	
 	public KiGCP() {
 		this.pkc = new PeerKeyComparator();
+		this.forbidden = new HashSet<>();
 	}
 
 	@Override
@@ -50,17 +53,37 @@ public class KiGCP extends GenerateCandidatePattern{
 	 */
 	private void setEnumerationTree(Pattern pattern) {
 		/** append a new element **/
-		Set<Element> ies = new HashSet<Element>();
 		for(Element next : ceList){
+			/** skip elements in 'forbidden' **/
+			if(forbidden.contains(next)){
+				continue;
+			}
+			
+			if(pattern.getLength() == 1){
+				int a = 1;
+				a = a + 1;
+			}else if(pattern.getLength() == 2){
+				int a = 1;
+				a = a + 1;
+			}else if(pattern.getLength() == 3){
+				int a = 1;
+				a = a + 1;
+			}else if(pattern.getLength() == 4){
+				int a = 1;
+				a = a + 1;
+			}
+			
 			/** pruning rule: check element max cRatio **/
 			if(impossibleElementPruning(next)){
 				Pattern newPattern = pattern.clone();
 				if(newPattern.addElement(next)){
-					/** check newPattern is a pattern or not **/
 					if(patternCheck(newPattern)){
 						/** newPattern is a pattern! **/
 						Results.addResult(newPattern);
-						
+					}
+					
+					/** check: should we search the super space or not **/
+					if(searchCheck(newPattern)){						
 						/** continue the search process in this branch **/
 						setEnumerationTree(newPattern);
 					}
@@ -69,10 +92,9 @@ public class KiGCP extends GenerateCandidatePattern{
 					 * since the max possible cRatio is less than threshold **/
 				}
 			}else{
-				ies.add(next);
+				forbidden.add(next);
 			}
 		}
-		ceList.removeAll(ies);
 	}
 
 	/** 
@@ -85,10 +107,14 @@ public class KiGCP extends GenerateCandidatePattern{
 			if(impossibleElementPruning(e)){
 				Pattern pattern = new Pattern(e);
 				if(patternCheck(pattern)){
-					/** pattern is a pattern  **/
+					/** newPattern is a pattern! **/
 					Results.addResult(pattern);
-				}	
-				pList.add(pattern);
+				}
+				/** check: should we search the super space or not **/
+				if(searchCheck(pattern)){						
+					/** continue the search process in this branch **/
+					pList.add(pattern);
+				}
 			}else{
 				/** pruning rule: if the cRatio of an element is less than threshold, all 
 				 * patterns contains it cannot be a pattern, so we do not use this element 
@@ -104,9 +130,16 @@ public class KiGCP extends GenerateCandidatePattern{
 	 * check pattern 
 	 */
 	private boolean patternCheck(Pattern pattern){
-		if(pattern.getcRatio() <= 0 )
+		if(pattern.getPosSup() <= 0 )
 			return false;
-		return pkc.compare(pattern.getPeerKey(), Results.pkThreshold) < 0 ? false : true;
+		return pkc.compare(pattern.getPeerKey(), Results.pkThreshold) < 0 ? false : true; 
+	}
+	
+	/**
+	 * search the super-pattern or not
+	 */
+	private boolean searchCheck(Pattern pattern){
+		return pattern.getPosSup() >= Results.pkThreshold.getcRatio();
 	}
 
 	/** 

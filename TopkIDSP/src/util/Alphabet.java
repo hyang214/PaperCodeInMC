@@ -113,6 +113,15 @@ public class Alphabet {
 		return sourceIndex.get(key);
 	}
 	
+	/** 
+	 * get the element list for baseline
+	 */
+	public List<Element> getBaselineList(){
+		List<Element> ceList = new ArrayList<>();
+		ceList.addAll(map.values());
+		return ceList;
+	}
+	
 	/**
 	 * toString method
 	 */
@@ -161,6 +170,14 @@ public class Alphabet {
 		this.sourceIndex = null;
 		this.sourceList = null;
 		this.inverseIndex = null;
+	}
+	
+	public void clear(){
+		this.map = new HashMap<>();
+		this.inverseIndex = new HashMap<>();
+		this.sourceIndex = new HashMap<>();
+		this.sourceList = new ArrayList<>();
+		this.heuristicList = new ArrayList<>();
 	}
 	
 	/************************************************
