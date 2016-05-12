@@ -1,0 +1,86 @@
+Action: Parameter InitalTime cost: 1 ms 
+Action: Read DataTime cost: 38 ms 
+Action: Mine patternTime cost: 120 ms 
+
+Print results:
+C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {DOOD} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+ 	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {EDBT} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+
+C:0.6666666666666666 S:0.6666666666666666 L:4 hc:1434451970
+ 	C:0.6666666666666666 S:0.6666666666666666 L:4 hc:1434451970 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+
+C:0.6666666666666667 S:1.0 L:1 hc:713031683
+ 	C:0.6666666666666667 S:1.0 L:1 hc:713031683 < Closure: {VLDB} Generators: {}>
+
+
+C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563
+ 	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {DOOD} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {DOOD},{SIGMOD Record},{VLDB}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB},{VLDB J.}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{SIGMOD Record},{VLDB J.}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB J.},{VLDB}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB J.},{VLDB J.}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 < Closure: {EDBT} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {EDBT},{SIGMOD Conference},{VLDB}
+
+PP:	C:0.6666666666666666 S:0.6666666666666666 L:4 hc:1434451970 < Closure: {VLDB J.} Generators: {}>< Closure: {VLDB J.} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {VLDB J.} Generators: {}>
+
+	C:0.6666666666666666 S:0.6666666666666666 L:4 hc:1434451970 {VLDB J.},{VLDB J.},{VLDB},{VLDB J.}
+
+PP:	C:0.6666666666666667 S:1.0 L:1 hc:713031683 < Closure: {VLDB} Generators: {}>
+
+	C:0.6666666666666667 S:1.0 L:1 hc:713031683 {VLDB}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 {SIGMOD Conference},{VLDB},{SIGMOD Conference},{SIGMOD Record}
+
+Post processed result:
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {DOOD},{SIGMOD Record},{VLDB}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB},{VLDB J.}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{SIGMOD Record},{VLDB J.}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB J.},{VLDB}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {VLDB J.},{VLDB J.},{VLDB J.}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:3 hc:-2136997887 {EDBT},{SIGMOD Conference},{VLDB}
+
+	C:0.6666666666666666 S:0.6666666666666666 L:4 hc:1434451970 {VLDB J.},{VLDB J.},{VLDB},{VLDB J.}
+
+	C:0.6666666666666667 S:1.0 L:1 hc:713031683 {VLDB}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 {SIGMOD Conference},{VLDB},{SIGMOD Conference},{SIGMOD Record}
+

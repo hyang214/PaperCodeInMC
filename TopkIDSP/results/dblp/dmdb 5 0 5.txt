@@ -1,0 +1,142 @@
+Action: Parameter InitalTime cost: 0 ms 
+Action: Read DataTime cost: 39 ms 
+Action: Mine patternTime cost: 72 ms 
+
+Print results:
+C:1.0 S:1.0 L:1 hc:2145386496
+ 	C:1.0 S:1.0 L:1 hc:2145386496 < Closure: {SDM} Generators: {}>
+
+
+C:1.0 S:1.0 L:2 hc:-4194304
+ 	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>
+
+
+C:1.0 S:1.0 L:3 hc:2141192192
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+
+C:1.0 S:1.0 L:4 hc:-8388608
+ 	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+ 	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+ 	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+
+PP:	C:1.0 S:1.0 L:1 hc:2145386496 < Closure: {SDM} Generators: {}>
+
+	C:1.0 S:1.0 L:1 hc:2145386496 {SDM}
+
+PP:	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {SDM},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {SDM},{CoRR}
+
+PP:	C:1.0 S:1.0 L:2 hc:-4194304 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {KDD},{SDM}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{Data Min. Knowl. Discov.},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{Data Min. Knowl. Discov.},{CoRR}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{CoRR},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{CoRR},{CoRR}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {Data Min. Knowl. Discov.},{CoRR},{CoRR}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{SDM},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{SDM},{CoRR}
+
+PP:	C:1.0 S:1.0 L:3 hc:2141192192 < Closure: {KDD} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{CoRR},{CoRR}
+
+PP:	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{Data Min. Knowl. Discov.},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{Data Min. Knowl. Discov.},{CoRR}
+
+PP:	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {Data Min. Knowl. Discov.} Generators: {}>
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{CoRR},{Data Min. Knowl. Discov.}
+
+PP:	C:1.0 S:1.0 L:4 hc:-8388608 < Closure: {KDD} Generators: {}>< Closure: {SDM} Generators: {}>< Closure: {CoRR} Generators: {}>< Closure: {CoRR} Generators: {}>
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{CoRR},{CoRR}
+
+Post processed result:
+	C:1.0 S:1.0 L:1 hc:2145386496 {SDM}
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {SDM},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {SDM},{CoRR}
+
+	C:1.0 S:1.0 L:2 hc:-4194304 {KDD},{SDM}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{Data Min. Knowl. Discov.},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{Data Min. Knowl. Discov.},{CoRR}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{CoRR},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {SDM},{CoRR},{CoRR}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {Data Min. Knowl. Discov.},{CoRR},{CoRR}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{SDM},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{SDM},{CoRR}
+
+	C:1.0 S:1.0 L:3 hc:2141192192 {KDD},{CoRR},{CoRR}
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{Data Min. Knowl. Discov.},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{Data Min. Knowl. Discov.},{CoRR}
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{CoRR},{Data Min. Knowl. Discov.}
+
+	C:1.0 S:1.0 L:4 hc:-8388608 {KDD},{SDM},{CoRR},{CoRR}
+

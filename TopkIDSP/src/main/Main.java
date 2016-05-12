@@ -3,6 +3,8 @@ package main;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import miner.Miner;
 import miner.MinerImpl;
@@ -13,6 +15,7 @@ import tools.Verbase;
 import util.NaivePattern;
 import util.Parameter;
 import util.PeerKey;
+import util.PeerKeyComparator;
 import util.PeerPattern;
 import util.Results;
 import util.Sequences;
@@ -33,14 +36,16 @@ public class Main {
 		 * @min: the minimum gap between the any continuous elements in one pattern 
 		 * @max: the maximum gap between the any continuous elements in one pattern
 		 */
-		String posFilePath = "./data/test/sr female.txt";// "./data/test/a.txt";// 
-		String negFilePath = "./data/test/sr male.txt";// "./data/test/b.txt";// 
-		int K = 5;
+		String posFilePath = "./data/dblp/DM.txt";//"./data/test/sr female.txt";// "./data/test/a.txt";// 
+		String negFilePath = "./data/dblp/ir.txt";//"./data/test/sr male.txt";// "./data/test/b.txt";// 
+		File file = new File("./results/dblp/s dmir 10 0 5.txt");
+		PrintStream ps = new PrintStream(file);
+		int K = 10;
 		int min = 0;
-		int max = 2;
+		int max = 5;
 		String itemSeparator = ",";
 		String elementSeparator = ";";
-		PrintStream output = System.out;
+		PrintStream output = ps;
 		String gceName = "KiGCE";
 		String gcpName = "KiGCP";
 		String ppName = "KiPP";
@@ -79,15 +84,18 @@ public class Main {
 		/** print results **/
 		printResults();
 		/** post process of result **/
-		@SuppressWarnings("unchecked")
-		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName(ppName);
-		pp.inputResult(Results.peerStore.values());
-		pp.print();
+//		@SuppressWarnings("unchecked")
+//		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName(ppName);
+//		pp.inputResult(Results.peerStore.values());
+//		pp.print();
 	}
 
 	private static void printResults() {
 		System.out.println("Print results:");
-		for(PeerKey pk : Results.peerStore.keySet()){
+		List<PeerKey> list = new ArrayList<PeerKey>();
+		list.addAll(Results.peerStore.keySet());
+		list.sort(new PeerKeyComparator());
+		for(PeerKey pk : list){
 			System.out.println(pk.toString());
 			System.out.println(Results.peerStore.get(pk).toString());
 		}

@@ -22,7 +22,7 @@ public class Results {
 	public static HashMap<PeerKey, PeerPattern> peerStore = new HashMap<PeerKey, PeerPattern>();
 	public static List<PeerKey> topK = new ArrayList<>();
 	public static PeerKeyComparator pkc = new PeerKeyComparator();
-	public static PeerKey pkThreshold = new PeerKey(0.0, 0.0, 0);
+	public static PeerKey pkThreshold = new PeerKey(Pattern.getEmptyPattern());
 	public static List<Pattern> finalPatternList = new ArrayList<>();
 	
 	/**
@@ -43,7 +43,7 @@ public class Results {
 			/** there are already K peer patterns in results, compare peer pattern with the first pattern in results **/
 			PeerKey pPK = pattern.getPeerKey();
 			int compare = pkc.compare(pPK, pkThreshold);
-			if(compare < 0){
+			if(compare <= 0){
 				/** pattern is not the top-k peer pattern, ignore it **/
 				return;
 			}else{
@@ -99,7 +99,7 @@ public class Results {
 		peerStore = new HashMap<PeerKey, PeerPattern>();
 		topK = new ArrayList<>();
 		pkc = new PeerKeyComparator();
-		pkThreshold = new PeerKey(0.0, 0.0, 0);
+		pkThreshold = new PeerKey(Pattern.getEmptyPattern());
 		finalPatternList = new ArrayList<>();
 	}
 }

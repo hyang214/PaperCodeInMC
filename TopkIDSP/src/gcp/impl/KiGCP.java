@@ -59,19 +59,19 @@ public class KiGCP extends GenerateCandidatePattern{
 				continue;
 			}
 			
-			if(pattern.getLength() == 1){
-				int a = 1;
-				a = a + 1;
-			}else if(pattern.getLength() == 2){
-				int a = 1;
-				a = a + 1;
-			}else if(pattern.getLength() == 3){
-				int a = 1;
-				a = a + 1;
-			}else if(pattern.getLength() == 4){
-				int a = 1;
-				a = a + 1;
-			}
+//			if(pattern.getLength() == 1){
+//				int a = 1;
+//				a = a + 1;
+//			}else if(pattern.getLength() == 2){
+//				int a = 1;
+//				a = a + 1;
+//			}else if(pattern.getLength() == 3){
+//				int a = 1;
+//				a = a + 1;
+//			}else if(pattern.getLength() == 4){
+//				int a = 1;
+//				a = a + 1;
+//			}
 			
 			/** pruning rule: check element max cRatio **/
 			if(impossibleElementPruning(next)){

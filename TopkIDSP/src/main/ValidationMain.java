@@ -34,7 +34,7 @@ public class ValidationMain {
 		 * @min: the minimum gap between the any continuous elements in one pattern 
 		 * @max: the maximum gap between the any continuous elements in one pattern
 		 */
-		String posFilePath = "./data/dblp/DB.txt";//"./data/test/sr female.txt";// "./data/test/a.txt";// 
+		String posFilePath = "./data/dblp/DB.txt";//"./data/test/sr female.txt";//  "./data/test/a.txt";// 
 		String negFilePath = "./data/dblp/DM.txt";//"./data/test/sr male.txt";// "./data/test/b.txt";// 
 		int K = 5;
 		int min = 0;

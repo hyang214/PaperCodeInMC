@@ -1,5 +1,6 @@
 package util;
 
+import java.util.BitSet;
 import java.util.Comparator;
 
 /**
@@ -20,27 +21,31 @@ public class PatternComparator implements Comparator<Pattern>{
 		/** since the rules of comparators of both pattern and peerkey is the same, 
 		 * we use pkc to implement the comparator of pattern 
 		 * **/
-		return pkc.compare(o1.getPeerKey(), o2.getPeerKey());
-		
-		/** original implement **/
-//		if(o1.getcRatio() < o2.getcRatio()){
-//			return -1;
-//		}else if(o1.getcRatio() > o2.getcRatio()){
-//			return 1;
-//		}else{
-//			if(o1.getLength() < o2.getLength()){
-//				return -1;
-//			}else if(o1.getLength() > o2.getLength()){
-//				return 1;
-//			}else{
-//				if(o1.getPosSup() < o2.getPosSup()){
-//					return -1;
-//				}else if(o1.getPosSup() > o2.getPosSup()){
-//					return 1;
-//				}else{
-//					return 0;
-//				}
-//			}
-//		}
+		int p =  pkc.compare(o1.getPeerKey(), o2.getPeerKey());
+		if(p != 0)
+			return p;
+		else{
+			if(o1.getPosSeqIds().equals(o2.getPosSeqIds())){
+				if(o1.getNegSeqIds().equals(o2.getNegSeqIds())){
+					 for(int i = o1.getPosSeqIds().nextSetBit(0); i >= 0; i = o1.getPosSeqIds().nextSetBit(i+1)) {
+					     BitSet a = o1.getPosOccurrences().get(i);
+					     BitSet b = o2.getPosOccurrences().get(i);
+					     if(!a.equals(b))
+					    	 return -1;
+					 }
+					 for(int i = o1.getNegSeqIds().nextSetBit(0); i >= 0; i = o1.getNegSeqIds().nextSetBit(i+1)) {
+					     BitSet a = o1.getNegOccurrences().get(i);
+					     BitSet b = o2.getNegOccurrences().get(i);
+					     if(!a.equals(b))
+					    	 return -1;
+					 }
+					return 0;
+				}else{
+					return -1;
+				}
+			}else{
+				return -1;
+			}
+		}
 	}
 }

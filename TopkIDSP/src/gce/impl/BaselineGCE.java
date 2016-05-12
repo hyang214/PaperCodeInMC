@@ -3,7 +3,9 @@ package gce.impl;
 import gce.GenerateCandidateElement;
 
 import java.util.BitSet;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Consumer;
 
 import util.Alphabet;

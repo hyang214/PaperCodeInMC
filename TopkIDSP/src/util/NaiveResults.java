@@ -1,6 +1,8 @@
 package util;
 
 import java.util.ArrayList;
+import java.util.BitSet;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -18,7 +20,7 @@ public class NaiveResults {
 	 * finalPatternList: the final pattern list, only available after call merge() function 
 	 */
 	public static List<NaivePattern> topK = new ArrayList<>();
-	public static PeerKey pkThreshold = new PeerKey(0.0, 0.0, 0);
+	public static PeerKey pkThreshold = new PeerKey(NaivePattern.getEmptyNaivePattern());
 	public static NaivePatternComparator npc = new NaivePatternComparator();
 	public static PeerKeyComparator pkc = new PeerKeyComparator();
 	

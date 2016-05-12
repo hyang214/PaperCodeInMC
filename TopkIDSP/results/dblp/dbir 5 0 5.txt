@@ -1,0 +1,78 @@
+Action: Parameter InitalTime cost: 0 ms 
+Action: Read DataTime cost: 60 ms 
+Action: Mine patternTime cost: 100 ms 
+
+Print results:
+C:1.0 S:1.0 L:1 hc:2145386496
+ 	C:1.0 S:1.0 L:1 hc:2145386496 < Closure: {VLDB} Generators: {}>
+
+
+C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042
+ 	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>
+
+ 	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+
+C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366
+ 	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+ 	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>
+
+ 	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+ 	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+
+C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563
+ 	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+
+PP:	C:1.0 S:1.0 L:1 hc:2145386496 < Closure: {VLDB} Generators: {}>
+
+	C:1.0 S:1.0 L:1 hc:2145386496 {VLDB}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 {SIGMOD Conference},{VLDB},{SIGMOD Conference}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 {SIGMOD Conference},{SIGMOD Conference},{SIGMOD Record}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{VLDB}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{SIGMOD Conference}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{SIGMOD Record}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 < Closure: {SIGMOD Record} Generators: {}>< Closure: {VLDB} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Record},{VLDB}
+
+PP:	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 < Closure: {SIGMOD Conference} Generators: {}>< Closure: {VLDB} Generators: {}>< Closure: {SIGMOD Conference} Generators: {}>< Closure: {SIGMOD Record} Generators: {}>
+
+	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 {SIGMOD Conference},{VLDB},{SIGMOD Conference},{SIGMOD Record}
+
+Post processed result:
+	C:1.0 S:1.0 L:1 hc:2145386496 {VLDB}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 {SIGMOD Conference},{VLDB},{SIGMOD Conference}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:3 hc:2139095042 {SIGMOD Conference},{SIGMOD Conference},{SIGMOD Record}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{VLDB}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{SIGMOD Conference}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Conference},{SIGMOD Record}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:2 hc:1426063366 {SIGMOD Record},{VLDB}
+
+	C:0.8333333333333334 S:0.8333333333333334 L:4 hc:-1442840563 {SIGMOD Conference},{VLDB},{SIGMOD Conference},{SIGMOD Record}
+

@@ -210,7 +210,7 @@ public class NaivePattern {
 	 * generate the peer key for this pattern
 	 */
 	public PeerKey getPeerKey(){
-		return new PeerKey(cRatio, posSup, length);
+		return new PeerKey(this);
 	}
 	
 	/** 
@@ -332,5 +332,19 @@ public class NaivePattern {
 
 	public void setNegSup(double negSup) {
 		this.negSup = negSup;
+	}
+
+	public static NaivePattern getEmptyNaivePattern(){
+		NaivePattern p = new NaivePattern();
+		p.valueList = new ArrayList<>();
+		p.posSeqIds = new BitSet();
+		p.negSeqIds = new BitSet();
+		p.posOccurrences = new HashMap<Integer,BitSet>();
+		p.negOccurrences = new HashMap<Integer,BitSet>();
+		p.length = 0;
+		p.posSup = 0.0;
+		p.negSup = 0.0;
+		p.cRatio = 0.0;
+		return p;
 	}
 }
