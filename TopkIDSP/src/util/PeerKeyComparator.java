@@ -1,5 +1,6 @@
 package util;
 
+import java.util.BitSet;
 import java.util.Comparator;
 
 /**
@@ -27,7 +28,27 @@ public class PeerKeyComparator implements Comparator<PeerKey>{
 				}else if(target.getLength() < threshold.getLength()){
 					return -1;
 				}else{
-					return 0;
+					if(target.getPosSeqIds().equals(threshold.getPosSeqIds())){
+						if(target.getNegSeqIds().equals(threshold.getNegSeqIds())){
+							 for(int i = target.getPosSeqIds().nextSetBit(0); i >= 0; i = target.getPosSeqIds().nextSetBit(i+1)) {
+							     BitSet a = target.getPosOccurrences().get(i);
+							     BitSet b = threshold.getPosOccurrences().get(i);
+							     if(!a.equals(b))
+							    	 return -1;
+							 }
+							 for(int i = target.getNegSeqIds().nextSetBit(0); i >= 0; i = threshold.getNegSeqIds().nextSetBit(i+1)) {
+							     BitSet a = target.getNegOccurrences().get(i);
+							     BitSet b = threshold.getNegOccurrences().get(i);
+							     if(!a.equals(b))
+							    	 return -1;
+							 }
+							return 0;
+						}else{
+							return -1;
+						}
+					}else{
+						return -1;
+					}
 				}
 			}
 		}

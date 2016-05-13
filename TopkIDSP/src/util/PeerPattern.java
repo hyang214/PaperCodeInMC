@@ -42,7 +42,13 @@ public class PeerPattern {
 	 * **/
 	public List<Pattern> merge() {
 		List<Pattern> list = new ArrayList<>();
-		//TODO  merge the patterns in peer pattern
+		
+		boolean unchange = false;
+		while(!unchange){
+			unchange = true;
+			for()
+		}
+		
 		return list;
 	}
 	

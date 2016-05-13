@@ -34,9 +34,9 @@ public class ValidationMain {
 		 * @min: the minimum gap between the any continuous elements in one pattern 
 		 * @max: the maximum gap between the any continuous elements in one pattern
 		 */
-		String posFilePath = "./data/dblp/DB.txt";//"./data/test/sr female.txt";//  "./data/test/a.txt";// 
-		String negFilePath = "./data/dblp/DM.txt";//"./data/test/sr male.txt";// "./data/test/b.txt";// 
-		int K = 5;
+		String posFilePath = "./data/test/sr female.txt";//"./data/dblp/DB.txt";//"./data/dblp/DM.txt";//  "./data/test/a.txt";// 
+		String negFilePath = "./data/test/sr male.txt";//"./data/dblp/DM.txt";//"./data/dblp/DB.txt";// "./data/test/b.txt";// 
+		int K = 10;
 		int min = 0;
 		int max = 5;
 		String itemSeparator = ",";
@@ -53,9 +53,21 @@ public class ValidationMain {
 		Verbase.verbaseAtLevel(1, sequences.toString());
 		
 		/** ki **/
-		System.out.println("KI **********************");
-		Miner kiMiner = new MinerImpl(sequences, "KiGCE", "KiGCP");
-		kiMiner.mine();
+//		System.out.println("KI **********************");
+//		Miner kiMiner = new MinerImpl(sequences, "KiGCE", "KiGCP");
+//		kiMiner.mine();
+//		/** post process of result **/
+//		@SuppressWarnings("unchecked")
+//		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName("KiPP");
+//		pp.inputResult(Results.peerStore.values());
+//		List<NaivePattern> kiList = new ArrayList<>(pp.outputResult()); 
+//		/** print results **/
+//		pp.print();
+		
+		/** ki **/
+		System.out.println("Multi **********************");
+		Miner multiMiner = new MinerImpl(sequences, "KiGCE", "MultiKi-5");
+		multiMiner.mine();
 		/** post process of result **/
 		@SuppressWarnings("unchecked")
 		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName("KiPP");
