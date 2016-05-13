@@ -50,18 +50,18 @@ public class PeerKey {
 			if(pk.cRatio.equals(this.cRatio) && pk.posSup.equals(this.posSup) && pk.length == this.length){
 				if(posSeqIds.equals(pk.getPosSeqIds())){
 					if(negSeqIds.equals(pk.getNegSeqIds())){
-						 for(int i = posSeqIds.nextSetBit(0); i >= 0; i = posSeqIds.nextSetBit(i+1)) {
-						     BitSet a = posOccurrences.get(i);
-						     BitSet b = pk.getPosOccurrences().get(i);
-						     if(!a.equals(b))
-						    	 return false;
-						 }
-						 for(int i = negSeqIds.nextSetBit(0); i >= 0; i = negSeqIds.nextSetBit(i+1)) {
-						     BitSet a = negOccurrences.get(i);
-						     BitSet b = pk.getNegOccurrences().get(i);
-						     if(!a.equals(b))
-						    	 return false;
-						 }
+//						 for(int i = posSeqIds.nextSetBit(0); i >= 0; i = posSeqIds.nextSetBit(i+1)) {
+//						     BitSet a = posOccurrences.get(i);
+//						     BitSet b = pk.getPosOccurrences().get(i);
+//						     if(!a.equals(b))
+//						    	 return false;
+//						 }
+//						 for(int i = negSeqIds.nextSetBit(0); i >= 0; i = negSeqIds.nextSetBit(i+1)) {
+//						     BitSet a = negOccurrences.get(i);
+//						     BitSet b = pk.getNegOccurrences().get(i);
+//						     if(!a.equals(b))
+//						    	 return false;
+//						 }
 						return true;
 					}else{
 						return false;
@@ -86,7 +86,7 @@ public class PeerKey {
 		}
 		long key2 = Double.doubleToLongBits(posSup);
 		for(int i = negSeqIds.nextSetBit(0); i >= 0; i = negSeqIds.nextSetBit(i+1)) {
-			key2 += i;
+			key2 -= i;
 		}
 		long key3 = (key1+key2) * length;
 		return (int)(key3 ^ (key3 >>> 32));

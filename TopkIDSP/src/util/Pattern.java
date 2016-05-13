@@ -192,6 +192,21 @@ public class Pattern {
 		return clone;
 	}
 	
+	public Pattern trueClone() {
+		Pattern clone = new Pattern();
+		clone.valueList = CloneHelper.valueListClone(this.valueList);
+		clone.posSeqIds = (BitSet)this.posSeqIds.clone();
+		clone.negSeqIds = (BitSet)this.negSeqIds.clone();
+		clone.posOccurrences = CloneHelper.occurrenceClone(this.posOccurrences);
+		clone.negOccurrences = CloneHelper.occurrenceClone(this.negOccurrences);
+		clone.length = this.length;
+		clone.posSup = this.posSup;
+		clone.negSup = this.negSup;
+		clone.cRatio = this.cRatio;
+		
+		return clone;
+	}
+	
 	/**
 	 * generate the peer key for this pattern
 	 */

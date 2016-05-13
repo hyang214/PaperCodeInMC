@@ -23,7 +23,7 @@ public class Results {
 	public static List<PeerKey> topK = new ArrayList<>();
 	public static PeerKeyComparator pkc = new PeerKeyComparator();
 	public static PeerKey pkThreshold = new PeerKey(Pattern.getEmptyPattern());
-	public static List<Pattern> finalPatternList = new ArrayList<>();
+	public static List<Pattern> mergedPatternList = new ArrayList<>();
 	
 	/**
 	 * add pattern into the results
@@ -87,9 +87,22 @@ public class Results {
 	 * **/
 	public static void merge() {
 		for(PeerKey pk : Results.peerStore.keySet()){
-			finalPatternList.addAll(Results.peerStore.get(pk).merge());
+			mergedPatternList.addAll(Results.peerStore.get(pk).merge());
 		}
-		finalPatternList.sort(new PatternComparator());
+		mergedPatternList.sort(new PatternComparator());
+	}
+	
+	/**
+	 * print the merged results
+	 */
+	public static void printMergedPatternList(){
+		System.out.println("Print merged results:");
+		if(mergedPatternList.size() != 0){
+			for(Pattern p : mergedPatternList){
+				System.out.println(p.toString());
+			}
+		}
+		System.out.println("*****************************");
 	}
 	
 	/**
@@ -100,7 +113,7 @@ public class Results {
 		topK = new ArrayList<>();
 		pkc = new PeerKeyComparator();
 		pkThreshold = new PeerKey(Pattern.getEmptyPattern());
-		finalPatternList = new ArrayList<>();
+		mergedPatternList = new ArrayList<>();
 	}
 }
 

@@ -15,6 +15,7 @@ import tools.Verbase;
 import util.NaivePattern;
 import util.NaiveResults;
 import util.Parameter;
+import util.PeerKey;
 import util.PeerPattern;
 import util.Results;
 import util.Sequences;
@@ -56,6 +57,12 @@ public class ValidationMain {
 //		System.out.println("KI **********************");
 //		Miner kiMiner = new MinerImpl(sequences, "KiGCE", "KiGCP");
 //		kiMiner.mine();
+//		/** print peer store **/
+//		System.out.println("Print Peer store");
+//		for(PeerKey pk : Results.peerStore.keySet()){
+//			System.out.println(pk);
+//			System.out.println(Results.peerStore.get(pk).toString());
+//		}
 //		/** post process of result **/
 //		@SuppressWarnings("unchecked")
 //		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName("KiPP");
@@ -68,13 +75,21 @@ public class ValidationMain {
 		System.out.println("Multi **********************");
 		Miner multiMiner = new MinerImpl(sequences, "KiGCE", "MultiKi-5");
 		multiMiner.mine();
+		/** print peer store **/
+		System.out.println("Print Peer store");
+		for(PeerKey pk : Results.peerStore.keySet()){
+			System.out.println(pk);
+			System.out.println(Results.peerStore.get(pk).toString());
+		}
+		/** print final results **/
+		Results.printMergedPatternList();
 		/** post process of result **/
 		@SuppressWarnings("unchecked")
-		PostProcess<PeerPattern, NaivePattern> pp = PostProcessFactory.INSTANCE.getByName("KiPP");
-		pp.inputResult(Results.peerStore.values());
-		List<NaivePattern> kiList = new ArrayList<>(pp.outputResult()); 
+		PostProcess<PeerPattern, NaivePattern> pp2 = PostProcessFactory.INSTANCE.getByName("KiPP");
+		pp2.inputResult(Results.peerStore.values());
+		List<NaivePattern> kiList = new ArrayList<>(pp2.outputResult()); 
 		/** print results **/
-		pp.print();
+		pp2.print();
 		
 		/** baseline **/
 		System.out.println("Baseline **********************");

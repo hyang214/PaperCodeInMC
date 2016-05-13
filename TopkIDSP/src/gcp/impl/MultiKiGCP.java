@@ -65,6 +65,8 @@ public class MultiKiGCP extends GenerateCandidatePattern{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		Results.merge();
 	}
 	
 	/** 
